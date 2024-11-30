@@ -29,7 +29,7 @@ const Home = () => {
       {/* Projects Section */}
 
       {/* 1 */}
-      <div id='work' className='flex justify-around gap-[50px] py-[100px] border-black border-b-[3px]'>
+      <div className='flex justify-around gap-[50px] py-[100px] border-black border-b-[3px]'>
 
         {/* Left */}
         <div className='w-[50%] flex flex-col gap-5 inter'>
