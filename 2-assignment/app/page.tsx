@@ -17,7 +17,7 @@ const Home = () => {
           <p className='text-[#03346e] font-extrabold text-[25px]'>Earn up to $5,000 / month</p>
           <p className='text-[#03346e] font-extrabold text-[25px]'>Now admissions are open in Hyderabad</p>
           <div className='flex gap-10 items-center'>
-            <Button className='w-[150px] px-[30px] bg-[#03346e] font-bold py-[30px] hover:px-[50px] duration-700 hover:duration-700 hover:w-[170px] '>APPLY NOW</Button>
+            <Button className='w-[150px] px-[30px] bg-[#03346e] font-bold py-[30px] '>APPLY NOW</Button>
             <p className='text-[#03346e] font-extrabold text-[25px] flex flex-col items-center'>562,143 <span className='text-[10px] font-normal'>Accepted Applications</span></p>
           </div>
         </div>
