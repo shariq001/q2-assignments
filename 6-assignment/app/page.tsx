@@ -9,45 +9,45 @@ const Home = () => {
     <div>
       
       {/* Section 1 */}
-      <div className='bg-[#043873] text-white flex justify-between gap-[50px] items-center py-[100px] px-[100px]'>
+      <div className='bg-[#043873] text-white flex justify-between gap-[50px] items-center py-[100px] px-[100px] sm:px-[16px] sm:py-[80px] sm:flex-col'>
 
         {/* Left */}
-        <div className='w-[50%] flex flex-col gap-8'>
-          <h1 className='text-[64px] font-[700] inter leading-[77.45px]'>Get More Done with whitepace</h1>
-          <p className='font-[400] text-[18px] inter'>Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>
+        <div className='w-[50%] flex flex-col gap-8 sm:w-[100%] sm:items-center sm:text-center'>
+          <h1 className='text-[64px] font-[700] inter leading-[77.45px] sm:text-[36px] sm:leading-[43.57px]'>Get More Done with whitepace</h1>
+          <p className='font-[400] text-[18px] inter sm:leading-[30px]'>Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>
           <button type='button' className='bg-[#4f9cf9] w-[218px] px-[30px] py-[15px] rounded-[8px] '>Try Whitepace free <FontAwesomeIcon icon={faArrowRight} className='size-[12px] ml-[10px] inline-flex items-start' /></button>
         </div>
 
         {/* Right */}
-        <div className='bg-[#c4defd] w-[824px] h-[549px]'></div>
+        <div className='bg-[#c4defd] w-[824px] h-[549px] sm:w-[286px] sm:h-[191px]'></div>
       </div>
 
       {/* Section 2 */}
-      <div className='bg-white text-black flex justify-between gap-[50px] items-center py-[100px] px-[100px]'>
+      <div className='bg-white text-black flex justify-between gap-[50px] items-center py-[100px] px-[100px] sm:px-[16px] sm:py-[80px] sm:flex-col'>
 
         {/* Left */}
-        <div className='w-[50%] flex flex-col gap-8 inter'>
-          <h1 className='text-[72px] font-[700]  leading-[87.14px]'>Project Management</h1>
-          <p className='font-[400] text-[18px]'>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>
+        <div className='w-[50%] flex flex-col gap-8 inter sm:w-[100%] sm:items-center sm:text-center'>
+          <h1 className='text-[72px] font-[700]  leading-[87.14px] sm:text-[36px] sm:leading-[43.57px]'>Project Management</h1>
+          <p className='font-[400] text-[18px] sm:leading-[30px]'>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>
           <button type='button' className='bg-[#4f9cf9] w-[170px] px-[30px] py-[15px] rounded-[8px] text-white'>Get Started <FontAwesomeIcon icon={faArrowRight} className='size-[12px] ml-[10px] inline-flex items-start' /></button>
         </div>
 
         {/* Right */}
-        <div className='w-[748px] h-[547px] bg-[#c4defd]'></div>
+        <div className='w-[748px] h-[547px] bg-[#c4defd] sm:w-[286px] sm:h-[177px]'></div>
       </div>
 
       {/* Section 3 */}
-      <div className='bg-white text-black flex justify-between gap-[50px] items-center py-[100px] px-[100px]'>
+      <div className='bg-white text-black flex justify-between gap-[50px] items-center py-[100px] px-[100px] sm:px-[16px] sm:py-[80px] sm:flex-col'>
 
         {/* Left */}
         <div>
-          <Image src='/images/Work Together Image.png' width={710} height={661} alt='Work Together Image' />
+          <Image src='/images/Work Together Image.png' width={710} height={661} alt='Work Together Image' className='sm:w-[279px] sm:h-[259.74px]'/>
         </div>
 
         {/* Right */}
-        <div className='w-[50%] flex flex-col gap-8 inter'>
-          <h1 className='text-[72px] font-[700]  leading-[87.14px]'>Work together</h1>
-          <p className='font-[400] text-[18px]'>With whitepace, share your notes with your colleagues and collaborate on them. You can also publish a note to the internet and share the URL with others.</p>
+        <div className='w-[50%] flex flex-col gap-8 inter sm:w-[100%] sm:items-center sm:text-center'>
+          <h1 className='text-[72px] font-[700]  leading-[87.14px] sm:text-[36px] sm:leading-[43.57px]'>Work together</h1>
+          <p className='font-[400] text-[18px] sm:leading-[30px]'>With whitepace, share your notes with your colleagues and collaborate on them. You can also publish a note to the internet and share the URL with others.</p>
           <button type='button' className='bg-[#4f9cf9] w-[160px] px-[30px] py-[15px] rounded-[8px] text-white'>Try it now <FontAwesomeIcon icon={faArrowRight} className='size-[12px] ml-[10px] inline-flex items-start' /></button>
         </div>
       </div>
@@ -261,7 +261,7 @@ const Home = () => {
         </div>
 
         {/* 2 */}
-        <div className='flex justify-between gap-[100px] inter p-[100px]'>
+        <div className='flex justify-between gap-[120px] inter p-[100px] pb-0'>
           
           {/* 1 */}
           <div>
