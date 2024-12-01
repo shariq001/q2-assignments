@@ -259,6 +259,48 @@ const Home = () => {
             <Image src='/images/android.png' width={60} height={60} alt='Android Logo White' />
           </div>
         </div>
+
+        {/* 2 */}
+        <div className='flex justify-between gap-[100px] inter p-[100px]'>
+          
+          {/* 1 */}
+          <div>
+            <Image src='/images/Logo.png' width={191} height={34} alt='Logo' />
+            <p className='mt-[10px]'>whitepace was created for the new ways we live and work. We make a better workspace around the world</p>
+          </div>
+
+          {/* 2 */}
+          <div className='flex flex-col gap-[15px]'>
+            <p className='font-[700]'>Product</p>
+            <p className='text-[#ffe492]'>Overview</p>
+            <p>Pricing</p>
+            <p>Customer stories</p>
+          </div>
+
+          {/* 3 */}
+          <div className='flex flex-col gap-[15px]'>
+            <p className='font-[700]'>Resources</p>
+            <p>Blog</p>
+            <p>Guides & tutorials</p>
+            <p>Help center</p>
+          </div>
+
+          {/* 4 */}
+          <div className='flex flex-col gap-[15px]'>
+            <p className='font-[700]'>Company</p>
+            <p>About us</p>
+            <p>Careers</p>
+            <p>Media kit</p>
+          </div>
+
+          {/* 5 */}
+          <div className='flex flex-col gap-[15px]'>
+            <h3 className='font-[700] text-[28px]'>Try It Today</h3>
+            <p className='leading-[20px]'>Get started for free.
+            Add your whole team as your needs grow.</p>
+            <button type='button' className='bg-[#4f9cf9] w-[165px] px-[30px] py-[15px] rounded-[8px] text-white'>Start today <FontAwesomeIcon icon={faArrowRight} className='size-[12px] ml-[10px] inline-flex items-start' /></button>
+          </div>
+        </div>
       </div>
 
 
