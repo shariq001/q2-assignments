@@ -53,58 +53,58 @@ const Home = () => {
       </div>
 
       {/* Section 4 */}
-      <div className='bg-[#043873] text-white flex justify-between gap-[50px] items-center py-[100px] px-[100px]'>
+      <div className='bg-[#043873] text-white flex justify-between gap-[50px] items-center py-[100px] px-[100px] sm:px-[16px] sm:py-[80px] sm:flex-col'>
 
         {/* Left */}
-        <div className='w-[50%] flex flex-col gap-8'>
-          <h1 className='text-[64px] font-[700] inter leading-[77.45px]'>Use as Extension</h1>
-          <p className='font-[400] text-[18px] inter'>Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes.</p>
+        <div className='w-[50%] flex flex-col gap-8 sm:w-[100%] sm:items-center sm:text-center'>
+          <h1 className='text-[64px] font-[700] inter leading-[77.45px] sm:text-[36px] sm:leading-[43.57px]'>Use as Extension</h1>
+          <p className='font-[400] text-[18px] inter sm:leading-[30px]'>Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes.</p>
           <button type='button' className='bg-[#4f9cf9] w-[145px] px-[30px] py-[15px] rounded-[8px] '>Let&apos;s Go <FontAwesomeIcon icon={faArrowRight} className='size-[12px] ml-[10px] inline-flex items-start' /></button>
         </div>
 
         {/* Right */}
-        <div className='bg-[#c4defd] w-[686px] h-[479px]'></div>
+        <div className='bg-[#c4defd] w-[686px] h-[479px] sm:w-[284.5px] sm:h-[198.65px]'></div>
       </div>
 
       {/* Section 5 */}
-      <div className='bg-white text-black flex justify-between gap-[50px] items-center py-[100px] px-[100px]'>
+      <div className='bg-white text-black flex justify-between gap-[50px] items-center py-[100px] px-[100px] sm:px-[16px] sm:py-[80px] sm:flex-col'>
 
         {/* Left */}
-        <div className='bg-[#c4defd] w-[714px] h-[532.09px]'></div>
+        <div className='bg-[#c4defd] w-[714px] h-[532.09px] sm:w-[288px] sm:h-[216.62px]'></div>
 
         {/* Right */}
-        <div className='w-[50%] flex flex-col gap-8 inter'>
-          <h1 className='text-[72px] font-[700]  leading-[87.14px]'>Customise it to your needs</h1>
-          <p className='font-[400] text-[18px]'>Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.</p>
+        <div className='w-[50%] flex flex-col gap-8 inter sm:w-[100%] sm:items-center sm:text-center'>
+          <h1 className='text-[72px] font-[700]  leading-[87.14px] sm:text-[36px] sm:leading-[43.57px]'>Customise it to your needs</h1>
+          <p className='font-[400] text-[18px] sm:leading-[30px]'>Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.</p>
           <button type='button' className='bg-[#4f9cf9] w-[150px] px-[30px] py-[15px] rounded-[8px] text-white'>Let&apos;s Go <FontAwesomeIcon icon={faArrowRight} className='size-[12px] ml-[10px] inline-flex items-start' /></button>
         </div>
       </div>
 
       {/* Section 6 */}
-      <div className='px-[300px] py-[100px] text-center flex flex-col gap-10'>
-        <h1 className='text-[72px] font-[700]  leading-[87.14px]'>Choose Your Plan</h1>
-        <p className='font-[400] text-[18px]'>Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you.</p>
+      <div className='px-[300px] py-[100px] text-center flex flex-col gap-10 sm:px-[16px] sm:py-[80px] '>
+        <h1 className='text-[72px] font-[700]  leading-[87.14px] sm:text-[36px] sm:leading-[43.57px]'>Choose Your Plan</h1>
+        <p className='font-[400] text-[18px] sm:leading-[30px]'>Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you.</p>
       </div>
 
       {/* Section 7 */}
-      <div className='p-[100px] flex gap-8 items-center'>
+      <div className='p-[100px] flex gap-8 items-center sm:px-[16px] sm:py-[80px] sm:flex-col sm:gap-10'>
 
         {/* Cart 1 */}
-        <div className='w-[472.33px] h-[634px] border-[#ffe492] border-[1px] px-[44px] py-[40px] rounded-[10px] flex flex-col gap-[20px] text-black inter transform transition duration-700 hover:scale-105'>
+        <div className='w-[472.33px] h-[634px] border-[#ffe492] border-[1px] px-[44px] py-[40px] rounded-[10px] flex flex-col gap-[20px] text-black inter transform transition duration-700 hover:scale-105 sm:w-[289px] sm:h-[750px]'>
           <h3 className='font-[600] text-[24px]'>Free</h3>
           <h2 className='text-[36px] font-[700]'>$0</h2>
           <p className='font-[500]'>Capture ideas and find them quickly</p>
           <p className='text-[16px]'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] inline-flex items-center' />Sync unlimited devices</p>
-          <p className='text-[16px]'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] inline-flex items-center' />10 GB monthly uploads</p>
-          <p className='text-[16px]'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] inline-flex items-center' />200 MB max. note size</p>
-          <p className='text-[16px] flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[18px] mr-[10px]' />Customize Home dashboard and access extra widgets</p>
-          <p className='text-[16px] '><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] inline-flex items-center' />Connect primary Google Calendar account</p>
-          <p className='text-[16px] flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[18px] mr-[10px] ' />Add due dates, reminders, and notifications to your tasks</p>
+          <p className='text-[16px]'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] inline-flex items-center sm:size-[15px]' />10 GB monthly uploads</p>
+          <p className='text-[16px]'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] inline-flex items-center sm:size-[15px]' />200 MB max. note size</p>
+          <p className='text-[16px] flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[18px] mr-[10px] sm:size-[35px]' />Customize Home dashboard and access extra widgets</p>
+          <p className='text-[16px] sm:flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] inline-flex items-center sm:size-[28px]' />Connect primary Google Calendar account</p>
+          <p className='text-[16px] flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[18px] mr-[10px] sm:size-[35px]' />Add due dates, reminders, and notifications to your tasks</p>
           <button type='button' className='w-[166px] py-[16px] px-[40px] rounded-[8px] border-[#ffe492] border-[1px] duration-700 hover:bg-[#ffe492] hover:duration-700'>Get Started</button>
         </div>
 
         {/* Cart 2 */}
-        <div className='bg-[#043873] text-white w-[472.33px] h-[761px] px-[44px] py-[80px] flex flex-col gap-[20px] inter rounded-[10px] transform transition duration-700 hover:scale-105'>
+        <div className='bg-[#043873] text-white w-[472.33px] h-[761px] px-[44px] py-[80px] flex flex-col gap-[20px] inter rounded-[10px] transform transition duration-700 hover:scale-105 sm:w-[289px] sm:h-[730px] sm:py-[40px]'>
           <h3 className='font-[600] text-[24px]'>Personal</h3>
           <h2 className='text-[36px] font-[700] text-[#ffe492]'>$11.99</h2>
           <p className='font-[500]'>Keep home and family on track</p>
@@ -118,7 +118,7 @@ const Home = () => {
         </div>
 
         {/* Cart 3 */}
-        <div className='w-[472.33px] h-[634px] border-[#ffe492] border-[1px] px-[44px] py-[40px] rounded-[10px] flex flex-col gap-[20px] text-black inter transform transition duration-700 hover:scale-105'>
+        <div className='w-[472.33px] h-[634px] border-[#ffe492] border-[1px] px-[44px] py-[40px] rounded-[10px] flex flex-col gap-[20px] text-black inter transform transition duration-700 hover:scale-105 sm:w-[289px] sm:h-[730px]'>
           <h3 className='font-[600] text-[24px]'>Organization</h3>
           <h2 className='text-[36px] font-[700]'>$49.99</h2>
           <p className='font-[500]'>Capture ideas and find them quickly</p>
