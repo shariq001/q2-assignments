@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Home = () => {
   return (
-    <div>
+    <div className='sm:w-[320px]'>
       
       {/* Section 1 */}
       <div className='bg-[#043873] text-white flex justify-between gap-[50px] items-center py-[100px] px-[100px] sm:px-[16px] sm:py-[80px] sm:flex-col'>
@@ -37,7 +37,7 @@ const Home = () => {
       </div>
 
       {/* Section 3 */}
-      <div className='bg-white text-black flex justify-between gap-[50px] items-center py-[100px] px-[100px] sm:px-[16px] sm:py-[80px] sm:flex-col'>
+      <div className='bg-white text-black flex justify-between gap-[50px] items-center py-[100px] px-[100px] sm:px-[16px] sm:py-[80px] sm:flex-col-reverse'>
 
         {/* Left */}
         <div>
@@ -111,9 +111,9 @@ const Home = () => {
           <p className='text-[16px]'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] text-[#ffe492] inline-flex items-center' />Sync unlimited devices</p>
           <p className='text-[16px]'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] text-[#ffe492] inline-flex items-center' />10 GB monthly uploads</p>
           <p className='text-[16px]'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] text-[#ffe492] inline-flex items-center' />200 MB max. note size</p>
-          <p className='text-[16px] flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[18px] mr-[10px] text-[#ffe492]' />Customize Home dashboard and access extra widgets</p>
-          <p className='text-[16px] '><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] text-[#ffe492] inline-flex items-center' />Connect primary Google Calendar account</p>
-          <p className='text-[16px] flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[18px] mr-[10px] text-[#ffe492] ' />Add due dates, reminders, and notifications to your tasks</p>
+          <p className='text-[16px] flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[18px] mr-[10px] text-[#ffe492] sm:size-[35px]' />Customize Home dashboard and access extra widgets</p>
+          <p className='text-[16px] sm:flex sm:items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] text-[#ffe492] inline-flex items-center sm:size-[27px]' />Connect primary Google Calendar account</p>
+          <p className='text-[16px] flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[18px] mr-[10px] text-[#ffe492] sm:size-[35px]' />Add due dates, reminders, and notifications to your tasks</p>
           <button type='button' className='bg-[#4f9cf9] w-[166px] py-[16px] px-[40px] rounded-[8px] duration-700 hover:w-[180px] hover:duration-700'>Get Started</button>
         </div>
 
@@ -125,114 +125,114 @@ const Home = () => {
           <p className='text-[16px]'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] inline-flex items-center' />Sync unlimited devices</p>
           <p className='text-[16px]'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] inline-flex items-center' />10 GB monthly uploads</p>
           <p className='text-[16px]'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] inline-flex items-center' />200 MB max. note size</p>
-          <p className='text-[16px] flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[18px] mr-[10px]' />Customize Home dashboard and access extra widgets</p>
-          <p className='text-[16px] '><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] inline-flex items-center' />Connect primary Google Calendar account</p>
-          <p className='text-[16px] flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[18px] mr-[10px] ' />Add due dates, reminders, and notifications to your tasks</p>
+          <p className='text-[16px] flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[18px] mr-[10px] sm:size-[35px]' />Customize Home dashboard and access extra widgets</p>
+          <p className='text-[16px] sm:flex sm:items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[16px] mr-[10px] inline-flex items-center sm:size-[27px]' />Connect primary Google Calendar account</p>
+          <p className='text-[16px] flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[18px] mr-[10px] sm:size-[35px]' />Add due dates, reminders, and notifications to your tasks</p>
           <button type='button' className='w-[166px] py-[16px] px-[40px] rounded-[8px] border-[#ffe492] border-[1px] duration-700 hover:bg-[#ffe492] hover:duration-700'>Get Started</button>
         </div>
       </div>
 
       {/* Section 8 */}
-      <div className='bg-[#043873] px-[200px] py-[100px] text-center text-white inter flex flex-col gap-10 items-center'>
-        <h1 className='text-[72px] font-[700] leading-[87.14px]'>Your work, everywhere you are</h1>
-        <p className='font-[400] text-[18px]'>Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!</p>
+      <div className='bg-[#043873] px-[200px] py-[100px] text-center text-white inter flex flex-col gap-10 items-center sm:px-[16px] sm:py-[80px]'>
+        <h1 className='text-[72px] font-[700] leading-[87.14px] sm:text-[36px] sm:leading-[43.57px]'>Your work, everywhere you are</h1>
+        <p className='font-[400] text-[18px] sm:leading-[30px]'>Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!</p>
         <button type='button' className='bg-[#4f9cf9] w-[165px] px-[30px] py-[15px] rounded-[8px] '>Try Taskey <FontAwesomeIcon icon={faArrowRight} className='size-[12px] ml-[10px] inline-flex items-start' /></button>
       </div>
 
       {/* Section 9 */}
-      <div className='bg-white text-black flex justify-between gap-[50px] items-center p-[100px]'>
+      <div className='bg-white text-black flex justify-between gap-[50px] items-center p-[100px] sm:px-[16px] sm:py-[80px] sm:flex-col-reverse'>
 
         {/* Left */}
-        <div className='w-[50%] flex flex-col gap-8 inter'>
-          <h1 className='text-[72px] font-[700]  leading-[87.14px]'>100% your data</h1>
-          <p className='font-[400] text-[18px]'>The app is open source and your notes are saved to an open format, so you&apos;ll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.</p>
+        <div className='w-[50%] flex flex-col gap-8 inter sm:w-[100%] sm:items-center sm:text-center'>
+          <h1 className='text-[72px] font-[700]  leading-[87.14px] sm:text-[36px] sm:leading-[43.57px]'>100% your data</h1>
+          <p className='font-[400] text-[18px] sm:leading-[30px]'>The app is open source and your notes are saved to an open format, so you&apos;ll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.</p>
           <button type='button' className='bg-[#4f9cf9] w-[170px] px-[30px] py-[15px] rounded-[8px] text-white'>Read more <FontAwesomeIcon icon={faArrowRight} className='size-[12px] ml-[10px] inline-flex items-start' /></button>
         </div>
 
         {/* Right */}
         <div>
-          <Image src='/images/Element.png' width={681} height={381.13} alt='Element' />
+          <Image src='/images/Element.png' width={681} height={381.13} alt='Element' className='sm:w-[290.5px] sm:h-[162.58px]' />
         </div>
       </div>
 
       {/* Section 10 */}
-      <div className='p-[100px] flex flex-col items-center gap-[50px]'>
-        <h1 className='text-[72px] font-[700]  leading-[87.14px]'>Our sponsors</h1>
-        <div className='flex justify-between items-center gap-[150px]'>
-          <Image src='/images/Apple.png' width={55.47} height={68} alt='Apple Logo' />
-          <Image src='/images/Microsoft.png' width={285} height={62} alt='Microsoft Logo' />
-          <Image src='/images/Slack.png' width={280} height={71} alt='Slack Logo' />
-          <Image src='/images/Google.png' width={211} height={69.81} alt='Google Logo' />
+      <div className='p-[100px] flex flex-col items-center gap-[50px] sm:px-[16px] sm:py-[80px]'>
+        <h1 className='text-[72px] font-[700]  leading-[87.14px] sm:text-[36px] sm:leading-[43.57px]'>Our sponsors</h1>
+        <div className='flex justify-between items-center gap-[150px] sm:flex-col sm:gap-[100px]'>
+          <Image src='/images/Apple.png' width={55.47} height={68} alt='Apple Logo'/>
+          <Image src='/images/Microsoft.png' width={285} height={62} alt='Microsoft Logo' className='sm:w-[213px] sm:h-[46px]'/>
+          <Image src='/images/Slack.png' width={280} height={71} alt='Slack Logo' className='sm:w-[192px] sm:h-[49px]'/>
+          <Image src='/images/Google.png' width={211} height={69.81} alt='Google Logo' className='sm:w-[139.5px] sm:h-[46.16px]'/>
         </div>
       </div>
 
       {/* Section 11 */}
-      <div className='p-[100px] bg-[#043873] text-white flex justify-between items-center '>
+      <div className='p-[100px] bg-[#043873] text-white flex justify-between items-center sm:px-[16px] sm:py-[80px] sm:flex-col sm:gap-[50px]'>
 
         {/* Left */}
         <div>
-          <Image src='/images/Apps.png' width={582} height={470.8} alt='Apps' />
+          <Image src='/images/Apps.png' width={582} height={470.8} alt='Apps' className='sm:w-[286.5px] sm:h-[231.76px]'/>
         </div>
 
         {/* Right */}
-        <div className='w-[50%] flex flex-col gap-8 inter'>
-          <h1 className='text-[72px] font-[700]  leading-[87.14px]'>Work with Your Favorite Apps Using whitepace</h1>
-          <p className='font-[400] text-[18px]'>Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.</p>
+        <div className='w-[50%] flex flex-col gap-8 inter sm:w-[100%] sm:items-center sm:text-center'>
+          <h1 className='text-[72px] font-[700]  leading-[87.14px] sm:text-[36px] sm:leading-[43.57px]'>Work with Your Favorite Apps Using whitepace</h1>
+          <p className='font-[400] text-[18px] sm:leading-[30px]'>Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.</p>
           <button type='button' className='bg-[#4f9cf9] w-[170px] px-[30px] py-[15px] rounded-[8px] text-white'>Read more <FontAwesomeIcon icon={faArrowRight} className='size-[12px] ml-[10px] inline-flex items-start' /></button>
         </div>
       </div>
 
       {/* Section 12 */}
       <div className='p-[100px] px-[50px] flex flex-col items-center'>
-        <h1 className='text-[72px] text-center font-[700]  leading-[87.14px]'>What Our Clients Says</h1>
-        <div className='flex justify-between flex-wrap items-center my-[50px]'>
+        <h1 className='text-[72px] text-center font-[700]  leading-[87.14px] sm:text-[36px] sm:leading-[43.57px]'>What Our Clients Says</h1>
+        <div className='flex justify-between sm:gap-[50px] flex-wrap items-center my-[50px]'>
 
           {/* Card 1 */}
-          <div className='w-[471.67px] h-[498.46px] inter py-[60px] px-[40px] rounded-[10px] shadow-md shadow-gray-900'>
+          <div className='w-[471.67px] h-[498.46px] inter py-[60px] px-[40px] rounded-[10px] shadow-md shadow-gray-900 sm:w-[288px] sm:h-[500px] sm:py-[20px] sm:px-[15px]'>
             <div className='flex flex-col gap-5 py-[30px] border-black border-b-[2px]'>
-              <FontAwesomeIcon icon={faQuoteLeft} className='size-[86px] text-[#043873]' />
-              <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+              <FontAwesomeIcon icon={faQuoteLeft} className='size-[86px] text-[#043873] sm:size-[56px]' />
+              <p className='sm:text-[16px] sm:leading-[20px]'>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
             </div>
 
             {/* ---------------- */}
 
-            <div className='flex items-center py-[30px] justify-between'>
-              <div className='w-[95px] h-[95px] rounded-[50px] bg-[#606060]'></div>
+            <div className='flex items-center py-[30px] justify-between sm:gap-[20px]'>
+              <div className='w-[95px] h-[95px] rounded-[50px] bg-[#606060] sm:w-[65px] sm:h-[65px] '></div>
               <div className='flex flex-col gap-5 w-[250px]'>
-                <h3 className='text-[24px] font-[600]'>Oberon Shaw, MCH</h3>
-                <p className='text-[16px]'>Head of Talent Acquisition, North America</p>
+                <h3 className='text-[24px] font-[600] sm:text-[18px] sm:font-[700]'>Oberon Shaw, MCH</h3>
+                <p className='text-[16px] sm:text-[18px] sm:leading-[30px]'>Head of Talent Acquisition, North America</p>
               </div>
             </div>
           </div>
 
           {/* Card 2 */}
-          <div className='bg-[#4f9cf9] text-white w-[471.67px] h-[498.46px] inter py-[60px] px-[40px] rounded-[10px] shadow-md shadow-gray-900'>
+          <div className='bg-[#4f9cf9] text-white w-[471.67px] h-[498.46px] inter py-[60px] px-[40px] rounded-[10px] shadow-md shadow-gray-900 sm:w-[288px] sm:h-[500px] sm:py-[20px] sm:px-[15px]'>
             <div className='flex flex-col gap-5 py-[30px] border-white border-b-[2px]'>
-              <FontAwesomeIcon icon={faQuoteLeft} className='size-[86px] text-[#fff]' />
-              <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+              <FontAwesomeIcon icon={faQuoteLeft} className='size-[86px] text-[#fff] sm:size-[56px]' />
+              <p className='sm:text-[16px] sm:leading-[20px]'>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
             </div>
 
             {/* ---------------- */}
 
-            <div className='flex items-center py-[30px] justify-between'>
-              <div className='w-[95px] h-[95px] rounded-[50px] bg-[#fff]'></div>
+            <div className='flex items-center py-[30px] justify-between sm:gap-[20px]'>
+              <div className='w-[95px] h-[95px] rounded-[50px] bg-[#fff] sm:w-[65px] sm:h-[65px]'></div>
               <div className='flex flex-col gap-5 w-[250px]'>
-                <h3 className='text-[24px] font-[600]'>Oberon Shaw, MCH</h3>
-                <p className='text-[16px]'>Head of Talent Acquisition, North America</p>
+                <h3 className='text-[24px] font-[600] sm:text-[18px] sm:font-[700]'>Oberon Shaw, MCH</h3>
+                <p className='text-[16px] sm:text-[18px] sm:leading-[30px]'>Head of Talent Acquisition, North America</p>
               </div>
             </div>
           </div>
 
           {/* Card 3 */}
-          <div className='bg-[#4f9cf9] text-white w-[471.67px] h-[498.46px] inter py-[60px] px-[40px] rounded-[10px] shadow-md shadow-gray-900'>
+          <div className='bg-[#4f9cf9] text-white w-[471.67px] h-[498.46px] inter py-[60px] px-[40px] rounded-[10px] shadow-md shadow-gray-900 sm:w-[288px] sm:h-[500px] sm:py-[20px] sm:px-[15px]'>
             <div className='flex flex-col gap-5 py-[30px] border-white border-b-[2px]'>
-              <FontAwesomeIcon icon={faQuoteLeft} className='size-[86px] text-[#fff]' />
-              <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+              <FontAwesomeIcon icon={faQuoteLeft} className='size-[86px] text-[#fff]sm:size-[56px]' />
+              <p className='sm:text-[16px] sm:leading-[20px]'>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
             </div>
 
             {/* ---------------- */}
 
-            <div className='flex items-center py-[30px] justify-between'>
+            <div className='flex items-center py-[30px] justify-between sm:gap-[20px]'>
               <div className='w-[95px] h-[95px] rounded-[50px] bg-[#fff]'></div>
               <div className='flex flex-col gap-5 w-[250px]'>
                 <h3 className='text-[24px] font-[600]'>Oberon Shaw, MCH</h3>
