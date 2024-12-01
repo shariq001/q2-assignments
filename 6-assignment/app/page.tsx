@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import { faCircleCheck } from '@fortawesome/free-regular-svg-icons';
 import Image from 'next/image';
 
@@ -158,11 +158,106 @@ const Home = () => {
       {/* Section 10 */}
       <div className='p-[100px] flex flex-col items-center gap-[50px]'>
         <h1 className='text-[72px] font-[700]  leading-[87.14px]'>Our sponsors</h1>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center gap-[150px]'>
           <Image src='/images/Apple.png' width={55.47} height={68} alt='Apple Logo' />
           <Image src='/images/Microsoft.png' width={285} height={62} alt='Microsoft Logo' />
           <Image src='/images/Slack.png' width={280} height={71} alt='Slack Logo' />
           <Image src='/images/Google.png' width={211} height={69.81} alt='Google Logo' />
+        </div>
+      </div>
+
+      {/* Section 11 */}
+      <div className='p-[100px] bg-[#043873] text-white flex justify-between items-center '>
+
+        {/* Left */}
+        <div>
+          <Image src='/images/Apps.png' width={582} height={470.8} alt='Apps' />
+        </div>
+
+        {/* Right */}
+        <div className='w-[50%] flex flex-col gap-8 inter'>
+          <h1 className='text-[72px] font-[700]  leading-[87.14px]'>Work with Your Favorite Apps Using whitepace</h1>
+          <p className='font-[400] text-[18px]'>Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.</p>
+          <button type='button' className='bg-[#4f9cf9] w-[170px] px-[30px] py-[15px] rounded-[8px] text-white'>Read more <FontAwesomeIcon icon={faArrowRight} className='size-[12px] ml-[10px] inline-flex items-start' /></button>
+        </div>
+      </div>
+
+      {/* Section 12 */}
+      <div className='p-[100px] px-[50px] flex flex-col items-center'>
+        <h1 className='text-[72px] text-center font-[700]  leading-[87.14px]'>What Our Clients Says</h1>
+        <div className='flex justify-between flex-wrap items-center my-[50px]'>
+
+          {/* Card 1 */}
+          <div className='w-[471.67px] h-[498.46px] inter py-[60px] px-[40px] rounded-[10px] shadow-md shadow-gray-900'>
+            <div className='flex flex-col gap-5 py-[30px] border-black border-b-[2px]'>
+              <FontAwesomeIcon icon={faQuoteLeft} className='size-[86px] text-[#043873]' />
+              <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+            </div>
+
+            {/* ---------------- */}
+
+            <div className='flex items-center py-[30px] justify-between'>
+              <div className='w-[95px] h-[95px] rounded-[50px] bg-[#606060]'></div>
+              <div className='flex flex-col gap-5 w-[250px]'>
+                <h3 className='text-[24px] font-[600]'>Oberon Shaw, MCH</h3>
+                <p className='text-[16px]'>Head of Talent Acquisition, North America</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Card 2 */}
+          <div className='bg-[#4f9cf9] text-white w-[471.67px] h-[498.46px] inter py-[60px] px-[40px] rounded-[10px] shadow-md shadow-gray-900'>
+            <div className='flex flex-col gap-5 py-[30px] border-white border-b-[2px]'>
+              <FontAwesomeIcon icon={faQuoteLeft} className='size-[86px] text-[#fff]' />
+              <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+            </div>
+
+            {/* ---------------- */}
+
+            <div className='flex items-center py-[30px] justify-between'>
+              <div className='w-[95px] h-[95px] rounded-[50px] bg-[#fff]'></div>
+              <div className='flex flex-col gap-5 w-[250px]'>
+                <h3 className='text-[24px] font-[600]'>Oberon Shaw, MCH</h3>
+                <p className='text-[16px]'>Head of Talent Acquisition, North America</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Card 3 */}
+          <div className='bg-[#4f9cf9] text-white w-[471.67px] h-[498.46px] inter py-[60px] px-[40px] rounded-[10px] shadow-md shadow-gray-900'>
+            <div className='flex flex-col gap-5 py-[30px] border-white border-b-[2px]'>
+              <FontAwesomeIcon icon={faQuoteLeft} className='size-[86px] text-[#fff]' />
+              <p>Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+            </div>
+
+            {/* ---------------- */}
+
+            <div className='flex items-center py-[30px] justify-between'>
+              <div className='w-[95px] h-[95px] rounded-[50px] bg-[#fff]'></div>
+              <div className='flex flex-col gap-5 w-[250px]'>
+                <h3 className='text-[24px] font-[600]'>Oberon Shaw, MCH</h3>
+                <p className='text-[16px]'>Head of Talent Acquisition, North America</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Image src='/images/Slider.png' width={60} height={12} alt='Slider' />
+      </div>
+
+      {/* Section 13 */}
+      <div className='bg-[#043873] text-white p-[100px] flex flex-col items-center'>
+        
+        {/* 1 */}
+        <div className='flex flex-col items-center gap-7 text-center inter w-[608px] h-[533px]'>
+          <h1 className='text-[72px] font-[700]  leading-[87.14px]'>Try Whitepace today</h1>
+          <p className='text-[24px] leading-[32px]'>Get started for free. <br /> Add your whole team as your needs grow.</p>
+          <button type='button' className='bg-[#4f9cf9] w-[195px] px-[30px] py-[15px] rounded-[8px] '>Try Taskey free <FontAwesomeIcon icon={faArrowRight} className='size-[12px] ml-[10px] inline-flex items-start' /></button>
+          <p className='text-[24px] leading-[32px]'>On a big team? Contact sales</p>
+          <div className='flex justify-between gap-[50px] items-center'>
+            <Image src='/images/apple-2.png' width={60} height={60} alt='Apple Logo White' />
+            <Image src='/images/Group.png' width={60} height={60} alt='Windows Logo white' />
+            <Image src='/images/android.png' width={60} height={60} alt='Android Logo White' />
+          </div>
         </div>
       </div>
 
