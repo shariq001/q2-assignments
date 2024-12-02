@@ -6,13 +6,13 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className='px-[100px] py-[16px] bg-[#043873] text-white flex justify-between items-center'>
-        <nav className='flex gap-8 items-center'>
-            <p><FontAwesomeIcon icon={faGlobe} className='size-[20px] mr-[7px] inline-flex'/>English <FontAwesomeIcon icon={faAngleDown} className='size-[20px] inline-flex ml-[7px]' /></p>
+    <footer className='px-[100px] py-[16px] bg-[#043873] text-white inter flex justify-between items-center sm:w-[320px] sm:flex-col sm:gap-[40px] md:w-[768px]'>
+        <nav className='flex gap-8 items-center sm:flex-col sm:gap-4 sm:text-center sm:w-[288px] sm:text-[16px] md:flex-row'>
+            <p className='sm:text-[16px]'><FontAwesomeIcon icon={faGlobe} className='size-[20px] mr-[7px] inline-flex sm:size-[18px]'/>English <FontAwesomeIcon icon={faAngleDown} className='size-[20px] inline-flex ml-[7px] sm:size-[16px]' /></p>
             <Link href=''>Terms & privacy</Link>
             <Link href=''>Security</Link>
             <Link href=''>Status</Link>
-            <p>&copy; 2021 Whitepace LLC.</p>
+            <p className='sm:text-[16px]'>&copy; 2021 Whitepace LLC.</p>
         </nav>
 
         <nav className='flex gap-8 items-center'>

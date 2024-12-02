@@ -6,7 +6,7 @@ import { faAngleDown, faArrowRight, faBars } from '@fortawesome/free-solid-svg-i
 
 const Header = () => {
   return (
-    <header className='bg-[#043873] text-white px-[100px] py-[16px] dm-sans flex justify-between items-center sm:w-[320px] sm:px-[16px]'>
+    <header className='bg-[#043873] text-white px-[100px] py-[16px] dm-sans flex justify-between items-center sm:w-[320px] sm:px-[16px] md:w-[768px]'>
         <div>
             <Image src='/images/Logo.png' width={191} height={34} alt='Logo' className='sm:w-[134px] sm:h-[24px] '/>
         </div>
