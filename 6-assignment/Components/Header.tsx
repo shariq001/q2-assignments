@@ -6,7 +6,7 @@ import { faAngleDown, faArrowRight, faBars } from '@fortawesome/free-solid-svg-i
 
 const Header = () => {
   return (
-    <header className='bg-[#043873] text-white px-[100px] py-[16px] dm-sans flex justify-between items-center sm:w-[320px] sm:px-[16px] md:w-[768px]'>
+    <header className='bg-[#043873] text-white px-[100px] py-[16px] dm-sans flex justify-between items-center sm:w-[320px] sm:px-[16px] md:w-[768px] lg:w-[1152px]'>
         <div>
             <Image src='/images/Logo.png' width={191} height={34} alt='Logo' className='sm:w-[134px] sm:h-[24px] '/>
         </div>
@@ -23,8 +23,8 @@ const Header = () => {
             </div>
 
             <div className='flex gap-5'>
-              <button type='button' className='bg-[#ffe492] px-[30px] py-[15px] rounded-[8px] text-[#043873] sm:hidden'>Login</button>
-              <button type='button' className='bg-[#4f9cf9] px-[30px] py-[15px] rounded-[8px] sm:hidden'>Try Whitepace free <FontAwesomeIcon icon={faArrowRight} className='size-[12px] ml-[10px] inline-flex items-start' /></button>
+              <button type='button' className='bg-[#ffe492] px-[30px] py-[15px] rounded-[8px] text-[#043873] sm:hidden lg:block'>Login</button>
+              <button type='button' className='bg-[#4f9cf9] px-[30px] py-[15px] rounded-[8px] sm:hidden lg:block'>Try Whitepace free <FontAwesomeIcon icon={faArrowRight} className='size-[12px] ml-[10px] inline-flex items-start' /></button>
               <button type='button'><FontAwesomeIcon icon={faBars} className='size-[15px]' /></button>
             </div>
         </nav>

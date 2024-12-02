@@ -6,8 +6,8 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className='px-[100px] py-[16px] bg-[#043873] text-white inter flex justify-between items-center sm:w-[320px] sm:flex-col sm:gap-[40px] md:w-[768px]'>
-        <nav className='flex gap-8 items-center sm:flex-col sm:gap-4 sm:text-center sm:w-[288px] sm:text-[16px] md:flex-row'>
+    <footer className='px-[100px] py-[16px] bg-[#043873] text-white inter flex justify-between items-center sm:w-[320px] sm:flex-col sm:gap-[40px] md:w-[768px] lg:w-[1152px] lg:flex-row lg:gap-[80px] lg:px-[16px]'>
+        <nav className='flex gap-8 items-center sm:flex-col sm:gap-4 sm:text-center sm:w-[288px] sm:text-[16px] md:flex-row md:w-[704px] md:justify-between lg:w-[737px] lg:gap-[60px]'>
             <p className='sm:text-[16px]'><FontAwesomeIcon icon={faGlobe} className='size-[20px] mr-[7px] inline-flex sm:size-[18px]'/>English <FontAwesomeIcon icon={faAngleDown} className='size-[20px] inline-flex ml-[7px] sm:size-[16px]' /></p>
             <Link href=''>Terms & privacy</Link>
             <Link href=''>Security</Link>
