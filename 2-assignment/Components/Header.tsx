@@ -6,21 +6,23 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   return (
-    <header className='flex justify-center gap-[100px] items-center relative bg-[#03346E] p-[16px]'>
-        <div className='absolute left-[150px] top-[18px]'>
-            <Image src='/logo.png' width={70} height={100} alt='Logo' />
-        </div>
-        <div>
-            <h1 className='text-[20px] font-bold text-blue-100'>Tution Free Education Program on Latest Technologies</h1>
-        </div>
-        <nav className='flex justify-center gap-[20px] text-[15px] text-white'>
-            <Link href=''>Home</Link>
-            <Link href=''>Apply</Link>
-            <Link href=''>Jobs</Link>
-            <Link href=''>Result</Link>
-            <Link href='' className='flex items-center'>Courses <FontAwesomeIcon icon={faAngleDown} className='size-[13px] ml-[5px]' /></Link>
-        </nav>
-    </header>
+    <div className='bg-[#044E83] px-[50px] py-[16px] flex justify-center gap-[100px] items-center relative'>
+      <div className='absolute top-[30%] left-[170px]'>
+        <Image src='/images/logo.png' width={70} height={100} alt='Logo' />
+      </div>
+
+      <div className=''>
+        <h1 className='text-[#B9D8F3] text-[20px] font-bold'>Tuition Free Education Program on Latest Technologies</h1>
+      </div>
+
+      <nav className='flex justify-center items-center gap-[30px] text-[15px] text-white'>
+        <Link href=''>Home</Link>
+        <Link href=''>Apply</Link>
+        <Link href=''>Jobs</Link>
+        <Link href=''>Result</Link>
+        <Link href=''>Courses <FontAwesomeIcon icon={faAngleDown} className='size-[10px] inline-flex items-center ml-[5px]' /></Link>
+      </nav>
+    </div>
   )
 }
 
