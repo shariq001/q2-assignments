@@ -13,13 +13,16 @@ const Cart = () => {
   }
 
   const decrement = () => {
-    setCount(count - 1)
+    if(count > 0) {
+      setCount(count - 1)
+    }
+   
   }
 
   return (
     <div className='flex justify-center items-center h-screen bg-yellow-500'>
       <div className='w-[300px] h-[400px] work p-[30px] bg-white rounded-[15px] flex justify-center gap-[20px] items-center px-[10px] flex-col'>
-        <div className='bg-yellow-200 w-[250px] h-[144px] flex justify-center items-center rounded-[15px] relative'>
+        <div className='bg-[#CE8F21] w-[250px] h-[144px] flex justify-center items-center rounded-[15px] relative'>
           <Image src='/images/Yellow Shoe.png' width={200.24} height={100.79} alt='Yellow Shoe' />
           <div className='bg-gray-400 absolute w-[40px] h-[40px] rounded-[50px] top-[-15px] right-[-10px] flex justify-center items-center'>
             <p className='text-[20px]'>{count}</p>
