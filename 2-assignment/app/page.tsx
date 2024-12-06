@@ -2,12 +2,14 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className="relative h-screen bg-cover bg-center bg-[url(/images/back.png)]">
-      <div className="absolute inset-0 bg-white  bg-opacity-30"></div>
-
-      <div className="relative z-10 flex items-center justify-center h-full text-center text-white">
-        <h1 className="text-4xl font-bold">Clear Text Over a Dimmed Background</h1>
-        <p className="mt-4 text-lg">This text is clearly visible due to the dimmed background.</p>
+    <div className='bg-[url(/images/back.png)] bg-center bg-cover'>
+      <div className='bg-white/70 flex justify-around items-center'>
+        
+        {/* Left */}
+        <div className='p-[100px] w-[50%] flex flex-col gap-[20px]'>
+          <h1 className='text-[64px] leading-[65%] text-[#044E83] font-bold tracking-[6px]'>Governor Sindh <br /> <span className='font-normal tracking-[4px] text-[40px]'>Kamran Khan Tessori</span></h1>
+          <h2 className='text-[#2EB6E8] text-[40px] font-bold leading-[50px]'>Certified Cloud Applied Generative AI Engineer (GenEng)</h2>
+        </div>
       </div>
     </div>
   )
