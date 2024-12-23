@@ -171,36 +171,36 @@ const Home = () => {
       </div>
 
       {/* Section 11 */}
-      <div className='bg-[#043873] text-white 2xl:p-[100px] flex 2xl:flex-row justify-between items-center '>
+      <div className='bg-[#043873] text-white 2xl:p-[100px] flex 2xl:flex-row justify-between items-center sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px]'>
 
         {/* Left */}
-        <Image src='/images/Apps.png' width={582} height={470.8} alt='Apps' />
+        <Image src='/images/Apps.png' width={582} height={470.8} alt='Apps' className='2xl:w-[582px] 2xl:h-[470.8px] sm:w-[286.5px] sm:h-[231.76px]'/>
 
         {/* Right */}
-        <div className='flex flex-col gap-[20px] inter w-[656px]'>
-          <h1 className='text-[64px] leading-[77.45px] font-[700] '>Work with Your Favorite Apps Using whitepace</h1>
-          <p className='text-[18px] leading-[30px]'>Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.</p>
+        <div className='flex flex-col items-start sm:items-center gap-[20px] inter 2xl:w-[656px]'>
+          <h1 className='text-[64px] leading-[77.45px] font-[700] sm:text-[36px]  sm:leading-[43.57px] sm:text-center'>Work with Your Favorite Apps Using whitepace</h1>
+          <p className='text-[18px] leading-[30px] sm:text-center'>Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.</p>
           <button type='button' className='px-[24px] py-[16px] bg-[#4F9CF9] text-[#fff] font-[500] rounded-[8px] w-[165px]'>Read more <FontAwesomeIcon icon={faArrowRight} className='size-[12px] inline-flex ml-[10px]' /></button>
         </div>
       </div>
 
       {/* Section 12 */}
-      <div className='2xl:p-[100px] flex flex-col items-center gap-[60px]'>
-        <h1 className='text-[64px] leading-[77.45px] font-[700] '>What Our Clients Says</h1>
-        <div className='flex 2xl:flex-row justify-between items-center w-full'>
+      <div className='2xl:p-[100px] sm:px-[16px] sm:py-[80px] flex flex-col items-center gap-[60px]'>
+        <h1 className='text-[64px] leading-[77.45px] font-[700] sm:text-[36px]  sm:leading-[43.57px] sm:text-center'>What Our Clients Says</h1>
+        <div className='flex 2xl:flex-row sm:flex-col sm:justify-center sm:gap-[40px] justify-between items-center w-full'>
 
           {/* 1 */}
-          <div className='w-[420px] px-[30px] py-[60px] rounded-[10px] shadow-md shadow-gray-300 flex flex-col gap-[60px]'>
+          <div className='2xl:w-[420px] sm:w-[288px] px-[30px] py-[60px] rounded-[10px] shadow-md shadow-gray-300 flex flex-col gap-[60px]'>
 
             {/* top */}
-            <div className='pb-[40px] flex flex-col gap-[32px] w-[370px] border-b-[1px] border-[#212529]'>
-              <FontAwesomeIcon icon={faQuoteLeft} className='size-[86px] text-[#043873]' />
+            <div className='pb-[40px] flex flex-col gap-[32px] 2xl:w-[370px] sm:w-[248px] border-b-[1px] border-[#212529]'>
+              <FontAwesomeIcon icon={faQuoteLeft} className='2xl:size-[86px] sm:size-[56px] text-[#043873]' />
               <p className='text-[18px] leading-[30px]'>Whitepace is designed as a collaboration tool for businesses that is a full project management solution.</p>
             </div>
 
             {/* bottom */}
-            <div className='flex flex-row justify-between w-[383px] h-[95px] items-center'>
-              <div className='w-[95px] h-[95px] bg-[#4F9CF9] rounded-full'></div>
+            <div className='flex 2xl:flex-row sm:flex-col justify-between 2xl:w-[383px] sm:w-[248px] 2xl:h-[95px] sm:h-[186px] items-center'>
+              <div className='2xl:w-[95px] 2xl:h-[95px] sm:w-[65px] sm:h-[65px] bg-[#4F9CF9] rounded-full'></div>
               <div className='flex flex-col gap-[15px] w-[246px]'>
                 <h2 className='text-[24px] font-[600]'>Oberon Shaw, MCH</h2>
                 <p className='leading-[20px]'>Head of Talent Acquisition, North America</p>
@@ -209,17 +209,17 @@ const Home = () => {
           </div>
 
           {/* 2 */}
-          <div className='bg-[#4F9CF9] text-white w-[420px] px-[30px] py-[60px] rounded-[10px] shadow-md shadow-gray-300 flex flex-col gap-[60px]'>
+          <div className='bg-[#4F9CF9] text-white 2xl:w-[420px] sm:w-[288px]f px-[30px] py-[60px] rounded-[10px] shadow-md shadow-gray-300 flex flex-col gap-[60px]'>
 
             {/* top */}
-            <div className='pb-[40px] flex flex-col gap-[32px] w-[370px] border-b-[1px] border-[#212529]'>
-              <FontAwesomeIcon icon={faQuoteLeft} className='size-[86px] text-[#fff]' />
+            <div className='pb-[40px] flex flex-col gap-[32px] 2xl:w-[370px] sm:w-[248px] border-b-[1px] border-[#212529]'>
+              <FontAwesomeIcon icon={faQuoteLeft} className='2xl:size-[86px] sm:size-[56px] text-[#fff]' />
               <p className='text-[18px] leading-[30px]'>Whitepace is designed as a collaboration tool for businesses that is a full project management solution.</p>
             </div>
 
             {/* bottom */}
-            <div className='flex flex-row justify-between w-[383px] h-[95px] items-center'>
-              <div className='w-[95px] h-[95px] bg-[#fff] rounded-full'></div>
+            <div className='flex 2xl:flex-row sm:flex-col justify-between 2xl:w-[383px] sm:w-[248px] 2xl:h-[95px] sm:h-[186px] items-center'>
+              <div className='2xl:w-[95px] 2xl:h-[95px] sm:w-[65px] sm:h-[65px] bg-[#fff] rounded-full'></div>
               <div className='flex flex-col gap-[15px] w-[246px]'>
                 <h2 className='text-[24px] font-[600]'>Oberon Shaw, MCH</h2>
                 <p className='leading-[20px]'>Head of Talent Acquisition, North America</p>
@@ -228,17 +228,17 @@ const Home = () => {
           </div>
 
           {/* 3 */}
-          <div className='bg-[#4F9CF9] text-white w-[420px] px-[30px] py-[60px] rounded-[10px] shadow-md shadow-gray-300 flex flex-col gap-[60px]'>
+          <div className='bg-[#4F9CF9] text-white 2xl:w-[420px] sm:w-[288px]f px-[30px] py-[60px] rounded-[10px] shadow-md shadow-gray-300 flex flex-col gap-[60px]'>
 
             {/* top */}
-            <div className='pb-[40px] flex flex-col gap-[32px] w-[370px] border-b-[1px] border-[#212529]'>
-              <FontAwesomeIcon icon={faQuoteLeft} className='size-[86px] text-[#fff]' />
+            <div className='pb-[40px] flex flex-col gap-[32px] 2xl:w-[370px] sm:w-[248px] border-b-[1px] border-[#212529]'>
+              <FontAwesomeIcon icon={faQuoteLeft} className='2xl:size-[86px] sm:size-[56px] text-[#fff]' />
               <p className='text-[18px] leading-[30px]'>Whitepace is designed as a collaboration tool for businesses that is a full project management solution.</p>
             </div>
 
             {/* bottom */}
-            <div className='flex flex-row justify-between w-[383px] h-[95px] items-center'>
-              <div className='w-[95px] h-[95px] bg-[#fff] rounded-full'></div>
+            <div className='flex 2xl:flex-row sm:flex-col justify-between 2xl:w-[383px] sm:w-[248px] 2xl:h-[95px] sm:h-[186px] items-center'>
+              <div className='2xl:w-[95px] 2xl:h-[95px] sm:w-[65px] sm:h-[65px] bg-[#fff] rounded-full'></div>
               <div className='flex flex-col gap-[15px] w-[246px]'>
                 <h2 className='text-[24px] font-[600]'>Oberon Shaw, MCH</h2>
                 <p className='leading-[20px]'>Head of Talent Acquisition, North America</p>
@@ -246,7 +246,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <Image src='/images/Slider.png' width={60} height={12} alt='Slider' />
+        <Image src='/images/Slider.png' width={60} height={12} alt='Slider' className='2xl:block sm:hidden'/>
       </div>
 
       {/* Section 13 */}
