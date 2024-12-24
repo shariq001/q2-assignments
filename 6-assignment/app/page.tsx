@@ -10,7 +10,7 @@ const Home = () => {
     <div className='2xl:w-[1550px] sm:w-[320px] md:w-[768px] lg:w-[1152px]'>
       
       {/* Section 1 */}
-      <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center bg-[#043873] text-white sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between'>
+      <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center bg-[#043873] text-white sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between lg:px-[32px]'>
 
         {/* Left */}
         <div className='flex flex-col items-start gap-[20px] sm:items-center inter 2xl:w-[656px] sm:w-full md:w-full lg:w-[562px] lg:items-start'>
@@ -24,7 +24,7 @@ const Home = () => {
       </div>
 
       {/* Section 2 */}
-      <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center bg-[#fff] sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between'>
+      <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center bg-[#fff] sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between lg:px-[32px]'>
 
         {/* Left */}
         <div className='flex flex-col items-start sm:items-center gap-[20px] inter 2xl:w-[656px] sm:w-full md:w-full lg:w-[562px] lg:items-start'>
@@ -38,7 +38,7 @@ const Home = () => {
       </div>
 
       {/* Section 3 */}
-      <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center bg-[#fff] sm:px-[16px] sm:py-[80px] sm:flex-col-reverse sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between'>
+      <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center bg-[#fff] sm:px-[16px] sm:py-[80px] sm:flex-col-reverse sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between lg:px-[32px]'>
 
         {/* Left */}
         <Image src='/images/Work Together Image.png' width={650} height={661} alt='Work Together Image' className='2xl:w-[650px] 2xl:h-[661px] sm:w-[279px] sm:h-[259.74px] md:w-[454px] md:h-[422.67px] lg:w-[528px] lg:h-[491.56px]'/>
@@ -52,7 +52,7 @@ const Home = () => {
       </div>
 
       {/* Section 4 */}
-      <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center bg-[#043873] text-white sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between'>
+      <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center bg-[#043873] text-white sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between lg:px-[32px]'>
 
         {/* Left */}
         <div className='flex flex-col items-start sm:items-center gap-[20px] inter 2xl:w-[640px] sm:w-full md:w-full lg:w-[562px] lg:items-start'>
@@ -67,7 +67,7 @@ const Home = () => {
       </div>
 
       {/* Section 5 */}
-      <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center bg-[#fff] sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between'>
+      <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center bg-[#fff] sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between lg:px-[32px]'>
 
         {/* Left */}
         <div className='bg-[#C4DEFD] 2xl:w-[650px] 2xl:h-[532.09px] sm:w-[288px] sm:h-[214.62px] md:w-[534px] md:h-[397.95px] lg:w-[534px] lg:h-[397.95px]'></div>
@@ -87,7 +87,7 @@ const Home = () => {
       </div>
 
       {/* Section 7 */}
-      <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[40px] lg:flex-row lg:justify-between'>
+      <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[40px] lg:flex-row lg:justify-between lg:px-[32px]'>
 
         {/* 1 */}
         <div className='2xl:w-[420px] sm:w-[289px] md:w-[472.33px] lg:w-[341.33px] 2xl:py-[40px] 2xl:px-[44px] sm:p-[20px] md:px-[44px] md:py-[40px] inter border-[#FFE492] border-[1px] rounded-[10px] flex flex-col gap-[25px]'>
@@ -139,30 +139,30 @@ const Home = () => {
       </div>
 
       {/* Section 8 */}
-      <div className='bg-[#043873] text-white 2xl:p-[100px] sm:px-[16px] sm:py-[80px] flex flex-col gap-[40px] 2xl:items-center 2xl:text-center inter '>
-        <h1 className='text-[64px] leading-[77.45px] font-[700] sm:text-[36px]  sm:leading-[43.57px] md:text-[54px] md:leading-[65.35px] 2xl:w-full sm:w-full md:w-[604px] lg:w-[650px]'>Your work, everywhere you are</h1>
+      <div className='bg-[#043873] text-white 2xl:p-[100px] sm:px-[16px] sm:py-[80px] flex flex-col gap-[40px] 2xl:items-center 2xl:text-center inter lg:px-[32px]'>
+        <h1 className='lg:text-[64px] leading-[77.45px] font-[700] sm:text-[36px]  sm:leading-[43.57px] md:text-[54px] md:leading-[65.35px] 2xl:w-full sm:w-full md:w-[604px] lg:w-[650px]'>Your work, everywhere you are</h1>
         <p className='text-[18px] leading-[30px] 2xl:w-[1064px] sm:w-full md:w-[604px] lg:w-[650px]'>Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!</p>
         <button type='button' className='px-[24px] py-[16px] bg-[#4F9CF9] text-[#fff] font-[500] rounded-[8px] w-[165px]'>Try Taskey<FontAwesomeIcon icon={faArrowRight} className='size-[12px] inline-flex ml-[10px]' /></button>
       </div>
 
       {/* Section 9 */}
-      <div className='2xl:p-[100px] sm:px-[16px] sm:py-[80px] flex 2xl:flex-row sm:flex-col-reverse sm:justify-center sm:gap-[50px] justify-between items-center bg-[#fff]'>
+      <div className='2xl:p-[100px] sm:px-[16px] sm:py-[80px] flex 2xl:flex-row sm:flex-col-reverse sm:justify-center sm:gap-[50px] justify-between items-center bg-[#fff] lg:flex-row lg:justify-between lg:px-[32px]'>
 
         {/* Left */}
-        <div className='flex flex-col items-start sm:items-center gap-[20px] inter 2xl:w-[656px]'>
-          <h1 className='text-[64px] leading-[77.45px] font-[700] sm:text-[36px]  sm:leading-[43.57px] sm:text-center md:text-[54px] md:leading-[65.35px]'>100% your data</h1>
-          <p className='text-[18px] leading-[30px] sm:text-center'>The app is open source and your notes are saved to an open format, so you&apos;ll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.</p>
+        <div className='flex flex-col lg:items-start sm:items-center gap-[20px] inter 2xl:w-[656px]'>
+          <h1 className='lg:text-[64px] leading-[77.45px] font-[700] sm:text-[36px]  sm:leading-[43.57px] sm:text-center md:text-[54px] md:leading-[65.35px] lg:text-left'>100% your data</h1>
+          <p className='text-[18px] leading-[30px] sm:text-center lg:text-left'>The app is open source and your notes are saved to an open format, so you&apos;ll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.</p>
           <button type='button' className='px-[24px] py-[16px] bg-[#4F9CF9] text-[#fff] font-[500] rounded-[8px] w-[165px]'>Read more <FontAwesomeIcon icon={faArrowRight} className='size-[12px] inline-flex ml-[10px]' /></button>
         </div>
 
         {/* Right */}
-        <Image src='/images/Element.png' width={681} height={381} alt='Element' className='2xl:w-[681px] 2xl:h-[381px] sm:w-[290.5px] sm:h-[162.58px] md:w-[513px] md:h-[287.11px]'/>
+        <Image src='/images/Element.png' width={681} height={381} alt='Element' className='2xl:w-[681px] 2xl:h-[381px] sm:w-[290.5px] sm:h-[162.58px] md:w-[513px] md:h-[287.11px] lg:w-[562px] lg:h-[314.53px]'/>
       </div>
 
       {/* Section 10 */}
-      <div className='flex flex-col 2xl:p-[100px] sm:px-[16px] sm:py-[80px] items-center gap-[70px]'>
-        <h1 className='text-[64px] leading-[77.45px] font-[700] sm:text-[36px]  sm:leading-[43.57px] sm:text-center md:text-[54px] md:leading-[65.35px]'>Our sponsors</h1>
-        <div className='w-full flex 2xl:flex-row sm:flex-col sm:justify-center sm:gap-[50px] md:gap-[100px] justify-between items-center'>
+      <div className='flex flex-col 2xl:p-[100px] sm:px-[16px] sm:py-[80px] items-center gap-[70px] lg:px-[32px]'>
+        <h1 className='lg:text-[64px] leading-[77.45px] font-[700] sm:text-[36px]  sm:leading-[43.57px] sm:text-center md:text-[54px] md:leading-[65.35px]'>Our sponsors</h1>
+        <div className='w-full flex 2xl:flex-row sm:flex-col sm:justify-center sm:gap-[50px] md:gap-[100px] justify-between items-center lg:flex-row lg:justify-between lg:gap-0'>
           <Image src='/images/Apple.png' width={55.47} height={68} alt='Apple' />
           <Image src='/images/Microsoft.png' width={287} height={62} alt='Apple' className='2xl:w-[287px] 2xl:h-[62px] sm:w-[213px] sm:h-[46px] md:w-[287px] md:h-[62px]'/>
           <Image src='/images/Slack.png' width={280} height={71} alt='Apple' className='2xl:w-[280px] 2xl:h-[71px] sm:w-[192px] sm:h-[49px] md:w-[280px] md:h-[71px]'/>
@@ -171,37 +171,37 @@ const Home = () => {
       </div>
 
       {/* Section 11 */}
-      <div className='bg-[#043873] text-white 2xl:p-[100px] flex 2xl:flex-row justify-between items-center sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px]'>
+      <div className='bg-[#043873] text-white 2xl:p-[100px] flex 2xl:flex-row justify-between items-center sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between lg:px-[32px]'>
 
         {/* Left */}
-        <Image src='/images/Apps.png' width={582} height={470.8} alt='Apps' className='2xl:w-[582px] 2xl:h-[470.8px] sm:w-[286.5px] sm:h-[231.76px] md:w-[485px] md:h-[392.33px]'/>
+        <Image src='/images/Apps.png' width={582} height={470.8} alt='Apps' className='2xl:w-[582px] 2xl:h-[470.8px] sm:w-[286.5px] sm:h-[231.76px] md:w-[485px] md:h-[392.33px] lg:w-[582px] lg:h-[427.11px]'/>
 
         {/* Right */}
-        <div className='flex flex-col items-start sm:items-center gap-[20px] inter 2xl:w-[656px]'>
-          <h1 className='text-[64px] leading-[77.45px] font-[700] sm:text-[36px]  sm:leading-[43.57px] sm:text-center md:text-[54px] md:leading-[65.35px]'>Work with Your Favorite Apps Using whitepace</h1>
-          <p className='text-[18px] leading-[30px] sm:text-center'>Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.</p>
+        <div className='flex flex-col lg:items-start sm:items-center gap-[20px] inter 2xl:w-[656px]'>
+          <h1 className='lg:text-[64px] leading-[77.45px] font-[700] sm:text-[36px]  sm:leading-[43.57px] sm:text-center md:text-[54px] md:leading-[65.35px] lg:text-left'>Work with Your Favorite Apps Using whitepace</h1>
+          <p className='text-[18px] leading-[30px] sm:text-center lg:text-left'>Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.</p>
           <button type='button' className='px-[24px] py-[16px] bg-[#4F9CF9] text-[#fff] font-[500] rounded-[8px] w-[165px]'>Read more <FontAwesomeIcon icon={faArrowRight} className='size-[12px] inline-flex ml-[10px]' /></button>
         </div>
       </div>
 
       {/* Section 12 */}
-      <div className='2xl:p-[100px] sm:px-[16px] sm:py-[80px] flex flex-col items-center gap-[60px]'>
+      <div className='2xl:p-[100px] sm:px-[16px] sm:py-[80px] lg:px-[32px] flex flex-col items-center gap-[60px]'>
         <h1 className='text-[64px] leading-[77.45px] font-[700] sm:text-[36px]  sm:leading-[43.57px] sm:text-center md:text-[54px] md:leading-[65.35px]'>What Our Clients Says</h1>
-        <div className='flex 2xl:flex-row sm:flex-col sm:justify-center sm:gap-[40px] justify-between items-center w-full'>
+        <div className='flex 2xl:flex-row sm:flex-col sm:justify-center sm:gap-[40px] justify-between items-center w-full lg:flex-row lg:justify-between lg:gap-0'>
 
           {/* 1 */}
-          <div className='2xl:w-[420px] sm:w-[288px] md:w-[472.33px] px-[30px] py-[60px] rounded-[10px] shadow-md shadow-gray-300 flex flex-col gap-[60px]'>
+          <div className='2xl:w-[420px] sm:w-[288px] md:w-[472.33px] lg:w-[350px] px-[30px] py-[60px] rounded-[10px] shadow-md shadow-gray-300 flex flex-col gap-[60px] lg:px-[24px]'>
 
             {/* top */}
-            <div className='pb-[40px] flex flex-col gap-[32px] 2xl:w-[370px] sm:w-[248px] md:w-[400px] border-b-[1px] border-[#212529]'>
+            <div className='pb-[40px] flex flex-col gap-[32px] 2xl:w-[370px] sm:w-[248px] md:w-[400px] lg:w-[293.33px] border-b-[1px] border-[#212529]'>
               <FontAwesomeIcon icon={faQuoteLeft} className='2xl:size-[86px] sm:size-[56px] text-[#043873]' />
               <p className='text-[18px] leading-[30px]'>Whitepace is designed as a collaboration tool for businesses that is a full project management solution.</p>
             </div>
 
             {/* bottom */}
-            <div className='flex 2xl:flex-row sm:flex-col md:flex-row justify-between 2xl:w-[383px] sm:w-[248px] md:w-[400px] 2xl:h-[95px] sm:h-[186px]  items-center'>
+            <div className='flex 2xl:flex-row sm:flex-col md:flex-row justify-between 2xl:w-[383px] sm:w-[248px] md:w-[400px] 2xl:h-[95px] sm:h-[186px] lg:w-[320px] lg:h-[147px] items-center'>
               <div className='2xl:w-[95px] 2xl:h-[95px] sm:w-[65px] sm:h-[65px] md:w-[95px] md:h-[95px] bg-[#4F9CF9] rounded-full'></div>
-              <div className='flex flex-col gap-[15px] w-[246px]'>
+              <div className='flex flex-col gap-[15px] sm:w-[246px] lg:w-[220px]'>
                 <h2 className='text-[24px] font-[600]'>Oberon Shaw, MCH</h2>
                 <p className='leading-[20px]'>Head of Talent Acquisition, North America</p>
               </div>
@@ -209,18 +209,18 @@ const Home = () => {
           </div>
 
           {/* 2 */}
-          <div className='bg-[#4F9CF9] text-white 2xl:w-[420px] sm:w-[288px] md:w-[472.33px] px-[30px] py-[60px] rounded-[10px] shadow-md shadow-gray-300 flex flex-col gap-[60px]'>
+          <div className='bg-[#4F9CF9] text-white 2xl:w-[420px] sm:w-[288px] md:w-[472.33px] lg:w-[350px] px-[30px] py-[60px] rounded-[10px] shadow-md shadow-gray-300 flex flex-col gap-[60px] lg:px-[24px]'>
 
             {/* top */}
-            <div className='pb-[40px] flex flex-col gap-[32px] 2xl:w-[370px] sm:w-[248px] md:w-[400px] border-b-[1px] border-[#fff]'>
+            <div className='pb-[40px] flex flex-col gap-[32px] 2xl:w-[370px] sm:w-[248px] md:w-[400px] lg:w-[293.33px] border-b-[1px] border-[#fff]'>
               <FontAwesomeIcon icon={faQuoteLeft} className='2xl:size-[86px] sm:size-[56px] text-[#fff]' />
               <p className='text-[18px] leading-[30px]'>Whitepace is designed as a collaboration tool for businesses that is a full project management solution.</p>
             </div>
 
             {/* bottom */}
-            <div className='flex 2xl:flex-row sm:flex-col md:flex-row justify-between 2xl:w-[383px] sm:w-[248px] md:w-[400px] 2xl:h-[95px] sm:h-[186px] items-center'>
+            <div className='flex 2xl:flex-row sm:flex-col md:flex-row justify-between 2xl:w-[383px] sm:w-[248px] md:w-[400px] 2xl:h-[95px] sm:h-[186px] lg:w-[320px] lg:h-[147px] items-center'>
               <div className='2xl:w-[95px] 2xl:h-[95px] sm:w-[65px] sm:h-[65px] md:w-[95px] md:h-[95px] bg-[#fff] rounded-full'></div>
-              <div className='flex flex-col gap-[15px] w-[246px]'>
+              <div className='flex flex-col gap-[15px] sm:w-[246px] lg:w-[220px]'>
                 <h2 className='text-[24px] font-[600]'>Oberon Shaw, MCH</h2>
                 <p className='leading-[20px]'>Head of Talent Acquisition, North America</p>
               </div>
@@ -228,18 +228,18 @@ const Home = () => {
           </div>
 
           {/* 3 */}
-          <div className='bg-[#4F9CF9] text-white 2xl:w-[420px] sm:w-[288px] md:w-[472.33px] px-[30px] py-[60px] rounded-[10px] shadow-md shadow-gray-300 flex flex-col gap-[60px]'>
+          <div className='bg-[#4F9CF9] text-white 2xl:w-[420px] sm:w-[288px] md:w-[472.33px] lg:w-[350px] px-[30px] py-[60px] rounded-[10px] shadow-md shadow-gray-300 flex flex-col gap-[60px] lg:px-[24px]'>
 
             {/* top */}
-            <div className='pb-[40px] flex flex-col gap-[32px] 2xl:w-[370px] sm:w-[248px] md:w-[400px] border-b-[1px] border-[#fff]'>
+            <div className='pb-[40px] flex flex-col gap-[32px] 2xl:w-[370px] sm:w-[248px] md:w-[400px] lg:w-[293.33px] border-b-[1px] border-[#fff]'>
               <FontAwesomeIcon icon={faQuoteLeft} className='2xl:size-[86px] sm:size-[56px] text-[#fff]' />
               <p className='text-[18px] leading-[30px]'>Whitepace is designed as a collaboration tool for businesses that is a full project management solution.</p>
             </div>
 
             {/* bottom */}
-            <div className='flex 2xl:flex-row sm:flex-col md:flex-row justify-between 2xl:w-[383px] sm:w-[248px] md:w-[400px] 2xl:h-[95px] sm:h-[186px] items-center'>
+            <div className='flex 2xl:flex-row sm:flex-col md:flex-row justify-between 2xl:w-[383px] sm:w-[248px] md:w-[400px] 2xl:h-[95px] sm:h-[186px] lg:w-[320px] lg:h-[147px] items-center'>
               <div className='2xl:w-[95px] 2xl:h-[95px] sm:w-[65px] sm:h-[65px] md:w-[95px] md:h-[95px] bg-[#fff] rounded-full'></div>
-              <div className='flex flex-col gap-[15px] w-[246px]'>
+              <div className='flex flex-col gap-[15px] sm:w-[246px] lg:w-[220px]'>
                 <h2 className='text-[24px] font-[600]'>Oberon Shaw, MCH</h2>
                 <p className='leading-[20px]'>Head of Talent Acquisition, North America</p>
               </div>
@@ -250,9 +250,9 @@ const Home = () => {
       </div>
 
       {/* Section 13 */}
-      <div className='bg-[#043873] text-white 2xl:px-[100px] 2xl:pt-[140px] 2xl:pb-[32px] flex 2xl:justify-center sm:px-[16px] sm:py-[80px] '>
-        <div className='2xl:w-[608px] flex flex-col gap-[40px] 2xl:items-center 2xl:text-center'>
-          <h1 className='text-[64px] leading-[77.45px] font-[700] sm:text-[36px] sm:leading-[43.57px] md:text-[54px] md:leading-[65.35px]'>Try Whitepace today</h1>
+      <div className='bg-[#043873] text-white 2xl:px-[100px] 2xl:pt-[140px] 2xl:pb-[32px] flex 2xl:justify-center sm:px-[16px] sm:py-[80px] lg:px-[32px] sm:justify-start lg:justify-center sm:items-start lg:items-center'>
+        <div className='2xl:w-[608px] flex flex-col gap-[40px] lg:items-center lg:text-center'>
+          <h1 className='lg:text-[64px] leading-[77.45px] font-[700] sm:text-[36px] sm:leading-[43.57px] md:text-[54px] md:leading-[65.35px]'>Try Whitepace today</h1>
           <p className='2xl:text-[24px] leading-[32px] sm:text-[18px]'>Get started for free. <br />Add your whole team as your needs grow.</p>
           <button type='button' className='px-[24px] py-[16px] bg-[#4F9CF9] text-[#fff] font-[500] rounded-[8px] w-[195px]'>Try Taskey free<FontAwesomeIcon icon={faArrowRight} className='size-[12px] inline-flex ml-[10px]' /></button>
           <p className='text-[24px] leading-[32px] sm:text-[18px]'>On a big team? Contact sales</p>
@@ -265,7 +265,7 @@ const Home = () => {
       </div>
 
       {/* Section 14 */}
-      <div className='bg-[#043873] text-white 2xl:px-[100px] sm:px-[16px] sm:py-[80px] 2xl:pt-[140px] 2xl:pb-[32px] flex 2xl:flex-row sm:flex-col sm:gap-[80px] justify-between sm:items-center w-full border-[#2E4E73] border-b-[1px] md:items-start'>
+      <div className='bg-[#043873] text-white 2xl:px-[100px] sm:px-[16px] sm:py-[80px] lg:px-[32px] 2xl:pt-[140px] 2xl:pb-[32px] flex 2xl:flex-row sm:flex-col sm:gap-[80px] justify-between sm:items-center w-full border-[#2E4E73] border-b-[1px] md:items-start lg:flex-row lg:gap-0 lg:justify-between'>
         
         {/* 1 */}
         <div className='w-[205px] text-left sm:text-center md:text-left'>
@@ -274,7 +274,7 @@ const Home = () => {
         </div>
 
         {/* 2 */}
-        <div className='w-[205px] flex flex-col gap-[15px] text-left sm:text-center md:text-left'>
+        <div className='sm:w-[205px] flex flex-col gap-[15px] text-left sm:text-center md:text-left lg:w-[177px]'>
           <p className='text-[18px] font-[700]'>Product</p>
           <Link href='' className='text-[#FFE492]'>Overview</Link>
           <Link href=''>Pricing</Link>
@@ -282,7 +282,7 @@ const Home = () => {
         </div>
 
         {/* 3 */}
-        <div className='w-[205px] flex flex-col gap-[15px] text-left sm:text-center md:text-left'>
+        <div className='sm:w-[205px] flex flex-col gap-[15px] text-left sm:text-center md:text-left lg:w-[177px]'>
           <p className='text-[18px] font-[700]'>Resources</p>
           <Link href=''>Blog</Link>
           <Link href=''>Guides & tutorials</Link>
@@ -290,7 +290,7 @@ const Home = () => {
         </div>
 
         {/* 4 */}
-        <div className='w-[205px] flex flex-col gap-[15px] text-left sm:text-center md:text-left'>
+        <div className='sm:w-[205px] flex flex-col gap-[15px] text-left sm:text-center md:text-left lg:w-[177px]'>
           <p className='text-[18px] font-[700]'>Company</p>
           <Link href=''>About us</Link>
           <Link href=''>Careers</Link>

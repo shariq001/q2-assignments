@@ -6,7 +6,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-[#043873] text-white 2xl:p-[100px] 2xl:py-[16px] flex 2xl:flex-row justify-between items-center w-full sm:px-[16px] sm:py-[30px] sm:flex-col sm:gap-[20px] '>
+    <div className='bg-[#043873] text-white 2xl:p-[100px] 2xl:py-[16px] flex 2xl:flex-row justify-between items-center w-full sm:px-[16px] sm:py-[30px] sm:flex-col sm:gap-[20px] lg:flex-row lg:justify-between lg:gap-0 lg:px-[32px]'>
         <div className='flex 2xl:flex-row sm:flex-col justify-center items-center 2xl:gap-[60px] sm:gap-[20px] md:flex-row'>
             <p><FontAwesomeIcon icon={faGlobe} className='size-[20px] mr-2' /> English <FontAwesomeIcon icon={faAngleDown} className='size-[15px] ml-2' /></p>
             <Link href=''>Terms & privacy</Link>
