@@ -90,6 +90,7 @@ const Header = () => {
             <Link href='' onClick={toggleMenu}>
               Pricing <FontAwesomeIcon icon={faAngleDown} className='size-[12px] inline-flex ml-[10px]' />
             </Link>
+            
           </nav>
         </div>
       )}
