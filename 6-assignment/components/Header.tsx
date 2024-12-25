@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <div className='2xl:w-[1550px] bg-[#043873] text-white py-[16px] flex flex-row justify-between items-center sm:px-[16px] md:px-[32px] lg:px-[32px] xl:px-[32px] 2xl:px-[100px] relative'>
+    <div className='2xl:min-w-[1550px] bg-[#043873] text-white py-[16px] flex flex-row justify-between items-center sm:px-[16px] md:px-[32px] lg:px-[32px] xl:px-[32px] 2xl:px-[100px] relative'>
       {/* Logo */}
       <Image
         src='/images/Logo.png'

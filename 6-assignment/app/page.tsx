@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Home = () => {
   return (
-    <div className='2xl:w-[1550px] sm:w-[320px] md:w-[768px] lg:w-[1152px] xl:w-[1440px]'>
+    <div className='sm:min-w-[320px] md:min-w-[768px] lg:min-w-[1152px] xl:min-w-[1440px] 2xl:min-w-[1550px] '>
       
       {/* Section 1 */}
       <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center bg-[#043873] text-white sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between lg:px-[32px] xl:py-[100px]'>
@@ -20,7 +20,7 @@ const Home = () => {
         </div>
 
         {/* Right */}
-        <div className='bg-[#C4DEFD] 2xl:w-[824px] 2xl:h-[549px] sm:w-[286px] sm:h-[191px] md:w-[551px] md:h-[367px] lg:w-[526px] lg:h-[350.45px] xl:w-[686px] xl:h-[456.39px]'></div>
+        <div className='bg-[#C4DEFD]  sm:w-[286px] sm:h-[191px] md:w-[551px] md:h-[367px] lg:w-[526px] lg:h-[350.45px] xl:w-[686px] xl:h-[456.39px] 2xl:w-[824px] 2xl:h-[549px] '></div>
       </div>
 
       {/* Section 2 */}
@@ -34,14 +34,14 @@ const Home = () => {
         </div>
 
         {/* Right */}
-        <div className='bg-[#C4DEFD] 2xl:w-[748px] 2xl:h-[547px] sm:w-[286px] sm:h-[177px] md:w-[561px] md:h-[349px] lg:w-[527.74px] lg:h-[328.48px] xl:w-[719px] xl:h-[448px]'></div>
+        <div className='bg-[#C4DEFD]  sm:w-[286px] sm:h-[177px] md:w-[561px] md:h-[349px] lg:w-[527.74px] lg:h-[328.48px] xl:w-[719px] xl:h-[448px] 2xl:w-[748px] 2xl:h-[547px]'></div>
       </div>
 
       {/* Section 3 */}
       <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center bg-[#fff] sm:px-[16px] sm:py-[80px] sm:flex-col-reverse sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between lg:px-[32px]'>
 
         {/* Left */}
-        <Image src='/images/Work Together Image.png' width={650} height={661} alt='Work Together Image' className='2xl:w-[650px] 2xl:h-[661px] sm:w-[279px] sm:h-[259.74px] md:w-[454px] md:h-[422.67px] lg:w-[528px] lg:h-[491.56px] xl:w-[583px] xl:h-[542.76px]'/>
+        <Image src='/images/Work Together Image.png' width={650} height={661} alt='Work Together Image' className=' sm:w-[279px] sm:h-[259.74px] md:w-[454px] md:h-[422.67px] lg:w-[528px] lg:h-[491.56px] xl:w-[583px] xl:h-[542.76px] 2xl:w-[650px] 2xl:h-[661px]'/>
 
         {/* Right */}
         <div className='flex flex-col items-start sm:items-center gap-[20px] inter 2xl:w-[656px] sm:w-full md:w-full lg:w-[562px] lg:items-start xl:w-[633px]'>
@@ -63,14 +63,14 @@ const Home = () => {
         </div>
 
         {/* Right */}
-        <div className='bg-[#C4DEFD] 2xl:w-[686px] 2xl:h-[479px] sm:w-[284.5px] sm:h-[198.65px] md:w-[557px] md:h-[388.93px] lg:w-[459px] lg:h-[320.5px] xl:w-[686px] xl:h-[479px]'></div>
+        <div className='bg-[#C4DEFD]  sm:w-[284.5px] sm:h-[198.65px] md:w-[557px] md:h-[388.93px] lg:w-[459px] lg:h-[320.5px] xl:w-[686px] xl:h-[479px] 2xl:w-[686px] 2xl:h-[479px]'></div>
       </div>
 
       {/* Section 5 */}
       <div className='2xl:p-[100px] flex 2xl:flex-row justify-between items-center bg-[#fff] sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between lg:px-[32px]'>
 
         {/* Left */}
-        <div className='bg-[#C4DEFD] 2xl:w-[650px] 2xl:h-[532.09px] sm:w-[288px] sm:h-[214.62px] md:w-[534px] md:h-[397.95px] lg:w-[534px] lg:h-[397.95px] xl:w-[670px] xl:h-[499.3px]'></div>
+        <div className='bg-[#C4DEFD]  sm:w-[288px] sm:h-[214.62px] md:w-[534px] md:h-[397.95px] lg:w-[534px] lg:h-[397.95px] xl:w-[670px] xl:h-[499.3px] 2xl:w-[650px] 2xl:h-[532.09px]'></div>
 
         {/* Right */}
         <div className='flex flex-col items-start sm:items-center gap-[20px] inter 2xl:w-[656px] sm:w-full md:w-full lg:w-[562px] lg:items-start xl:w-[646px]'>
@@ -101,7 +101,7 @@ const Home = () => {
           <p className='flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[15px] mr-[10px]' />Connect primary Google Calendar accound</p>
           <p className='flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[15px] mr-[10px]' />Add due dates, reminders, and notifications to your tasks</p>
 
-          <button type='button' className='border-[#FFE492] border-[1px] rounded-[8px] px-[40px] py-[16px] font-[500] 2xl:w-[171px]'>Get Started</button>
+          <button type='button' className='border-[#FFE492] border-[1px] rounded-[8px] px-[40px] py-[16px] font-[500] 2xl:w-[171px] hover:bg-[#FFE492] duration-700 hover:duration-700'>Get Started</button>
 
         </div>
 
@@ -133,7 +133,7 @@ const Home = () => {
           <p className='flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[15px] mr-[10px]' />Connect primary Google Calendar accound</p>
           <p className='flex items-center'><FontAwesomeIcon icon={faCircleCheck} className='size-[15px] mr-[10px]' />Add due dates, reminders, and notifications to your tasks</p>
 
-          <button type='button' className='border-[#FFE492] border-[1px] rounded-[8px] px-[40px] py-[16px] font-[500] 2xl:w-[171px]'>Get Started</button>
+          <button type='button' className='border-[#FFE492] border-[1px] rounded-[8px] px-[40px] py-[16px] font-[500] 2xl:w-[171px] hover:bg-[#FFE492] duration-700 hover:duration-700'>Get Started</button>
 
         </div>
       </div>
@@ -156,7 +156,7 @@ const Home = () => {
         </div>
 
         {/* Right */}
-        <Image src='/images/Element.png' width={681} height={381} alt='Element' className='2xl:w-[681px] 2xl:h-[381px] sm:w-[290.5px] sm:h-[162.58px] md:w-[513px] md:h-[287.11px] lg:w-[562px] lg:h-[314.53px] xl:w-[681px] xl:h-[381.13px]'/>
+        <Image src='/images/Element.png' width={681} height={381} alt='Element' className=' sm:w-[290.5px] sm:h-[162.58px] md:w-[513px] md:h-[287.11px] lg:w-[562px] lg:h-[314.53px] xl:w-[681px] xl:h-[381.13px] 2xl:w-[681px] 2xl:h-[381px]'/>
       </div>
 
       {/* Section 10 */}
@@ -174,7 +174,7 @@ const Home = () => {
       <div className='bg-[#043873] text-white 2xl:p-[100px] flex 2xl:flex-row justify-between items-center sm:px-[16px] sm:py-[80px] sm:flex-col sm:justify-center sm:gap-[50px] lg:flex-row lg:justify-between lg:px-[32px]'>
 
         {/* Left */}
-        <Image src='/images/Apps.png' width={582} height={470.8} alt='Apps' className='2xl:w-[582px] 2xl:h-[470.8px] sm:w-[286.5px] sm:h-[231.76px] md:w-[485px] md:h-[392.33px] lg:w-[582px] lg:h-[427.11px] xl:h-[470.8px]'/>
+        <Image src='/images/Apps.png' width={582} height={470.8} alt='Apps' className=' sm:w-[286.5px] sm:h-[231.76px] md:w-[485px] md:h-[392.33px] lg:w-[582px] lg:h-[427.11px] xl:h-[470.8px] 2xl:w-[582px] 2xl:h-[470.8px]'/>
 
         {/* Right */}
         <div className='flex flex-col lg:items-start sm:items-center gap-[20px] inter 2xl:w-[656px] xl:w-[694px]'>
