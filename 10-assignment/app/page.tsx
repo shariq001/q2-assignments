@@ -137,6 +137,99 @@ const Home = () => {
         
       </div>
 
+      {/* Section 4 */}
+      <div className='px-[250px] py-[50px] flex flex-col gap-[30px]'>
+        <h1 className='text-[28px] text-[#434343] font-semibold'>PakWheels Offerings</h1>
+
+        {/* 1 */}
+        <div className='flex justify-between items-center flex-wrap w-full mb-[10px]'>
+
+          {/* 1.1 */}
+          <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-300 hover:shadow-md hover:shadow-gray-400  hover:duration-300  rounded-[3px]'>
+            <Image src='/images/off-1.png' width={150} height={70} alt='Offer 1' />
+            <div>
+              <h3 className='text-blue-800 text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='text-[20px] font-semibold'>SELL IT FOR ME</h2>
+            </div>
+          </Link>
+
+          {/* 1.2 */}
+          <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-700 hover:shadow-md hover:shadow-gray-400 hover:duration-700 rounded-[3px]'>
+            <Image src='/images/off-2.png' width={150} height={70} alt='Offer 1' />
+            <div>
+              <h3 className='text-blue-800 text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='text-[20px] font-semibold'>AUCTION SHEET VERIFICATION</h2>
+            </div>
+          </Link>
+        </div>
+
+        {/* 2 */}
+        <div className='flex justify-between items-center flex-wrap w-full mb-[10px]'>
+
+          {/* 2.1 */}
+          <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-300 hover:shadow-md hover:shadow-gray-400  hover:duration-300  rounded-[3px]'>
+            <Image src='/images/off-3.png' width={150} height={70} alt='Offer 1' />
+            <div>
+              <h3 className='text-blue-800 text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='text-[20px] font-semibold'>CAR INSPECTION</h2>
+            </div>
+          </Link>
+
+          {/* 2.2 */}
+          <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-700 hover:shadow-md hover:shadow-gray-400 hover:duration-700 rounded-[3px]'>
+            <Image src='/images/off-4.png' width={150} height={70} alt='Offer 1' />
+            <div>
+              <h3 className='text-blue-800 text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='text-[20px] font-semibold'>PARTNER WORKSHOP</h2>
+            </div>
+          </Link>
+        </div>
+
+        {/* 3 */}
+        <div className='flex justify-between items-center flex-wrap w-full mb-[10px]'>
+
+          {/* 3.1 */}
+          <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-300 hover:shadow-md hover:shadow-gray-400  hover:duration-300  rounded-[3px]'>
+            <Image src='/images/off-5.png' width={150} height={70} alt='Offer 1' />
+            <div>
+              <h3 className='text-blue-800 text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='text-[20px] font-semibold'>CAR INSURANCE</h2>
+            </div>
+          </Link>
+
+          {/* 3.2 */}
+          <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-700 hover:shadow-md hover:shadow-gray-400 hover:duration-700 rounded-[3px]'>
+            <Image src='/images/off-6.png' width={150} height={70} alt='Offer 1' />
+            <div>
+              <h3 className='text-blue-800 text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='text-[20px] font-semibold'>CAR FINANCE</h2>
+            </div>
+          </Link>
+        </div>
+
+        {/* 4 */}
+        <div className='flex justify-between items-center flex-wrap w-full mb-[10px]'>
+
+          {/* 4.1 */}
+          <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-300 hover:shadow-md hover:shadow-gray-400  hover:duration-300  rounded-[3px]'>
+            <Image src='/images/off-7.png' width={150} height={70} alt='Offer 1' />
+            <div>
+              <h3 className='text-blue-800 text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='text-[20px] font-semibold'>CAR REGISTRATION</h2>
+            </div>
+          </Link>
+
+          {/* 4.2 */}
+          <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-700 hover:shadow-md hover:shadow-gray-400 hover:duration-700 rounded-[3px]'>
+            <Image src='/images/off-8.png' width={150} height={70} alt='Offer 1' />
+            <div>
+              <h3 className='text-blue-800 text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='text-[20px] font-semibold'>OWNERSHIP TRANSFER</h2>
+            </div>
+          </Link>
+        </div>
+      </div>
+
 
 
 
