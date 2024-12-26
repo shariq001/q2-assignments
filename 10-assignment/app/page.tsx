@@ -230,6 +230,116 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Section 5 */}
+      <div className='px-[250px] py-[50px]  text-[#434343] bg-[#F2F3F3] flex flex-col items-center'>
+        <div className='flex justify-between items-center w-full'>
+          <h1 className='text-[28px] text-[#434343] font-semibold'>Managed by PakWheels</h1>
+          <Link href='' className='text-blue-700 hover:underline'>View all managed by PakWheels cars</Link>
+        </div>
+
+        <div className='flex justify-center gap-[20px] items-center w-full mt-[20px]'>
+          <button type='button' className='bg-gray-500 rounded-full p-[15px] hover:bg-blue-600 duration-300 text-white hover:text-white'><FontAwesomeIcon icon={faAngleLeft} className='size-[20px] ' /></button>
+          <div className='flex justify-between items-center w-full'>
+
+            {/* 1 */}
+            <div>
+              <Image src='/images/car-5.webp' width={300} height={200} alt='Managed Car 1' className='xl:w-[200px] xl:h-[200px]'/>
+              <div className='px-[5px] py-[10px] bg-white border-[1px] border-gray-300 hover:shadow-sm hover:shadow-gray-400 duration-700 hover:duration-700'>
+                <h3 className='text-[18px] text-blue-700 font-semibold'>Suzuki Cultus 2017</h3>
+                <p className='text-green-500'>PKR 2,425,000</p>
+                <p className='text-[16px] text-gray-500'>Sargodha</p>
+              </div>
+            </div>
+
+            {/* 2 */}
+            <div>
+              <Image src='/images/car-6.webp' width={300} height={200} alt='Managed Car 2' className='xl:w-[200px] xl:h-[200px]'/>
+              <div className='px-[5px] py-[10px] bg-white border-[1px] border-gray-300 hover:shadow-sm hover:shadow-gray-400 duration-700 hover:duration-700'>
+                <h3 className='text-[18px] text-blue-700 font-semibold'>Suzuki Cultus 2017</h3>
+                <p className='text-green-500'>PKR 2,425,000</p>
+                <p className='text-[16px] text-gray-500'>Sargodha</p>
+              </div>
+            </div>
+
+            {/* 3 */}
+            <div>
+              <Image src='/images/car-7.webp' width={300} height={200} alt='Managed Car 3' className='xl:w-[200px] xl:h-[200px]'/>
+              <div className='px-[5px] py-[10px] bg-white border-[1px] border-gray-300 hover:shadow-sm hover:shadow-gray-400 duration-700 hover:duration-700'>
+                <h3 className='text-[18px] text-blue-700 font-semibold'>Suzuki Cultus 2017</h3>
+                <p className='text-green-500'>PKR 2,425,000</p>
+                <p className='text-[16px] text-gray-500'>Sargodha</p>
+              </div>
+            </div>
+
+            {/* 4 */}
+            <div>
+              <Image src='/images/car-8.webp' width={300} height={200} alt='Managed Car 4' className='xl:w-[200px] xl:h-[200px]'/>
+              <div className='px-[5px] py-[10px] bg-white border-[1px] border-gray-300 hover:shadow-sm hover:shadow-gray-400 duration-700 hover:duration-700'>
+                <h3 className='text-[18px] text-blue-700 font-semibold'>Suzuki Cultus 2017</h3>
+                <p className='text-green-500'>PKR 2,425,000</p>
+                <p className='text-[16px] text-gray-500'>Sargodha</p>
+              </div>
+            </div>
+          </div>
+          <button type='button' className='bg-gray-500 rounded-full p-[15px] hover:bg-blue-600 duration-300 text-white hover:text-white'><FontAwesomeIcon icon={faAngleRight} className='size-[20px] ' /></button>
+        </div>
+      </div>
+
+      {/* Section 6 */}
+      <div className='px-[250px] py-[50px] text-[#434343] flex flex-col items-center'>
+        <div className='flex justify-between items-center w-full'>
+          <h1 className='text-[28px] text-[#434343] font-semibold'>Featured Used Cars for Sale</h1>
+          <Link href='' className='text-blue-700 hover:underline'>View All Featured Used Car</Link>
+        </div>
+
+        <div className='flex justify-center gap-[20px] items-center w-full mt-[20px]'>
+          <button type='button' className='bg-gray-500 rounded-full p-[15px] hover:bg-blue-600 duration-300 text-white hover:text-white'><FontAwesomeIcon icon={faAngleLeft} className='size-[20px] ' /></button>
+          <div className='flex justify-between items-center w-full'>
+
+            {/* 1 */}
+            <div>
+              <Image src='/images/car-1.webp' width={300} height={200} alt='Featured Car 1' className='xl:w-[200px] xl:h-[200px]'/>
+              <div className='px-[5px] py-[10px] bg-white border-[1px] border-gray-300 hover:shadow-sm hover:shadow-gray-400 duration-700 hover:duration-700'>
+                <h3 className='text-[18px] text-blue-700 font-semibold'>Suzuki Cultus 2017</h3>
+                <p className='text-green-500'>PKR 2,425,000</p>
+                <p className='text-[16px] text-gray-500'>Sargodha</p>
+              </div>
+            </div>
+
+            {/* 2 */}
+            <div>
+              <Image src='/images/car-2.webp' width={300} height={200} alt='Featured Car 2' className='xl:w-[200px] xl:h-[200px]'/>
+              <div className='px-[5px] py-[10px] bg-white border-[1px] border-gray-300 hover:shadow-sm hover:shadow-gray-400 duration-700 hover:duration-700'>
+                <h3 className='text-[18px] text-blue-700 font-semibold'>Suzuki Cultus 2017</h3>
+                <p className='text-green-500'>PKR 2,425,000</p>
+                <p className='text-[16px] text-gray-500'>Sargodha</p>
+              </div>
+            </div>
+
+            {/* 3 */}
+            <div>
+              <Image src='/images/car-3.webp' width={300} height={200} alt='Featured Car 3' className='xl:w-[200px] xl:h-[200px]'/>
+              <div className='px-[5px] py-[10px] bg-white border-[1px] border-gray-300 hover:shadow-sm hover:shadow-gray-400 duration-700 hover:duration-700'>
+                <h3 className='text-[18px] text-blue-700 font-semibold'>Suzuki Cultus 2017</h3>
+                <p className='text-green-500'>PKR 2,425,000</p>
+                <p className='text-[16px] text-gray-500'>Sargodha</p>
+              </div>
+            </div>
+
+            {/* 4 */}
+            <div>
+              <Image src='/images/car-4.webp' width={300} height={200} alt='Featured Car 4' className='xl:w-[200px] xl:h-[200px]'/>
+              <div className='px-[5px] py-[10px] bg-white border-[1px] border-gray-300 hover:shadow-sm hover:shadow-gray-400 duration-700 hover:duration-700'>
+                <h3 className='text-[18px] text-blue-700 font-semibold'>Suzuki Cultus 2017</h3>
+                <p className='text-green-500'>PKR 2,425,000</p>
+                <p className='text-[16px] text-gray-500'>Sargodha</p>
+              </div>
+            </div>
+          </div>
+          <button type='button' className='bg-gray-500 rounded-full p-[15px] hover:bg-blue-600 duration-300 text-white hover:text-white'><FontAwesomeIcon icon={faAngleRight} className='size-[20px] ' /></button>
+        </div>
+      </div>
+
 
 
 
