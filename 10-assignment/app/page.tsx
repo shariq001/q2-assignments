@@ -72,7 +72,7 @@ const Home = () => {
           <button type='button'>Budget</button>
           <button type='button'>Body Type</button>
         </nav>
-        <Carousel>
+        <Carousel opts={{align: "start",loop: true,}}>
           <CarouselContent className='h-[280px] '>
             <CarouselItem>
               <div className='flex justify-center gap-[15px] items-center flex-wrap'>
@@ -453,8 +453,8 @@ const Home = () => {
         </div>
 
         <div>
-        <Carousel>
-          <CarouselContent className='transition-transform'>
+        <Carousel opts={{align: "start",loop: true,}}>
+          <CarouselContent>
             <CarouselItem>...</CarouselItem>
             <CarouselItem>...</CarouselItem>
             <CarouselItem>...</CarouselItem>
