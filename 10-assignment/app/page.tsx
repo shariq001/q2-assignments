@@ -1131,6 +1131,285 @@ const Home = () => {
         
       </div>
 
+      <div className='px-[250px] py-[50px] bg-[#F2F3F3] '>
+        <h1 className='text-[28px] text-[#434343] font-semibold mb-[20px]'>New Cars by Make</h1>
+        <div className='flex justify-between items-center'>
+
+          {/* 1 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/suzuki.png' width={75} height={50} alt='Suzuki' />
+            </div>
+            <h3 >Suzuki</h3>
+          </Link>
+
+          {/* 2 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700'>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/toyota.png' width={80} height={50} alt='Toyota' />
+            </div>
+            <h3>Toyota</h3>
+          </Link>
+
+          {/* 3 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700'>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/honda.png' width={80} height={50} alt='Honda' />
+            </div>
+            <h3>Honda</h3>
+          </Link>
+
+          {/* 4 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/kia.png' width={65} height={50} alt='KIA' />
+            </div>
+            <h3>KIA</h3>
+          </Link>
+
+          {/* 5 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/hyundai.png' width={65} height={50} alt='Hyundai' />
+            </div>
+            <h3>Hyundai</h3>
+          </Link>
+
+          {/* 6 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/mg.png' width={65} height={50} alt='MG' />
+            </div>
+            <h3>MG</h3>
+          </Link>
+        </div>
+
+        <div className='flex justify-between items-center my-[30px]'>
+
+          {/* 1 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/changan.jpg' width={80} height={10} alt='Changan' className='rounded-full'/>
+            </div>
+            <h3>Changan</h3>
+          </Link>
+
+          {/* 2 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/byd.png' width={75} height={50} alt='BYD' className='rounded-full'/>
+            </div>
+            <h3>BYD</h3>
+          </Link>
+
+          {/* 3 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700'>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/bmw.png' width={80} height={50} alt='BMW' />
+            </div>
+            <h3>BMW</h3>
+          </Link>
+
+          {/* 4 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/audi.png' width={65} height={50} alt='Audi' />
+            </div>
+            <h3>Audi</h3>
+          </Link>
+
+          {/* 5 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/proton.png' width={85} height={50} alt='Proton' />
+            </div>
+            <h3>Proton</h3>
+          </Link>
+
+          {/* 6 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/united.png' width={65} height={50} alt='United' />
+            </div>
+            <h3>United</h3>
+          </Link>
+        </div>
+
+        <div className='flex justify-between items-center my-[30px]'>
+
+          {/* 1 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/porsche.png' width={70} height={10} alt='Porsche' />
+            </div>
+            <h3>Porsche</h3>
+          </Link>
+
+          {/* 2 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/mercedes.png' width={75} height={50} alt='Mercedes Benz' className='rounded-full'/>
+            </div>
+            <h3>Mercedes Benz</h3>
+          </Link>
+
+          {/* 3 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700'>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/prince.png' width={80} height={50} alt='Prince' />
+            </div>
+            <h3>Prince</h3>
+          </Link>
+
+          {/* 4 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/dfsk.png' width={65} height={50} alt='DFSK' />
+            </div>
+            <h3>DFSK</h3>
+          </Link>
+
+          {/* 5 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/isuzu.png' width={85} height={50} alt='Isuzu' />
+            </div>
+            <h3>Isuzu</h3>
+          </Link>
+
+          {/* 6 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/faw.png' width={65} height={50} alt='FAW' />
+            </div>
+            <h3>FAW</h3>
+          </Link>
+        </div>
+
+        <div className='flex justify-between items-center my-[30px]'>
+
+          {/* 1 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/haval.png' width={70} height={10} alt='Haval' />
+            </div>
+            <h3>Haval</h3>
+          </Link>
+
+          {/* 2 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/baic.png' width={75} height={50} alt='BAIC' className='rounded-full'/>
+            </div>
+            <h3>BAIC</h3>
+          </Link>
+
+          {/* 3 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700'>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/ora.jpg' width={80} height={50} alt='ORA' className='rounded-full'/>
+            </div>
+            <h3>ORA</h3>
+          </Link>
+
+          {/* 4 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/peugeot.png' width={65} height={50} alt='Peugeot' />
+            </div>
+            <h3>Peugeot</h3>
+          </Link>
+
+          {/* 5 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/jw-forland.png' width={85} height={50} alt='JW Forland' />
+            </div>
+            <h3>JW Forland</h3>
+          </Link>
+
+          {/* 6 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/tank.jpeg' width={65} height={50} alt='Tank' className='rounded-full'/>
+            </div>
+            <h3>Tank</h3>
+          </Link>
+        </div>
+
+        <div className='flex justify-between items-center my-[30px]'>
+
+          {/* 1 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/chery.png' width={70} height={10} alt='Chery' />
+            </div>
+            <h3>Chery</h3>
+          </Link>
+
+          {/* 2 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/jmc.png' width={75} height={50} alt='JMC' className='rounded-full'/>
+            </div>
+            <h3>JMC</h3>
+          </Link>
+
+          {/* 3 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700'>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/daehan.png' width={80} height={50} alt='Daehan' className='rounded-full'/>
+            </div>
+            <h3>Daehan</h3>
+          </Link>
+
+          {/* 4 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/deepal.png' width={65} height={50} alt='Deepal' />
+            </div>
+            <h3>Deepal</h3>
+          </Link>
+
+          {/* 5 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/tesla.png' width={85} height={50} alt='Tesla' />
+            </div>
+            <h3>Tesla</h3>
+          </Link>
+
+          {/* 6 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/GUGO.jpg' width={65} height={50} alt='GUGO' className='rounded-full'/>
+            </div>
+            <h3>GUGO</h3>
+          </Link>
+        </div>
+
+        <div className='flex justify-start gap-[110px] items-center my-[30px]'>
+
+          {/* 1 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/seres.png' width={70} height={10} alt='Seres' />
+            </div>
+            <h3>Seres</h3>
+          </Link>
+
+          {/* 2 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
+              <Image src='/images/honri.png' width={75} height={50} alt='Honri' className='rounded-full'/>
+            </div>
+            <h3>Honri</h3>
+          </Link>
+
+          
+        </div>
+      </div>
+
 
 
 
