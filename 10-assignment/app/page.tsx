@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown, faAngleRight, faCheck, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDown, faAngleRight, faCheck, faMagnifyingGlass, faStar } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 import Image from 'next/image'
 import {
@@ -810,7 +810,7 @@ const Home = () => {
       </div>
 
       {/* Section 7 */}
-      <div className='px-[250px] py-[50px] text-[#434343] flex flex-col'>
+      <div className='px-[250px] py-[50px] bg-[#F2F3F3] text-[#434343] flex flex-col'>
         <div className='flex justify-between items-center w-full mb-[20px]'>
           <h1 className='text-[28px] text-[#434343] font-semibold'>Featured New Cars</h1>
           <Link href='' className='text-blue-700 hover:underline'>View All New Car</Link>
@@ -821,48 +821,76 @@ const Home = () => {
           <button type='button'>Newly Launched</button>
         </nav>
 
-        <Carousel opts={{align: "start",loop: true,}}>
+        <Carousel opts={{align: "start",loop: true,}} className='scroll-smooth'>
           <CarouselContent className='h-[280px] w-[1000px]'>
             <CarouselItem>
               <div className='flex justify-center items-center gap-[15px]'>
 
                 {/* 1 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Toyota Fortuner 2021</Link>
-                    <p className='text-green-400'>Call</p>
-                    <p className='text-gray-400'>Lahore</p>
+                <div className='bg-white flex flex-col items-center justify-center p-[15px] w-[250px] h-[250px] duration-300 hover:shadow-md hover:shadow-gray-300 hover:duration-300'>
+                  <Image src='/images/toyota-corolla.jpg' width={180} height={150} alt='Toyota Corolla' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Toyota Corolla</Link>
+                  <p className='text-green-400'>PKR 59.7 - 75.5 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>628 Reviews</p>
                   </div>
                 </div>
 
                 {/* 2 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda Civic 2014</Link>
-                    <p className='text-green-400'>PKR 3,650,000</p>
-                    <p className='text-gray-400'>Rawalpindi</p>
+                <div className='bg-white flex flex-col items-center justify-center p-[15px] w-[250px] h-[250px] duration-300 hover:shadow-md hover:shadow-gray-300 hover:duration-300'>
+                  <Image src='/images/suzuki-alto.png' width={180} height={150} alt='Suzuki Alto' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki Alto</Link>
+                  <p className='text-green-400'>PKR 23.3 - 30.5 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>203 Reviews</p>
                   </div>
                 </div>
 
                 {/* 3 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Toyota Aqua 2014</Link>
-                    <p className='text-green-400'>PKR 4,150,000</p>
-                    <p className='text-gray-400'>Islamabad</p>
+                <div className='bg-white flex flex-col items-center justify-center p-[15px] w-[250px] h-[250px] duration-300 hover:shadow-md hover:shadow-gray-300 hover:duration-300'>
+                  <Image src='/images/honda-city.jpg' width={180} height={150} alt='Honda City' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda City</Link>
+                  <p className='text-green-400'>PKR 46.5 - 58.5 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>458 Reviews</p>
                   </div>
                 </div>
 
                 {/* 4 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Toyota Corolla 2019</Link>
-                    <p className='text-green-400'>PKR 5,000,000</p>
-                    <p className='text-gray-400'>Islamabad</p>
+                <div className='bg-white flex flex-col items-center justify-center p-[15px] w-[250px] h-[250px] duration-300 hover:shadow-md hover:shadow-gray-300 hover:duration-300'>
+                  <Image src='/images/honda-civic.jpg' width={180} height={150} alt='Honda Civic' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda Civic</Link>
+                  <p className='text-green-400'>PKR 46.5 - 58.5 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>363 Reviews</p>
                   </div>
                 </div>
 
@@ -874,42 +902,70 @@ const Home = () => {
               <div className='flex justify-center items-center gap-[15px]'>
 
                 {/* 1 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda Civic 2005</Link>
-                    <p className='text-green-400'>PKR 1,475,000</p>
-                    <p className='text-gray-400'>Hyderabad</p>
+                <div className='bg-white flex flex-col items-center justify-center p-[15px] w-[250px] h-[250px] duration-300 hover:shadow-md hover:shadow-gray-300 hover:duration-300'>
+                  <Image src='/images/suzuki-cultus.png' width={180} height={150} alt='Suzuki Cultus' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki Cultus</Link>
+                  <p className='text-green-400'>PKR 38.6 - 45.5 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>269 Reviews</p>
                   </div>
                 </div>
 
                 {/* 2 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda Civic 1999</Link>
-                    <p className='text-green-400'>PKR 1,075,000</p>
-                    <p className='text-gray-400'>Hyderabad</p>
+                <div className='bg-white flex flex-col items-center justify-center p-[15px] w-[250px] h-[250px] duration-300 hover:shadow-md hover:shadow-gray-300 hover:duration-300'>
+                  <Image src='/images/suzuki-wagonr.jpg' width={180} height={150} alt='Suzuki Wagon R' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki Wagon R</Link>
+                  <p className='text-green-400'>PKR 32.1 - 37.4 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>153 Reviews</p>
                   </div>
                 </div>
 
                 {/* 3 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki Wagon R 2021</Link>
-                    <p className='text-green-400'>PKR 2,925,000</p>
-                    <p className='text-gray-400'>Lahore</p>
+                <div className='bg-white flex flex-col items-center justify-center p-[15px] w-[250px] h-[250px] duration-300 hover:shadow-md hover:shadow-gray-300 hover:duration-300'>
+                  <Image src='/images/toyota-yaris.png' width={180} height={150} alt='Toyota Yaris' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Toyota Yaris</Link>
+                  <p className='text-green-400'>PKR 44.8 - 63.2 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>142 Reviews</p>
                   </div>
                 </div>
 
                 {/* 4 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>MG HS 2022</Link>
-                    <p className='text-green-400'>PKR 6,775,000</p>
-                    <p className='text-gray-400'>Lahore</p>
+                <div className='bg-white flex flex-col items-center justify-center p-[15px] w-[250px] h-[250px] duration-300 hover:shadow-md hover:shadow-gray-300 hover:duration-300'>
+                  <Image src='/images/suzuki-swift.jpg' width={180} height={150} alt='Suzuki Swift' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki Swift</Link>
+                  <p className='text-green-400'>PKR 43.4 - 47.2 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>194 Reviews</p>
                   </div>
                 </div>
 
@@ -921,42 +977,70 @@ const Home = () => {
               <div className='flex justify-center items-center gap-[15px]'>
 
                 {/* 1 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[15px] font-semibold'>Toyota Corolla Cross 2024</Link>
-                    <p className='text-green-400'>PKR 9,750,000</p>
-                    <p className='text-gray-400'>Faisalabad</p>
+                <div className='bg-white flex flex-col items-center justify-center p-[15px] w-[250px] h-[250px] duration-300 hover:shadow-md hover:shadow-gray-300 hover:duration-300'>
+                  <Image src='/images/toyota-fortuner.png' width={180} height={150} alt='Toyota Fortuner' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Toyota Fortuner</Link>
+                  <p className='text-green-400'>PKR 1.45 - 1.99 crore</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>44 Reviews</p>
                   </div>
                 </div>
 
                 {/* 2 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Toyota Corolla 2018</Link>
-                    <p className='text-green-400'>PKR 3,850,000</p>
-                    <p className='text-gray-400'>Karachi</p>
+                <div className='bg-white flex flex-col items-center justify-center p-[15px] w-[250px] h-[250px] duration-300 hover:shadow-md hover:shadow-gray-300 hover:duration-300'>
+                  <Image src='/images/kia-sportage.jpeg' width={150} height={130} alt='KIA Sportage' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>KIA Sportage</Link>
+                  <p className='text-green-400'>PKR 73.0 - 90.0 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>52 Reviews</p>
                   </div>
                 </div>
 
                 {/* 3 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Nissan Dayz 2021</Link>
-                    <p className='text-green-400'>PKR 4,015,000</p>
-                    <p className='text-gray-400'>Karachi</p>
+                <div className='bg-white flex flex-col items-center justify-center p-[15px] w-[250px] h-[250px] duration-300 hover:shadow-md hover:shadow-gray-300 hover:duration-300'>
+                  <Image src='/images/kia-picanto.png' width={180} height={130} alt='KIA Picanto' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>KIA Picanto</Link>
+                  <p className='text-green-400'>PKR 36.0 - 38.5 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>94 Reviews</p>
                   </div>
                 </div>
 
                 {/* 4 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki Cultus 2017</Link>
-                    <p className='text-green-400'>PKR 2,430,000</p>
-                    <p className='text-gray-400'>Mian Channu</p>
+                <div className='bg-white flex flex-col items-center justify-center p-[15px] w-[250px] h-[250px] duration-300 hover:shadow-md hover:shadow-gray-300 hover:duration-300'>
+                  <Image src='/images/toyota-landcruiser.png' width={180} height={130} alt='Toyota Land Cruiser' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Toyota Land Cruiser</Link>
+                  <p className='text-green-400'>PKR 12.0 crore</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>31 Reviews</p>
                   </div>
                 </div>
 
