@@ -1439,7 +1439,7 @@ const Home = () => {
                 <h3>KIA Sportage</h3>
               </div>
             </div>
-            <Link href='' className='border-[1px] border-blue-900 px-[50px] py-[10px]'>View Comparison</Link>
+            <button  className='border-[1px] border-blue-900 px-[50px] py-[10px]'>View Comparison</button>
           </Link>
 
           {/* Right */}
@@ -1637,6 +1637,237 @@ const Home = () => {
             </CarouselItem>
             
             
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
+      </div>
+
+      {/* Section 11 */}
+      <div className='px-[250px] py-[50px] '>
+        <h1 className='text-[28px] text-[#434343] font-semibold mb-[20px]'>New Bikes by Make</h1>
+        <div className='flex justify-between items-center'>
+
+          {/* 1 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/honda-bike.png' width={75} height={50} alt='Honda' />
+            </div>
+            <h3 >Honda</h3>
+          </Link>
+
+          {/* 2 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700'>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/Yamaha.png' width={80} height={50} alt='Yamaha' />
+            </div>
+            <h3>Yamaha</h3>
+          </Link>
+
+          {/* 3 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700'>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/suzuki-bike.png' width={80} height={50} alt='Suzuki' />
+            </div>
+            <h3>Suzuki</h3>
+          </Link>
+
+          {/* 4 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/unique.png' width={65} height={50} alt='Unique' />
+            </div>
+            <h3>Unique</h3>
+          </Link>
+
+          {/* 5 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/hi-speed.png' width={65} height={50} alt='Hi-Speed' />
+            </div>
+            <h3>Hi-Speed</h3>
+          </Link>
+
+          {/* 6 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/united-bike.png' width={65} height={50} alt='United' />
+            </div>
+            <h3>United</h3>
+          </Link>
+        </div>
+
+        <div className='flex justify-between items-center my-[30px]'>
+
+          {/* 1 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/road-prince.png' width={80} height={10} alt='Road Prince' className='rounded-full'/>
+            </div>
+            <h3>Road Prince</h3>
+          </Link>
+
+          {/* 2 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/bmw-bike.png' width={75} height={50} alt='BMW' className='rounded-full'/>
+            </div>
+            <h3>BMW</h3>
+          </Link>
+
+          {/* 3 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700'>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/benelli.png' width={80} height={50} alt='Benelli' />
+            </div>
+            <h3>Benelli</h3>
+          </Link>
+
+          {/* 4 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/bingo-electric.jpg' width={65} height={50} alt='Bingo Electric' className='rounded-full'/>
+            </div>
+            <h3>Bingo Electric</h3>
+          </Link>
+
+          {/* 5 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/evee.png' width={85} height={50} alt='Evee' />
+            </div>
+            <h3>Evee</h3>
+          </Link>
+
+          {/* 6 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/jolta.png' width={70} height={50} alt='Jolta Electric' />
+            </div>
+            <h3>Jolta Electric</h3>
+          </Link>
+        </div>
+
+        <div className='flex justify-between items-center my-[30px]'>
+
+          {/* 1 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/keeway.png' width={80} height={10} alt='KEEWAY' className='rounded-full'/>
+            </div>
+            <h3>KEEWAY</h3>
+          </Link>
+
+          {/* 2 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/kawasaki.png' width={75} height={50} alt='Kawasaki' className='rounded-full'/>
+            </div>
+            <h3>Kawasaki</h3>
+          </Link>
+
+          {/* 3 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700'>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/super-power.png' width={80} height={50} alt='Super Power' />
+            </div>
+            <h3>Super Power</h3>
+          </Link>
+
+          {/* 4 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/benlng.png' width={65} height={50} alt='Benling' className='rounded-full'/>
+            </div>
+            <h3>Benling</h3>
+          </Link>
+
+          {/* 5 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/superstar.png' width={85} height={50} alt='Super Star' />
+            </div>
+            <h3>Super Star</h3>
+          </Link>
+
+          {/* 6 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/vlektra.jpeg' width={80} height={40} alt='Vlektra' className='rounded-full'/>
+            </div>
+            <h3>Vlektra</h3>
+          </Link>
+        </div>
+
+        <div className='flex justify-between items-center my-[30px]'>
+
+          {/* 1 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/hero.png' width={70} height={10} alt='Hero' />
+            </div>
+            <h3>Hero</h3>
+          </Link>
+
+          {/* 2 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/crown.png' width={75} height={50} alt='Crown' className='rounded-full'/>
+            </div>
+            <h3>Crown</h3>
+          </Link>
+
+          {/* 3 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700'>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/metro.png' width={80} height={50} alt='Metro' className='rounded-full'/>
+            </div>
+            <h3>Metro</h3>
+          </Link>
+
+          {/* 4 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/lifan.png' width={65} height={50} alt='Lifan' />
+            </div>
+            <h3>Lifan</h3>
+          </Link>
+
+          {/* 5 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/ezbike.png' width={85} height={50} alt='Ezbike' className='rounded-full'/>
+            </div>
+            <h3>Ezbike</h3>
+          </Link>
+
+          {/* 6 */}
+          <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
+            <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center border-[1px] border-gray-200'>
+              <Image src='/images/zxmco.png' width={65} height={50} alt='ZXMCO' className='rounded-full'/>
+            </div>
+            <h3>ZXMCO</h3>
+          </Link>
+        </div>
+
+        
+
+        
+      </div>
+
+      {/* Section 12 */}
+      <div className='px-[250px] py-[50px] flex flex-col bg-[#f2f2f2]'>
+
+        <div className='flex justify-between items-center w-full mb-[40px]'>
+          <h1 className='text-[28px] text-[#434343] font-semibold'>Popular New Bkes</h1>
+          <Link href='' className='text-blue-700 hover:underline'>View All New Bikes</Link>
+        </div>
+
+        <Carousel className='h-[300px]'>
+          <CarouselContent>
+            <CarouselItem>...</CarouselItem>
+            <CarouselItem>...</CarouselItem>
+            <CarouselItem>...</CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
           <CarouselNext />
