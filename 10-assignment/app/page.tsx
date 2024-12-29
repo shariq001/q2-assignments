@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/carousel"
 
 
+
 const Home = () => {
   return (
     <div className='xl:min-w-[1440px]'>
@@ -1561,82 +1562,78 @@ const Home = () => {
             <CarouselItem>
             <div className='flex justify-center gap-[15px] items-center flex-wrap'>
 
-              {/* 1 */}
-              <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
-                <Image src='/images/660CC.svg' width={80} height={50} alt='660CC cars' className='mx-auto'/>
-                <h3 className='text-[18px] mt-[5px] mx-auto'>660cc cars</h3>
-              </Link>
+                {/* 1 */}
+                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                  <Image src='/images/air-freshner.png' width={70} height={50} alt='Air Freshener' className='mx-auto'/>
+                  <h3 className='text-[18px] mt-[5px] mx-auto'>Air Freshener</h3>
+                </Link>
 
-              {/* 2 */}
-              <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
-                <Image src='/images/low-priced.svg' width={80} height={50} alt='Low Priced cars' />
-                <h3 className='text-[18px] mt-[5px]'>Low Priced Cars</h3>
-              </Link>
+                {/* 2 */}
+                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[12px]'>
+                  <Image src='/images/floor-mats.png' width={75} height={50} alt='Floor Mats' />
+                  <h3 className='text-[18px] mt-[5px]'>Floor Mats</h3>
+                </Link>
 
-              {/* 3 */}
-              <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[17px]'>
-                <Image src='/images/low-mileage.svg' width={50} height={50} alt='Low Mileage cars' />
-                <h3 className='text-[18px] mt-[5px]'>Low Mileage Cars</h3>
-              </Link>
+                {/* 3 */}
+                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+                  <Image src='/images/car-shades.png' width={80} height={50} alt='Car Shades' />
+                  <h3 className='text-[18px] mt-[5px]'>Car Shades</h3>
+                </Link>
 
-              {/* 4 */}
-              <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
-                <Image src='/images/jeep.svg' width={80} height={50} alt='Jeep' />
-                <h3 className='text-[18px] mt-[5px]'>Jeep</h3>
-              </Link>
+                {/* 4 */}
+                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[5px]'>
+                  <Image src='/images/car-cover.png' width={80} height={50} alt='Car Cover' />
+                  <h3 className='text-[18px] mt-[5px]'>Car Cover</h3>
+                </Link>
 
-              {/* 5 */}
-              <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[17px]'>
-                <Image src='/images/hybrid.svg' width={80} height={50} alt='Hybrid cars' />
-                <h3 className='text-[18px] mt-[5px]'>Hybrid Cars</h3>
-              </Link>
+                {/* 5 */}
+                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+                  <Image src='/images/headlights.png' width={70} height={50} alt='Headlights' />
+                  <h3 className='text-[18px] mt-[5px]'>Headlights</h3>
+                </Link>
 
-              {/* 6 */}
-              <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
-                <Image src='/images/cheap.svg' width={80} height={50} alt='Cheap cars' />
-                <h3 className='text-[18px] mt-[5px]'>Cheap Cars</h3>
-              </Link>
+                {/* 6 */}
+                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                  <Image src='/images/car-stickers.png' width={70} height={50} alt='Car Stickers' />
+                  <h3 className='text-[18px] mt-[5px]'>Car Stickers</h3>
+                </Link>
 
-              {/* 7 */}
-              <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
-                <Image src='/images/4-seater.svg' width={80} height={50} alt='4 Seater cars' />
-                <h3 className='text-[18px] mt-[5px]'>4 Seater</h3>
-              </Link>
+                {/* 7 */}
+                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+                  <Image src='/images/car-bumpers.png' width={80} height={50} alt='Car Bumpers' />
+                  <h3 className='text-[18px] mt-[5px]'>Car Bumpers</h3>
+                </Link>
 
-              {/* 8 */}
-              <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
-                <Image src='/images/diesel.svg' width={80} height={50} alt='Diesel cars' />
-                <h3 className='text-[18px] mt-[5px]'>Diesel cars</h3>
-              </Link>
+                {/* 8 */}
+                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                  <Image src='/images/car-fender.png' width={75} height={50} alt='Car Fender' />
+                  <h3 className='text-[18px] mt-[5px]'>Car Fender</h3>
+                </Link>
 
-              {/* 9 */}
-              <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[30px]'>
-                <Image src='/images/4-door.svg' width={80} height={50} alt='4-door cars' />
-                <h3 className='text-[18px] mt-[5px]'>4 Door</h3>
-              </Link>
+                {/* 9 */}
+                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[13px]'>
+                  <Image src='/images/air-filters.png' width={55} height={50} alt='Air Filter' />
+                  <h3 className='text-[18px] mt-[5px]'>Air Filter</h3>
+                </Link>
 
-              {/* 10 */}
-              <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
-                <Image src='/images/commercial.svg' width={80} height={50} alt='Commercial cars' />
-                <h3 className='text-[18px] mt-[5px]'>Commercial cars</h3>
-              </Link>
+                {/* 10 */}
+                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                  <Image src='/images/coolants.png' width={85} height={50} alt='Coolants' />
+                  <h3 className='text-[18px] mt-[5px]'>Coolants</h3>
+                </Link>
 
-              {/* 11 */}
-              <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
-                <Image src='/images/electric.svg' width={80} height={50} alt='Electric cars' />
-                <h3 className='text-[18px] mt-[5px]'>Electric cars</h3>
-              </Link>
+                {/* 11 */}
+                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                  <Image src='/images/hose-pipe.png' width={70} height={50} alt='Hose Pipe' />
+                  <h3 className='text-[18px] mt-[5px]'>Hose Pipe</h3>
+                </Link>
 
-              {/* 12 */}
-              <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
-                <Image src='/images/8-seater.svg' width={80} height={50} alt='8 Seater cars' />
-                <h3 className='text-[18px] mt-[5px]'>8 Seater cars</h3>
-              </Link>
+                
 
 
 
 
-            </div>
+              </div>
             </CarouselItem>
             
             
