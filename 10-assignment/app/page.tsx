@@ -460,42 +460,42 @@ const Home = () => {
               <div className='flex justify-center items-center gap-[15px]'>
 
                 {/* 1 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Porsche Taycan 2022</Link>
-                    <p className='text-green-400'>PKR 47,000,000</p>
-                    <p className='text-gray-400'>Lahore</p>
+                <div className='w-[230px] h-[300px]'>
+                  <Image src='/images/honda-brv-2018.webp' width={230} height={150} alt='Managed 1' />
+                  <div className='w-[230px] h-[100px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
+                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda BR-V 2018</Link>
+                    <p className='text-green-400'>PKR 3,900,000</p>
+                    <p className='text-gray-400'>Karachi</p>
                   </div>
                 </div>
 
                 {/* 2 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda Civic 2018</Link>
-                    <p className='text-green-400'>PKR 4,900,000</p>
+                <div className='w-[230px] h-[300px]'>
+                  <Image src='/images/mercedes-benz-2009.webp' width={230} height={150} alt='Managed 1' />
+                  <div className='w-[230px] h-[100px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
+                    <Link href='' className='text-blue-900 text-[16px] font-semibold'>Mercedes Benz E Class 2009</Link>
+                    <p className='text-green-400'>PKR 7,000,000</p>
                     <p className='text-gray-400'>Lahore</p>
                   </div>
                 </div>
 
                 {/* 3 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Audi e-tron GT 2022</Link>
-                    <p className='text-green-400'>PKR 65,000,000</p>
-                    <p className='text-gray-400'>Faisalabad</p>
+                <div className='w-[230px] h-[300px]'>
+                  <Image src='/images/honda-civic-2009.webp' width={230} height={150} alt='Managed 1' />
+                  <div className='w-[230px] h-[100px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
+                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda Civic 2009</Link>
+                    <p className='text-green-400'>PKR 2,650,000</p>
+                    <p className='text-gray-400'>Lahore</p>
                   </div>
                 </div>
 
                 {/* 4 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>KIA Stonic 2021</Link>
-                    <p className='text-green-400'>PKR 4,785,000</p>
-                    <p className='text-gray-400'>Faisalabad</p>
+                <div className='w-[230px] h-[300px]'>
+                  <Image src='/images/mitsubishi-wagon-2022.webp' width={230} height={150} alt='Managed 1' />
+                  <div className='w-[230px] h-[100px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
+                    <Link href='' className='text-blue-900 text-[16px] font-semibold'>Mitsubishi Ek Wagon 2022</Link>
+                    <p className='text-green-400'>PKR 3,550,000</p>
+                    <p className='text-gray-400'>Karachi</p>
                   </div>
                 </div>
 
@@ -504,98 +504,98 @@ const Home = () => {
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className='flex justify-center items-center gap-[15px]'>
+            <div className='flex justify-center items-center gap-[15px]'>
 
-                {/* 1 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Toyota Corolla 2022</Link>
-                    <p className='text-green-400'>PKR 5,900,000</p>
-                    <p className='text-gray-400'>Faisalabad</p>
-                  </div>
+              {/* 1 */}
+              <div className='w-[230px] h-[300px]'>
+                <Image src='/images/diahatsu-mira-2021.webp' width={230} height={150} alt='Managed 5' />
+                <div className='w-[230px] h-[100px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Daihatsu Mira 2021</Link>
+                  <p className='text-green-400'>PKR 3,700,000</p>
+                  <p className='text-gray-400'>Lahore</p>
                 </div>
-
-                {/* 2 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[16px] font-semibold'>Changan Karvaan 2020</Link>
-                    <p className='text-green-400'>PKR 2,100,000</p>
-                    <p className='text-gray-400'>Lahore</p>
-                  </div>
-                </div>
-
-                {/* 3 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki Alto 2005</Link>
-                    <p className='text-green-400'>PKR 1,100,000</p>
-                    <p className='text-gray-400'>Lahore</p>
-                  </div>
-                </div>
-
-                {/* 4 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[13px] font-semibold'>Mercedes Benz CLA Class 2016</Link>
-                    <p className='text-green-400'>PKR 13,500,000</p>
-                    <p className='text-gray-400'>Islamabad</p>
-                  </div>
-                </div>
-
-
-
               </div>
+
+              {/* 2 */}
+              <div className='w-[230px] h-[300px]'>
+                <Image src='/images/toyota-prius-2011.webp' width={230} height={150} alt='Managed 6' />
+                <div className='w-[230px] h-[100px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
+                  <Link href='' className='text-blue-900 text-[16px] font-semibold'>Mercedes Benz E Class 2009</Link>
+                  <p className='text-green-400'>PKR 4,000,000</p>
+                  <p className='text-gray-400'>Lahore</p>
+                </div>
+              </div>
+
+              {/* 3 */}
+              <div className='w-[230px] h-[300px]'>
+                <Image src='/images/suzuki-wagon-2015.webp' width={230} height={150} alt='Managed 7' />
+                <div className='w-[230px] h-[100px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki Wagon R 2015</Link>
+                  <p className='text-green-400'>PKR 2,800,000</p>
+                  <p className='text-gray-400'>Islamabad</p>
+                </div>
+              </div>
+
+              {/* 4 */}
+              <div className='w-[230px] h-[300px]'>
+                <Image src='/images/hyndai-elantra-2022.webp' width={230} height={150} alt='Managed 8' />
+                <div className='w-[230px] h-[100px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
+                  <Link href='' className='text-blue-900 text-[16px] font-semibold'>Hyundai Elantra 2022</Link>
+                  <p className='text-green-400'>PKR 5,900,000</p>
+                  <p className='text-gray-400'>Lahore</p>
+                </div>
+              </div>
+
+
+
+            </div>
             </CarouselItem>
             <CarouselItem>
-              <div className='flex justify-center items-center gap-[15px]'>
+            <div className='flex justify-center items-center gap-[15px]'>
 
-                {/* 1 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[14px] font-semibold'>Mercedes Benz E Class 2007</Link>
-                    <p className='text-green-400'>PKR 4,500,000</p>
-                    <p className='text-gray-400'>Faisalabad</p>
-                  </div>
+              {/* 1 */}
+              <div className='w-[230px] h-[300px]'>
+                <Image src='/images/honda-civic-2015.webp' width={230} height={150} alt='Managed 9' />
+                <div className='w-[230px] h-[100px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda Civic 2015</Link>
+                  <p className='text-green-400'>PKR 3,400,000</p>
+                  <p className='text-gray-400'>Lahore</p>
                 </div>
-
-                {/* 2 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[16px] font-semibold'>Mitsubishi EK X 2022</Link>
-                    <p className='text-green-400'>PKR 4,100,000</p>
-                    <p className='text-gray-400'>Rawalpindi</p>
-                  </div>
-                </div>
-
-                {/* 3 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>FAW V2 2017</Link>
-                    <p className='text-green-400'>PKR 1,450,000</p>
-                    <p className='text-gray-400'>Faisalabad</p>
-                  </div>
-                </div>
-
-                {/* 4 */}
-                <div>
-                  <Image src='' width={150} height={150} alt='Managed 1' />
-                  <div className='w-[200px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
-                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda Vezel 2016</Link>
-                    <p className='text-green-400'>PKR 6,250,000</p>
-                    <p className='text-gray-400'>Faisalabad</p>
-                  </div>
-                </div>
-
-
-
               </div>
+
+              {/* 2 */}
+              <div className='w-[230px] h-[300px]'>
+                <Image src='/images/honda-civic-2001.webp' width={230} height={150} alt='Managed 10' />
+                <div className='w-[230px] h-[100px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
+                  <Link href='' className='text-blue-900 text-[16px] font-semibold'>Mercedes Benz E Class 2009</Link>
+                  <p className='text-green-400'>PKR 1,300,000</p>
+                  <p className='text-gray-400'>Lahore</p>
+                </div>
+              </div>
+
+              {/* 3 */}
+              <div className='w-[230px] h-[300px]'>
+                <Image src='/images/honda-civic-2015-2.webp' width={230} height={150} alt='Managed 11' />
+                <div className='w-[230px] h-[100px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda Civic 2015</Link>
+                  <p className='text-green-400'>PKR 3,450,000</p>
+                  <p className='text-gray-400'>Lahore</p>
+                </div>
+              </div>
+
+              {/* 4 */}
+              <div className='w-[230px] h-[300px]'>
+                <Image src='/images/suzuki-cultus-2021.webp' width={230} height={150} alt='Managed 12' />
+                <div className='w-[230px] h-[100px] bg-white p-[10px] hover:shadow-sm hover:shadow-gray-400 duration-300 hover:duration-300'>
+                  <Link href='' className='text-blue-900 text-[16px] font-semibold'>Suzuki Cultus 2021</Link>
+                  <p className='text-green-400'>PKR 2,950,000</p>
+                  <p className='text-gray-400'>Lahore</p>
+                </div>
+              </div>
+
+
+
+            </div>
             </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
