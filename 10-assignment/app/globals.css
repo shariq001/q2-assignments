@@ -68,3 +68,11 @@
 body {
   scroll-behavior: smooth;
 }
+
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(2, 200px);
+  gap: 15px;
+}

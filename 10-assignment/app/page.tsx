@@ -2164,6 +2164,41 @@ const Home = () => {
         </Carousel>
       </div>
 
+      {/* Section 13 */}
+      <div className='flex flex-col gap-[30px] px-[250px] py-[50px]'>
+        <div className='flex justify-between items-center w-full'>
+          <h1 className='text-[28px] text-[#434343] font-semibold'>Browse Our Videos</h1>
+          <Link href='' className='text-blue-700 hover:underline'>View All Videos</Link>
+        </div>
+
+        <div id='grid-container'>
+          <div className='row-start-1 row-end-2 col-start-1 col-end-2  border-[1px] border-gray-200 hover:shadow-md hover:shadow-gray-300 duration-300 hover:duration-300 w-[500px] h-[425px]' >
+            <iframe width="500" height="390" src="https://www.youtube.com/embed/krCzyT_XUbY?si=6TrwNdmDjW__I5KK" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+            <p className='text-blue-800 font-semibold'>Hyundai Elantra Hybrid Review</p>
+          </div>
+
+          <div className='row-start-1 row-end-1 col-start-3 col-end-3  border-[1px] border-gray-200 hover:shadow-md hover:shadow-gray-300 duration-300 hover:duration-300 w-[250px] h-[210px]' >
+            <iframe width="250" height="180" src="https://www.youtube.com/embed/SBPWUDXiWt4?si=vaosWl4xDhcDHOka" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <p className='text-blue-800 font-semibold'>Looks Better? Toyota Yaris</p>
+          </div>
+
+          <div className='row-start-1 row-end-2 col-start-4 col-end-4  border-[1px] border-gray-200 hover:shadow-md hover:shadow-gray-300 duration-300 hover:duration-300 w-[250px] h-[210px]' >
+            <iframe width="250" height="180" src="https://www.youtube.com/embed/_D3a5dxyNyA?si=v0PisIzIxlufVGcV" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+            <p className='text-blue-800 font-semibold'>Which is Better?</p>
+          </div>
+
+          <div className='row-start-2 row-end-2 col-start-3 col-end-3  border-[1px] border-gray-200 hover:shadow-md hover:shadow-gray-300 duration-300 hover:duration-300 w-[250px] h-[210px]' >
+            <iframe width="250" height="180" src="https://www.youtube.com/embed/Ro5pwGhhsds?si=jJrpDZke_wISctSD" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+            <p className='text-blue-800 font-semibold'>Oshan X7 Facelift Review</p>
+          </div>
+
+          <div className='row-start-2 row-end-2 col-start-4 col-end-4  border-[1px] border-gray-200 hover:shadow-md hover:shadow-gray-300 duration-300 hover:duration-300 w-[250px] h-[210px]' >
+            <iframe width="250" height="180" src="https://www.youtube.com/embed/GhARr623508?si=f8pjc9cYa3V-E9ZM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+            <p className='text-blue-800 font-semibold'>Best Fuel Average</p>
+          </div>
+        </div>
+      </div>
+
 
 
 
