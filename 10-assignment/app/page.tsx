@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown, faAngleRight, faCheck, faMagnifyingGlass, faStar } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDown, faAngleRight, faCheck, faMagnifyingGlass, faMobile, faStar } from '@fortawesome/free-solid-svg-icons'
 import { faApple, faGooglePlay, faIntercom } from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -2273,6 +2273,21 @@ const Home = () => {
             </Link>
           </div>
         </div>
+
+        {/* 2 */}
+        <div className='flex justify-center gap-[15px] items-center'>
+          <Image src='/images/qr-code.svg' width={100} height={100} alt='QR Code' />
+          <p>Scan the QR <br />
+          to get the App</p>
+        </div>
+
+        {/* 3 */}
+        <FontAwesomeIcon icon={faMobile} className='size-[150px] text-red-900' />
+      </div>
+
+      {/* Section 16 */}
+      <div>
+        
       </div>
 
 
