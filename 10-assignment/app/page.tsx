@@ -2199,6 +2199,27 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Section 14 */}
+      <div className='flex flex-col gap-[20px] px-[250px] py-[50px] bg-[#f2f2f2] text-[#434343]'>
+        <div className='flex justify-between items-center w-[800px]'>
+          <h1 className='text-[28px] text-[#434343] font-semibold'>News, Reviews & Discussions</h1>
+          <Link href='' className='text-blue-700 hover:underline'>Read All Recent News</Link>
+        </div>
+        <nav className='flex justify-start gap-[40px] items-center text-[#434343] font-semibold text-[20px] pb-[10px]'>
+          <button type='button' className=' animate-pulse border-b-[3px] border-blue-700 '>Automotive News</button>
+          <button type='button'>Car Reviews</button>
+          <button type='button'>Discussions</button>
+        </nav>
+
+        <div className='flex flex-col gap-[10px]'>
+
+          {/* 1 */}
+          <div className='flex justify-center gap-[15px] items-center h-[150px]'>
+
+          </div>
+        </div>
+      </div>
+
 
 
 
