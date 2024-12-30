@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from "@/components/ui/button"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown, faAngleRight, faCheck, faMagnifyingGlass, faStar } from '@fortawesome/free-solid-svg-icons'
+import { faApple, faGooglePlay, faIntercom } from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
 import Image from 'next/image'
 import {
@@ -2214,8 +2215,62 @@ const Home = () => {
         <div className='flex flex-col gap-[10px]'>
 
           {/* 1 */}
-          <div className='flex justify-center gap-[15px] items-center h-[150px]'>
+          <div className='flex justify-start gap-[15px] items-center h-[150px] w-[800px]'>
+            <Image src='/images/petrol-hybrid-cars.jpg' width={180} height={150} alt='Petrol & Hybrid Cars' className='border-[10px] border-y-black  '/>
+            <div>
+              <Link href='' className='text-[18px] text-blue-800 font-semibold hover:text-blue-600'>Petrol & Hybrid Cars Launched in 2024</Link>
+              <p className='text-[12px] text-gray-500'>December 27,2024</p>
+              <p className='text-[14px]'>As 2024 draws to a close, it&apos;s notable that this year was relatively stable compared to the upheavals of 2023, which saw frequent price hikes and significant disruptions in local car production. In contrast, local automakers embraced stability.</p>
+            </div>
+          </div>
 
+          {/* 2 */}
+          <div className='flex justify-start gap-[15px] items-center h-[150px] w-[800px]'>
+            <Image src='/images/most-searched-cars.jpg' width={180} height={150} alt='Petrol & Hybrid Cars' className='border-[10px] border-y-black  '/>
+            <div>
+              <Link href='' className='text-[18px] text-blue-800 font-semibold hover:text-blue-600'>PakWheels Wrap – Most Searched Used Cars in 2024</Link>
+              <p className='text-[12px] text-gray-500'>December 27,2024</p>
+              <p className='text-[14px]'>Pakistan&apos;s online automotive search trends have once again highlighted the cars that draw the most attention from used car buyers, enthusiasts, and casual browsers alike. The data from PakWheels shows a total of 338,450,979 searches.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Section 15 */}
+      <div className='px-[250px] py-[50px] flex justify-between items-center'>
+
+        {/* 1 */}
+        <div className='flex flex-col gap-[20px]'>
+          <h2 className='text-blue-900 text-[28px] font-semibold'>Get The PakWheels App</h2>
+          <p className='w-[400px]'>Buy & Sell Cars, Bikes and Auto Parts faster and better using our App</p>
+          <div className='flex justify-start items-center gap-[10px]'>
+
+            {/* 1.1 */}
+            <Link href='' className='flex justify-start items-center gap-[5px] bg-black text-white px-[10px] py-[5px] rounded-[10px]'>
+              <FontAwesomeIcon icon={faGooglePlay} className='size-[30px]'/>
+              <div>
+                <p className='text-[10px]'>GET IT ON</p>
+                <p className='text-[14px]'>Google Play</p>
+              </div>
+            </Link>
+
+            {/* 1.2 */}
+            <Link href='' className='flex justify-start items-center gap-[5px] bg-black text-white px-[10px] py-[5px] rounded-[10px]'>
+              <FontAwesomeIcon icon={faApple} className='size-[30px]'/>
+              <div>
+                <p className='text-[10px]'>Download on the</p>
+                <p className='text-[14px]'>App Store</p>
+              </div>
+            </Link>
+
+            {/* 1.3 */}
+            <Link href='' className='flex justify-start items-center gap-[5px] bg-black text-white px-[10px] py-[5px] rounded-[10px]'>
+              <FontAwesomeIcon icon={faIntercom} className='size-[30px] text-red-900 bg-white'/>
+              <div>
+                <p className='text-[10px]'>EXPLORE IT ON</p>
+                <p className='text-[14px]'>AppGallery</p>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
