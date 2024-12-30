@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from "@/components/ui/button"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown, faAngleRight, faCheck, faMagnifyingGlass, faMobile, faStar } from '@fortawesome/free-solid-svg-icons'
-import { faApple, faGooglePlay, faIntercom } from '@fortawesome/free-brands-svg-icons'
+import { faApple, faFacebookF, faGooglePlay, faInstagram, faIntercom, faPinterest, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
 import Image from 'next/image'
 import {
@@ -2350,12 +2350,133 @@ const Home = () => {
             <Link href='' className='text-gray-400 text-[13px] hover:underline'>Sell Your Car</Link>
             <Link href='' className='text-gray-400 text-[13px] hover:underline'>Sell Your Bike</Link>
             <Link href='' className='text-gray-400 text-[13px] hover:underline'>Sell Accessory</Link>
-            <h3 className='text-[18px] mb-[10px]'>Sell On PakWheels</h3>
+            <h3 className='text-[18px] mt-[10px]'>Sell On PakWheels</h3>
             <div className='flex justify-center items-center'>
               <input type="email" placeholder='name@email.com' className='bg-white p-[10px] border-none outline-none text-black'/>
               <button type='button' className='p-[10px] font-semibold bg-green-500 hover:bg-green-700 duration-300 hover:duration-300'>Subscribe</button>
             </div>
+            <h3 className='text-[18px] mt-[10px]'>Follow Us</h3>
+            <div className='flex justify-start items-center gap-[10px]'>
+
+              {/* 1 */}
+              <Link href='' className='bg-[#f2f2f2] w-[30px] h-[30px] rounded-full flex justify-center items-center text-gray-500 hover:bg-blue-400 hover:text-white duration-300 hover:duration-300'>
+                <FontAwesomeIcon icon={faTwitter} className='size-[15px]'/>
+              </Link>
+
+              {/* 2 */}
+              <Link href=''  className='bg-[#f2f2f2] w-[30px] h-[30px] rounded-full flex justify-center items-center text-gray-500 hover:bg-blue-800 hover:text-white duration-300 hover:duration-300'>
+                <FontAwesomeIcon icon={faFacebookF} className='size-[15px]'/>
+              </Link>
+
+              {/* 3 */}
+              <Link href='' className='bg-[#f2f2f2] w-[30px] h-[30px] rounded-full flex justify-center items-center text-gray-500 hover:bg-red-800 hover:text-white duration-300 hover:duration-300'>
+                <FontAwesomeIcon icon={faPinterest} className='size-[15px]'/>
+              </Link>
+
+              {/* 4 */}
+              <Link href='' className='bg-[#f2f2f2] w-[30px] h-[30px] rounded-full flex justify-center items-center text-gray-500 hover:bg-blue-700 hover:text-white duration-300 hover:duration-300'>
+                <FontAwesomeIcon icon={faInstagram} className='size-[15px]'/>
+              </Link>
+
+              {/* 5 */}
+              <Link href='' className='bg-[#f2f2f2] w-[30px] h-[30px] rounded-full flex justify-center items-center text-gray-500 hover:bg-red-700 hover:text-white duration-300 hover:duration-300'>
+                <FontAwesomeIcon icon={faYoutube} className='size-[15px]'/>
+              </Link>
+            </div>
           </div>
+        </div>
+      </div>
+
+      {/* Section 17 */}
+      <div className='px-[250px] py-[50px] bg-[#23292F] text-white border-b-[1px] border-gray-600'>
+        <div className='flex justify-between w-full'>
+
+          {/* 1 */}
+          <div className='flex flex-col'>
+            <h3 className='text-[18px] mb-[10px]'>Cars By Category</h3>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Jeep</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Japanese Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Imported Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Automatic Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Low Priced Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>4x4 Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>660cc Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>1000cc Cars</Link>
+          </div>
+
+          {/* 2 */}
+          <div className='flex flex-col'>
+            <h3 className='text-[18px] mb-[10px]'>Cars By Body Type</h3>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Hatchback</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Sedan</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>SUV</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Crossover</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Mini Van</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Van</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>MPV</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Compact SUV</Link>
+          </div>
+
+          {/* 3 */}
+          <div className='flex flex-col'>
+            <h3 className='text-[18px] mb-[10px]'>Cars by Color</h3>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>White Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Silver Bikes</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Black Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Grey Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Blue Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Red Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Green Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Gold Cars</Link>
+          </div>
+
+          {/* 4 */}
+          <div className='flex flex-col'>
+            <h3 className='text-[18px] mb-[10px]'>Cars by Province</h3>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Punjab</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Sindh</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in KPK</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Balochistan</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Azad Kashmir</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Federally Administered</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Tribal Areas</Link>
+          </div>
+
+          {/* 5 */}
+          <div className='flex flex-col'>
+            <h3 className='text-[18px] mb-[10px]'>Download Mobile Apps</h3>
+            <div className='flex flex-col justify-start items-center gap-[10px] '>
+
+              {/* 1.1 */}
+              <Link href='' className='flex justify-start items-center gap-[5px] bg-black text-white px-[10px] py-[5px] rounded-[10px]'>
+                <FontAwesomeIcon icon={faGooglePlay} className='size-[30px]'/>
+                <div>
+                  <p className='text-[10px]'>GET IT ON</p>
+                  <p className='text-[14px]'>Google Play</p>
+                </div>
+              </Link>
+
+              {/* 1.2 */}
+              <Link href='' className='flex justify-start items-center gap-[5px] bg-black text-white px-[10px] py-[5px] rounded-[10px]'>
+                <FontAwesomeIcon icon={faApple} className='size-[30px]'/>
+                <div>
+                  <p className='text-[10px]'>Download on the</p>
+                  <p className='text-[14px]'>App Store</p>
+                </div>
+              </Link>
+
+              {/* 1.3 */}
+              <Link href='' className='flex justify-start items-center gap-[5px] bg-black text-white px-[15px] py-[5px] rounded-[10px]'>
+                <FontAwesomeIcon icon={faIntercom} className='size-[30px] text-red-900 bg-white'/>
+                <div>
+                  <p className='text-[10px]'>EXPLORE IT ON</p>
+                  <p className='text-[14px]'>AppGallery</p>
+                </div>
+              </Link>
+            </div>
+          </div>
+
+          
         </div>
       </div>
 
