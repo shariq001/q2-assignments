@@ -2286,8 +2286,77 @@ const Home = () => {
       </div>
 
       {/* Section 16 */}
-      <div>
-        
+      <div className='px-[250px] py-[50px] bg-[#23292F] text-white'>
+        <div className='flex justify-between w-full'>
+
+          {/* 1 */}
+          <div className='flex flex-col'>
+            <h3 className='text-[18px] mb-[10px]'>Cars By Make</h3>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Toyota Cars for Sale</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Suzuki Cars for Sale</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Honda Cars for Sale</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Daihatsu Cars for Sale</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Mitsubishi Cars for Sale</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Nissan Cars for Sale</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Mercedes Cars for Sale</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Hyundai Cars for Sale</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>BMW Cars for Sale</Link>
+          </div>
+
+          {/* 2 */}
+          <div className='flex flex-col'>
+            <h3 className='text-[18px] mb-[10px]'>Cars By City</h3>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Karachi </Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Lahore</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Islamabad</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Rawalpindi</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Peshawar</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Faisalabad</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Multan</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Gujranwala</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Sialkot</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cars in Sargodha</Link>
+          </div>
+
+          {/* 3 */}
+          <div className='flex flex-col'>
+            <h3 className='text-[18px] mb-[10px]'>Explore PakWheels</h3>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Used Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Used Bikes</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>New Cars</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Auto Parts & Accessories</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Cool Rides</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Forums</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Autoshow</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Sitemap</Link>
+          </div>
+
+          {/* 4 */}
+          <div className='flex flex-col'>
+            <h3 className='text-[18px] mb-[10px]'>PakWheels.com</h3>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>About PakWheels.com</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Our Products</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Advertise With Us</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>How To Pay</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>FAQs</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Refunds & Returns</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Careers</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Contact Us</Link>
+          </div>
+
+          {/* 5 */}
+          <div className='flex flex-col'>
+            <h3 className='text-[18px] mb-[10px]'>Sell On PakWheels</h3>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Sell Your Car</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Sell Your Bike</Link>
+            <Link href='' className='text-gray-400 text-[13px] hover:underline'>Sell Accessory</Link>
+            <h3 className='text-[18px] mb-[10px]'>Sell On PakWheels</h3>
+            <div className='flex justify-center items-center'>
+              <input type="email" placeholder='name@email.com' className='bg-white p-[10px] border-none outline-none text-black'/>
+              <button type='button' className='p-[10px] font-semibold bg-green-500 hover:bg-green-700 duration-300 hover:duration-300'>Subscribe</button>
+            </div>
+          </div>
+        </div>
       </div>
 
 
