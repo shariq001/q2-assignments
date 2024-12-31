@@ -20,21 +20,21 @@ const Home = () => {
     <div className='xl:min-w-[1440px]'>
       
       {/* Section 1 */}
-      <div className='bg-gradient-to-b from-[#041528] to-[#013674] text-white px-[200px] py-[100px] flex flex-col justify-center items-center '>
-        <h1 className='text-[40px] '>Find Used Cars in Pakistan</h1>
-        <h2 className='text-[18px]'>With thousands of cars, we have just the right one for you</h2>
+      <div className='bg-gradient-to-b from-[#041528] to-[#013674] text-white xl:px-[200px] sm:px-[16px] xl:py-[100px] sm:py-[50px] flex flex-col justify-center items-center text-left sm:text-center'>
+        <h1 className='xl:text-[40px] sm:text-[28px]'>Find Used Cars in Pakistan</h1>
+        <h2 className='xl:text-[18px]'>With thousands of cars, we have just the right one for you</h2>
         <div className='flex justify-center items-center my-[20px] '>
           <input type="text" placeholder='Car Make or Model' className='bg-white
-            p-[15px] w-[350px] outline-none border-none text-black rounded-l-[5px]'/>
-          <Button variant="outline" className='bg-white text-black py-[26.45px] rounded-none font-[400]'>All Cities <FontAwesomeIcon icon={faAngleDown} className='size-[12px] ml-[100px]' /></Button>
-          <Button variant="outline" className='bg-white text-black py-[26.45px] rounded-none font-[400]'>Price Range <FontAwesomeIcon icon={faAngleDown} className='size-[12px] ml-[100px]' /></Button>
+            p-[15px]  xl:w-[350px] outline-none border-none text-black rounded-l-[5px]'/>
+          <Button variant="outline" className='bg-white text-black py-[26.45px] rounded-none font-[400] xl:block sm:hidden'>All Cities <FontAwesomeIcon icon={faAngleDown} className='size-[12px] ml-[100px]' /></Button>
+          <Button variant="outline" className='bg-white text-black xl:py-[26.45px] rounded-none font-[400] xl:block sm:hidden'>Price Range <FontAwesomeIcon icon={faAngleDown} className='size-[12px] ml-[100px]' /></Button>
           <Button className='bg-[#3EB549] text-white rounded-none py-[27px] px-[25px] rounded-r-[5px]'><FontAwesomeIcon icon={faMagnifyingGlass} className='size-[25px]' /></Button>
         </div>
         <Link href='' className='border-white border-[1px] rounded-[3px] text-[14px] px-[20px] py-[3px] mt-[15px]'>Advanced Filter <FontAwesomeIcon icon={faAngleRight} className='size-[12px] inline-flex items-center mb-[3px]' /></Link>
       </div>
 
       {/* Section 2 */}
-      <fieldset className='mx-[300px] my-[100px] px-[30px] py-[50px] border-grey-100 border-[2px] flex justify-center'>
+      <fieldset className='mx-[300px] my-[100px] px-[30px] py-[50px] border-grey-100 border-[2px] xl:flex justify-center sm:hidden'>
         <legend className='text-[28px] font-semibold text-center text-[#434343]'> Sell Your Car on PakWheels and Get the Best Price </legend>
         <div className='flex justify-center gap-[100px] items-center'>
 
@@ -64,9 +64,9 @@ const Home = () => {
       </fieldset>
 
       {/* Section 3 */}
-      <div className='px-[200px] py-[50px] bg-[#F2F3F3] flex flex-col gap-[20px]'>
-        <h2 className='font-semibold text-[32px] text-[#434343]'>Browse Used Cars</h2>
-        <nav className='flex justify-start gap-[40px] items-center text-[#434343] font-semibold text-[20px] pb-[10px]'>
+      <div className='xl:px-[200px] sm:px-[16px] py-[50px] xl:bg-[#F2F3F3] sm:bg-black sm:text-white xl:text-[#434343] flex flex-col gap-[20px]'>
+        <h2 className='font-semibold xl:text-[32px] sm:text-[24px] '>Browse Used Cars</h2>
+        <nav className='flex justify-start xl:gap-[40px] sm:gap-[10px] items-center font-semibold xl:text-[20px] sm:text-[14px] pb-[10px]'>
           <button type='button' className='active:border-[#4c6acd] active:border-b-[3px] animate-pulse border-b-[3px] border-blue-700 '>Category</button>
           <button type='button'>City</button>
           <button type='button'>Make</button>
@@ -75,9 +75,9 @@ const Home = () => {
           <button type='button'>Body Type</button>
         </nav>
         <Carousel opts={{align: "start",loop: true,}}>
-          <CarouselContent className='h-[280px] '>
+          <CarouselContent className='h-[280px] xl:w-[343px]'>
             <CarouselItem>
-              <div className='flex justify-center gap-[15px] items-center flex-wrap'>
+              <div className='flex xl:flex-row sm:flex-col justify-center xl:gap-[15px] sm:gap-[5px] items-center flex-wrap'>
 
                 {/* 1 */}
                 <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
