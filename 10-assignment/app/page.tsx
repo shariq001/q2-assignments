@@ -1426,7 +1426,7 @@ const Home = () => {
           <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold'>Featured New Cars</h1>
           <Link href='' className='text-blue-700 hover:underline flex'>View All <span className='sm:hidden xl:block ml-[5px]'>New Car</span></Link>
         </div>
-        <nav className='flex justify-start xl:gap-[40px] sm:gap-[20px] items-center text-[#434343] font-semibold xl:text-[20px] pb-[10px]  mb-[40px]'>
+        <nav className='flex justify-start xl:gap-[40px] sm:gap-[20px] items-center xl:text-[#434343] font-semibold xl:text-[20px] pb-[10px]  mb-[40px]'>
           <button type='button' className='active:border-[#4c6acd] active:border-b-[3px] animate-pulse border-b-[3px] border-blue-700 '>Popular</button>
           <button type='button'>Upcoming</button>
           <button type='button'>Newly Launched</button>
@@ -2782,14 +2782,14 @@ const Home = () => {
       </div>
 
       {/* Section 12 */}
-      <div className='px-[250px] py-[50px] flex flex-col bg-[#f2f2f2]'>
+      <div className='xl:px-[250px] sm:px-[16px] py-[50px] flex flex-col xl:bg-[#f2f2f2] xl:text-black sm:bg-black sm:text-white'>
 
         <div className='flex justify-between items-center w-full mb-[40px]'>
-          <h1 className='text-[28px] text-[#434343] font-semibold'>Popular New Bikes</h1>
-          <Link href='' className='text-blue-700 hover:underline'>View All New Bikes</Link>
+          <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold'>Popular New Bikes</h1>
+          <Link href='' className='text-blue-700 hover:underline flex'>View All <span className='sm:hidden xl:block ml-[5px]'>New Bikes</span></Link>
         </div>
 
-        <Carousel opts={{align: "start",loop: true,}} className='scroll-smooth'>
+        <Carousel opts={{align: "start",loop: true,}} className='scroll-smooth xl:block sm:hidden'>
           <CarouselContent className='h-[280px] w-[1050px]'>
             <CarouselItem>
               <div className='flex justify-between items-center'>
@@ -3088,16 +3088,299 @@ const Home = () => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
+
+        <Carousel opts={{align: "start",loop: true,}} className='w-[245px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
+          <CarouselContent className=' h-[300px]'>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-cd-70.jpg' width={180} height={150} alt='Honda CD 70' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda CD 70</Link>
+                  <p className='text-green-400'>PKR 157, 900</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>65 Reviews</p>
+                  </div>
+
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 2 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-cd-125.jpg' width={180} height={150} alt='Honda CG 125' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda CG 125</Link>
+                  <p className='text-green-400'>PKR 234, 900</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>103 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 3 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/suzuki-gs-150.jpg' width={180} height={150} alt='Suzuki GS 150' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki GS 150</Link>
+                  <p className='text-green-400'>PKR 389,000</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>35 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 4 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/yamaha-ybr-125.jpg' width={180} height={150} alt='Yamaha YBR 125' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Yamaha YBR 125</Link>
+                  <p className='text-green-400'>PKR 466,000</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>49 Reviews</p>
+                  </div>
+                
+              </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/yamaha-ybr-125g.png' width={180} height={150} alt='Yamaha YBR 125G' />
+                <Link href='' className='text-blue-900 text-[18px] font-semibold'>Yamaha YBR 125G</Link>
+                <p className='text-green-400'>PKR 485,000</p>
+                <div className='flex justify-center gap-[7px] items-center'>
+                  <div className='flex justify-center items-center gap-[2px]'>
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                  </div>
+                  <p className='text-[14px] text-gray-400'>41 Reviews</p>
+                </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 2 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+              <Image src='/images/honda-cb-150f.jpg' width={180} height={150} alt='Honda CB 150F' />
+                <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda CB 150F</Link>
+                <p className='text-green-400'>PKR 487,900</p>
+                <div className='flex justify-center gap-[7px] items-center'>
+                  <div className='flex justify-center items-center gap-[2px]'>
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                  </div>
+                  <p className='text-[14px] text-gray-400'>37 Reviews</p>
+                </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 3 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/suzuki-gr-150.jpg' width={180} height={150} alt='Suzuki GR 150' />
+                <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki GR 150</Link>
+                <p className='text-green-400'>PKR 547,000</p>
+                <div className='flex justify-center gap-[7px] items-center'>
+                  <div className='flex justify-center items-center gap-[2px]'>
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                  </div>
+                  <p className='text-[14px] text-gray-400'>20 Reviews</p>
+                </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 4 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-pridor.jpg' width={180} height={150} alt='Honda Pridor' />
+                <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda Pridor</Link>
+                <p className='text-green-400'>PKR 208,900</p>
+                <div className='flex justify-center gap-[7px] items-center'>
+                  <div className='flex justify-center items-center gap-[2px]'>
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                  </div>
+                  <p className='text-[14px] text-gray-400'>57 Reviews</p>
+                </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-cb-125F.jpg' width={180} height={150} alt='Honda CB 125F' />
+                <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda CB 125F</Link>
+                <p className='text-green-400'>PKR 390,900</p>
+                <div className='flex justify-center gap-[7px] items-center'>
+                  <div className='flex justify-center items-center gap-[2px]'>
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                  </div>
+                  <p className='text-[14px] text-gray-400'>20 Reviews</p>
+                </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 2 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+              <Image src='/images/benelli-trk-502x.jpg' width={180} height={150} alt='Benelli TRK 502X' />
+                <Link href='' className='text-blue-900 text-[18px] font-semibold'>Benelli TRK 502X</Link>
+                <p className='text-green-400'>PKR 2,950,000</p>
+                <div className='flex justify-center gap-[7px] items-center'>
+                  <div className='flex justify-center items-center gap-[2px]'>
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                  </div>
+                  <p className='text-[14px] text-gray-400'>0 Reviews</p>
+                </div>
+                </div>
+
+            </CarouselItem>
+            <CarouselItem >
+              {/* 3 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+              <Image src='/images/bmw-s1000-rr.jpg' width={180} height={150} alt='BMW S1000RR' />
+                <Link href='' className='text-blue-900 text-[18px] font-semibold'>BMW S1000RR</Link>
+                <p className='text-green-400'>PKR 12,600,000</p>
+                <div className='flex justify-center gap-[7px] items-center'>
+                  <div className='flex justify-center items-center gap-[2px]'>
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                  </div>
+                  <p className='text-[14px] text-gray-400'>3 Reviews</p>
+                </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 4 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+              <Image src='/images/benelli-tnt-150i.jpg' width={180} height={150} alt='Benelli TNT 150i' />
+                <Link href='' className='text-blue-900 text-[18px] font-semibold'>Benelli TNT 150i</Link>
+                <p className='text-green-400'>PKR 610,000</p>
+                <div className='flex justify-center gap-[7px] items-center'>
+                  <div className='flex justify-center items-center gap-[2px]'>
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F] ' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                  </div>
+                  <p className='text-[14px] text-gray-400'>9 Reviews</p>
+                </div>
+                </div>
+            </CarouselItem>
+
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+              <Image src='/images/yamaha-yb-125z.jpg' width={180} height={150} alt='Yamaha YB 125Z' />
+                <Link href='' className='text-blue-900 text-[18px] font-semibold'>Yamaha YB 125Z</Link>
+                <p className='text-green-400'>PKR 424,000</p>
+                <div className='flex justify-center gap-[7px] items-center'>
+                  <div className='flex justify-center items-center gap-[2px]'>
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F] ' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                  </div>
+                  <p className='text-[14px] text-gray-400'>53 Reviews</p>
+                </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 2 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+              <Image src='/images/honda-cg-125s-gold.png' width={360} height={150} alt='Honda CG 125S Gold' />
+                <Link href='' className='text-blue-900 text-[18px] font-semibold  mt-[20px]'>Honda CG 125S Gold</Link>
+                <p className='text-green-400'>PKR 292,900</p>
+                <div className='flex justify-center gap-[7px] items-center'>
+                  <div className='flex justify-center items-center gap-[2px]'>
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                  </div>
+                  <p className='text-[14px] text-gray-400'>0 Reviews</p>
+                </div>
+                </div>
+
+            </CarouselItem>
+            <CarouselItem >
+              {/* 3 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+              <Image src='/images/honda-cg-125s.png' width={180} height={150} alt='Honda CG 125S' />
+                <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda CG 125S</Link>
+                <p className='text-green-400'>PKR 282,900</p>
+                <div className='flex justify-center gap-[7px] items-center'>
+                  <div className='flex justify-center items-center gap-[2px]'>
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000]' />
+                    <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                  </div>
+                  <p className='text-[14px] text-gray-400'>0 Reviews</p>
+                </div>
+                </div>
+            </CarouselItem>
+            
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
       </div>
 
       {/* Section 13 */}
-      <div className='flex flex-col gap-[30px] px-[250px] py-[50px]'>
+      <div className='flex flex-col gap-[30px] xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-white sm:bg-black sm:text-white'>
         <div className='flex justify-between items-center w-full'>
-          <h1 className='text-[28px] text-[#434343] font-semibold'>Browse Our Videos</h1>
-          <Link href='' className='text-blue-700 hover:underline'>View All Videos</Link>
+          <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold'>Browse Our Videos</h1>
+          <Link href='' className='text-blue-700 hover:underline flex'>View All <span className='sm:hidden xl:block ml-[5px]'>Videos</span></Link>
         </div>
 
-        <div id='grid-container'>
+        <div id='grid-container' className='xl:grid sm:hidden'>
           <div className='row-start-1 row-end-2 col-start-1 col-end-2  border-[1px] border-gray-200 hover:shadow-md hover:shadow-gray-300 duration-300 hover:duration-300 w-[500px] h-[425px]' >
             <iframe width="500" height="390" src="https://www.youtube.com/embed/krCzyT_XUbY?si=6TrwNdmDjW__I5KK" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
             <p className='text-blue-800 font-semibold'>Hyundai Elantra Hybrid Review</p>
@@ -3123,37 +3406,56 @@ const Home = () => {
             <p className='text-blue-800 font-semibold'>Best Fuel Average</p>
           </div>
         </div>
+
+        <div className='sm:flex xl:hidden flex-col items-center gap-[15px]'>
+
+          <div className='border-[1px] border-gray-200 hover:shadow-md hover:shadow-gray-300 duration-300 hover:duration-300' >
+            <iframe width="343" height="300" src="https://www.youtube.com/embed/krCzyT_XUbY?si=6TrwNdmDjW__I5KK" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+            <p className='text-blue-800 font-semibold'>Hyundai Elantra Hybrid Review</p>
+          </div>  
+
+          <div className='border-[1px] border-gray-200 hover:shadow-md hover:shadow-gray-300 duration-300 hover:duration-300 w-[343px] h-[150px]' >
+            <iframe width="343" height="150" src="https://www.youtube.com/embed/SBPWUDXiWt4?si=vaosWl4xDhcDHOka" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <p className='text-blue-800 font-semibold'>Looks Better? Toyota Yaris</p>
+          </div> 
+
+          <div className=' border-[1px] border-gray-200 hover:shadow-md hover:shadow-gray-300 duration-300 hover:duration-300  w-[343px] h-[150px] mt-[20px]' >
+            <iframe width="343" height="150" src="https://www.youtube.com/embed/_D3a5dxyNyA?si=v0PisIzIxlufVGcV" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+            <p className='text-blue-800 font-semibold'>Which is Better?</p>
+          </div>       
+        </div>
       </div>
 
       {/* Section 14 */}
-      <div className='flex flex-col gap-[20px] px-[250px] py-[50px] bg-[#f2f2f2] text-[#434343]'>
-        <div className='flex justify-between items-center w-[800px]'>
-          <h1 className='text-[28px] text-[#434343] font-semibold'>News, Reviews & Discussions</h1>
-          <Link href='' className='text-blue-700 hover:underline'>Read All Recent News</Link>
+      <div className='flex flex-col gap-[20px] xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-[#f2f2f2] xl:text-[#434343] sm:bg-black sm:text-white'>
+        <div className='flex justify-between items-center xl:w-[800px] sm:w-[343px]'>
+          <h1 className='xl:text-[28px] sm:text-[20px] xl:text-[#434343] font-semibold'>News, Reviews & Discussions</h1>
+          <Link href='' className='text-blue-700 hover:underline flex'>Read All <span className='sm:hidden xl:block ml-[5px]'>Recent News</span></Link>
         </div>
-        <nav className='flex justify-start gap-[40px] items-center text-[#434343] font-semibold text-[20px] pb-[10px]'>
+        <nav className='flex justify-start xl:gap-[40px] sm:gap-[20px]
+         items-center xl:text-[#434343] font-semibold xl:text-[20px] pb-[10px]'>
           <button type='button' className=' animate-pulse border-b-[3px] border-blue-700 '>Automotive News</button>
           <button type='button'>Car Reviews</button>
           <button type='button'>Discussions</button>
         </nav>
 
-        <div className='flex flex-col gap-[10px]'>
+        <div className='flex flex-col xl:gap-[10px] sm:gap-[30px]'>
 
           {/* 1 */}
-          <div className='flex justify-start gap-[15px] items-center h-[150px] w-[800px]'>
-            <Image src='/images/petrol-hybrid-cars.jpg' width={180} height={150} alt='Petrol & Hybrid Cars' className='border-[10px] border-y-black  '/>
+          <div className='flex xl:flex-row sm:flex-col justify-start gap-[15px] items-center xl:h-[150px] xl:w-[800px] xl:text-left sm:text-center'>
+            <Image src='/images/petrol-hybrid-cars.jpg' width={180} height={150} alt='Petrol & Hybrid Cars' className='border-[10px] xl:border-y-black sm:border-y-blue-600 '/>
             <div>
-              <Link href='' className='text-[18px] text-blue-800 font-semibold hover:text-blue-600'>Petrol & Hybrid Cars Launched in 2024</Link>
+              <Link href='' className='xl:text-[18px] text-blue-800 font-semibold hover:text-blue-600'>Petrol & Hybrid Cars Launched in 2024</Link>
               <p className='text-[12px] text-gray-500'>December 27,2024</p>
               <p className='text-[14px]'>As 2024 draws to a close, it&apos;s notable that this year was relatively stable compared to the upheavals of 2023, which saw frequent price hikes and significant disruptions in local car production. In contrast, local automakers embraced stability.</p>
             </div>
           </div>
 
           {/* 2 */}
-          <div className='flex justify-start gap-[15px] items-center h-[150px] w-[800px]'>
-            <Image src='/images/most-searched-cars.jpg' width={180} height={150} alt='Petrol & Hybrid Cars' className='border-[10px] border-y-black  '/>
+          <div className='flex xl:flex-row sm:flex-col justify-start gap-[15px] items-center xl:h-[150px] xl:w-[800px] xl:text-left sm:text-center'>
+            <Image src='/images/most-searched-cars.jpg' width={180} height={150} alt='Petrol & Hybrid Cars' className='border-[10px] xl:border-y-black sm:border-y-blue-600  '/>
             <div>
-              <Link href='' className='text-[18px] text-blue-800 font-semibold hover:text-blue-600'>PakWheels Wrap – Most Searched Used Cars in 2024</Link>
+              <Link href='' className='xl:text-[18px] text-blue-800 font-semibold hover:text-blue-600'>PakWheels Wrap – Most Searched Used Cars in 2024</Link>
               <p className='text-[12px] text-gray-500'>December 27,2024</p>
               <p className='text-[14px]'>Pakistan&apos;s online automotive search trends have once again highlighted the cars that draw the most attention from used car buyers, enthusiasts, and casual browsers alike. The data from PakWheels shows a total of 338,450,979 searches.</p>
             </div>

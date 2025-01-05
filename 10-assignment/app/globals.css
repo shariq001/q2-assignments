@@ -76,3 +76,9 @@ body {
   grid-template-rows: repeat(2, 200px);
   gap: 15px;
 }
+
+@media(min-width: 375px) {
+  #grid-container {
+    display: none;
+  }
+}
