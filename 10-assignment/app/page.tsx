@@ -1421,18 +1421,18 @@ const Home = () => {
       </div>
 
       {/* Section 7 */}
-      <div className='px-[250px] py-[50px] bg-[#F2F3F3] text-[#434343] flex flex-col'>
+      <div className='xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-[#F2F3F3] xl:text-[#434343] sm:bg-black sm:text-white flex flex-col'>
         <div className='flex justify-between items-center w-full mb-[20px]'>
-          <h1 className='text-[28px] text-[#434343] font-semibold'>Featured New Cars</h1>
-          <Link href='' className='text-blue-700 hover:underline'>View All New Car</Link>
+          <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold'>Featured New Cars</h1>
+          <Link href='' className='text-blue-700 hover:underline flex'>View All <span className='sm:hidden xl:block ml-[5px]'>New Car</span></Link>
         </div>
-        <nav className='flex justify-start gap-[40px] items-center text-[#434343] font-semibold text-[20px] pb-[10px]  mb-[40px]'>
+        <nav className='flex justify-start xl:gap-[40px] sm:gap-[20px] items-center text-[#434343] font-semibold xl:text-[20px] pb-[10px]  mb-[40px]'>
           <button type='button' className='active:border-[#4c6acd] active:border-b-[3px] animate-pulse border-b-[3px] border-blue-700 '>Popular</button>
           <button type='button'>Upcoming</button>
           <button type='button'>Newly Launched</button>
         </nav>
 
-        <Carousel opts={{align: "start",loop: true,}} className='scroll-smooth'>
+        <Carousel opts={{align: "start",loop: true,}} className='scroll-smooth sm:hidden xl:block'>
           <CarouselContent className='h-[280px] w-[1000px]'>
             <CarouselItem>
               <div className='flex justify-center items-center gap-[15px]'>
@@ -1739,13 +1739,314 @@ const Home = () => {
           <CarouselNext />
         </Carousel>
 
+        <Carousel opts={{align: "start",loop: true,}} className='w-[245px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
+          <CarouselContent className=' h-[300px]'>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/toyota-corolla.jpg' width={180} height={150} alt='Toyota Corolla' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Toyota Corolla</Link>
+                  <p className='text-green-400'>PKR 59.7 - 75.5 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>628 Reviews</p>
+                  </div>
+
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 2 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/suzuki-alto.png' width={180} height={150} alt='Suzuki Alto' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki Alto</Link>
+                  <p className='text-green-400'>PKR 23.3 - 30.5 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>203 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 3 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+              <Image src='/images/honda-city.jpg' width={180} height={150} alt='Honda City' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda City</Link>
+                  <p className='text-green-400'>PKR 46.5 - 58.5 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>458 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 4 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+              <Image src='/images/honda-civic.jpg' width={180} height={150} alt='Honda Civic' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda Civic</Link>
+                  <p className='text-green-400'>PKR 46.5 - 58.5 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>363 Reviews</p>
+                  </div>
+                
+              </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/suzuki-cultus.png' width={180} height={150} alt='Suzuki Cultus' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki Cultus</Link>
+                  <p className='text-green-400'>PKR 38.6 - 45.5 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>269 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 2 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/suzuki-wagonr.jpg' width={180} height={150} alt='Suzuki Wagon R' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki Wagon R</Link>
+                  <p className='text-green-400'>PKR 32.1 - 37.4 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>153 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 3 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/toyota-yaris.png' width={180} height={150} alt='Toyota Yaris' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Toyota Yaris</Link>
+                  <p className='text-green-400'>PKR 44.8 - 63.2 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>142 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 4 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/suzuki-swift.jpg' width={180} height={150} alt='Suzuki Swift' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Suzuki Swift</Link>
+                  <p className='text-green-400'>PKR 43.4 - 47.2 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>194 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/toyota-fortuner.png' width={180} height={150} alt='Toyota Fortuner' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Toyota Fortuner</Link>
+                  <p className='text-green-400'>PKR 1.45 - 1.99 crore</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>44 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 2 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/kia-sportage.jpeg' width={150} height={130} alt='KIA Sportage' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>KIA Sportage</Link>
+                  <p className='text-green-400'>PKR 73.0 - 90.0 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>52 Reviews</p>
+                  </div>
+                </div>
+
+            </CarouselItem>
+            <CarouselItem >
+              {/* 3 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/kia-picanto.png' width={180} height={130} alt='KIA Picanto' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>KIA Picanto</Link>
+                  <p className='text-green-400'>PKR 36.0 - 38.5 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>94 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 4 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/toyota-landcruiser.png' width={180} height={130} alt='Toyota Land Cruiser' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Toyota Land Cruiser</Link>
+                  <p className='text-green-400'>PKR 12.0 crore</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>31 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/changan-alsvin.png' width={180} height={130} alt='Changan Alsvin' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Changan Alsvin</Link>
+                  <p className='text-green-400'>PKR 38.0 - 45.7 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>91 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 2 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-brv.jpg' width={180} height={130} alt='Honda BR-V' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda BR-V</Link>
+                  <p className='text-green-400'>PKR 63.0 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px} text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>123 Reviews</p>
+                  </div>
+                </div>
+
+            </CarouselItem>
+            <CarouselItem >
+              {/* 3 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+              <Image src='/images/prince-pearl.jpg' width={180} height={130} alt='Prince Pearl' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Prince Pearl</Link>
+                  <p className='text-green-400'>PKR 18.5 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>42 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 4 */}
+              <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/hyundai-tucson.png' width={180} height={130} alt='Hyundai Tucson' />
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Hyundai Tucson</Link>
+                  <p className='text-green-400'>PKR 71.2 - 87.1 lacs</p>
+                  <div className='flex justify-center gap-[7px] items-center'>
+                    <div className='flex justify-center items-center gap-[2px]'>
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#EF730F]' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                      <FontAwesomeIcon icon={faStar} className='size-[12px] text-[#000] ' />
+                    </div>
+                    <p className='text-[14px] text-gray-400'>31 Reviews</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
+
         
       </div>
 
       {/* Section 8 */}
-      <div className='px-[250px] py-[50px] bg-[#F2F3F3] '>
-        <h1 className='text-[28px] text-[#434343] font-semibold mb-[20px]'>New Cars by Make</h1>
-        <div className='flex justify-between items-center'>
+      <div className='xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-[#F2F3F3] sm:bg-black sm:text-white'>
+        <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold mb-[20px]'>New Cars by Make</h1>
+        <div className='flex xl:justify-between sm:justify-center sm:gap-[20px] items-center flex-wrap'>
 
           {/* 1 */}
           <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
@@ -1774,7 +2075,7 @@ const Home = () => {
           {/* 4 */}
           <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
             <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
-              <Image src='/images/kia.png' width={65} height={50} alt='KIA' />
+              <Image src='/images/kia.png' width={65} height={50} alt='KIA' className='rounded-full'/>
             </div>
             <h3>KIA</h3>
           </Link>
@@ -1796,7 +2097,7 @@ const Home = () => {
           </Link>
         </div>
 
-        <div className='flex justify-between items-center my-[30px]'>
+        <div className='flex xl:justify-between sm:justify-center sm:gap-[20px] items-center flex-wrap my-[30px]'>
 
           {/* 1 */}
           <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
@@ -1847,7 +2148,7 @@ const Home = () => {
           </Link>
         </div>
 
-        <div className='flex justify-between items-center my-[30px]'>
+        <div className='flex xl:justify-between sm:justify-center sm:gap-[20px] items-center flex-wrap my-[30px]'>
 
           {/* 1 */}
           <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
@@ -1898,7 +2199,7 @@ const Home = () => {
           </Link>
         </div>
 
-        <div className='flex justify-between items-center my-[30px]'>
+        <div className='flex xl:justify-between sm:justify-center sm:gap-[20px] items-center flex-wrap my-[30px]'>
 
           {/* 1 */}
           <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
@@ -1927,7 +2228,7 @@ const Home = () => {
           {/* 4 */}
           <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
             <div className='bg-white w-[80px] h-[80px] rounded-full flex justify-center'>
-              <Image src='/images/peugeot.png' width={65} height={50} alt='Peugeot' />
+              <Image src='/images/peugeot.png' width={65} height={50} alt='Peugeot' className='rounded-full'/>
             </div>
             <h3>Peugeot</h3>
           </Link>
@@ -1949,7 +2250,7 @@ const Home = () => {
           </Link>
         </div>
 
-        <div className='flex justify-between items-center my-[30px]'>
+        <div className='flex xl:justify-between sm:justify-center sm:gap-[20px] items-center flex-wrap my-[30px]'>
 
           {/* 1 */}
           <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
@@ -2000,7 +2301,7 @@ const Home = () => {
           </Link>
         </div>
 
-        <div className='flex justify-start gap-[110px] items-center my-[30px]'>
+        <div className='flex xl:justify-start xl:gap-[110px] sm:justify-center sm:gap-[20px] items-center flex-wrap my-[30px]'>
 
           {/* 1 */}
           <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
@@ -2023,14 +2324,14 @@ const Home = () => {
       </div>
 
       {/* Section 9 */}
-      <div className='px-[250px] py-[50px] flex justify-start flex-col'>
+      <div className='xl:px-[250px] xl:bg-white sm:bg-black sm:text-white sm:px-[16px] py-[50px] flex justify-start flex-col'>
 
-        <div className='flex justify-between items-center w-[800px]'>
-          <h1 className='text-[28px] text-[#434343] font-semibold mb-[20px]'>Car Comparisons</h1>
-          <Link href='' className='text-blue-700 hover:underline'>All Car Comparisons</Link>
+        <div className='flex justify-between items-center xl:w-[800px]'>
+          <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold mb-[20px]'>Car Comparisons</h1>
+          <Link href='' className='text-blue-700 hover:underline flex'>All Cars <span className='sm:hidden xl:block ml-[5px]'>Comparisons</span></Link>
         </div>
 
-        <div className='w-[800px] h-[350px] border-[1px] border-gray-200 flex justify-between items-center px-[40px]'>
+        <div className='w-[800px] h-[350px] border-[1px] border-gray-200 xl:flex justify-between items-center px-[40px] sm:hidden'>
 
           {/* Left */}
           <Link href='' className='text-blue-900 font-semibold hover:text-blue-700 flex flex-col items-center'>
@@ -2075,10 +2376,25 @@ const Home = () => {
           </div>
         </div>
 
+        <Link href='' className='sm:flex xl:hidden bg-[#222222] text-white justify-between items-center p-[20px]'>
+          <div className='flex flex-col items-center'>
+              <Image src='/images/mg-hs.jpg' width={150} height={100} alt='MG HS' />
+              <h3>MG HS</h3>
+          </div>
+          <div className='border-red-600 border-t-[100px] border-b-[100px]'>
+            VS
+          </div>
+          <div className='flex flex-col items-center'>
+                <Image src='/images/sportage-white.jpeg' width={120} height={100} alt='KIA Sportage' />
+                <h3>KIA Sportage</h3>
+              </div>
+
+        </Link>
+
       </div>
 
       {/* Section 10 */}
-      <div className='flex flex-col gap-[20px] px-[250px] py-[50px] bg-[#F2F3F3] '>
+      <div className='xl:flex flex-col gap-[20px] px-[250px] py-[50px] bg-[#F2F3F3] sm:hidden'>
         <h1 className='text-[28px] text-[#434343] font-semibold mb-[20px]'>Auto Store Car Parts & Accessories</h1>
         <nav className='flex justify-start gap-[40px] items-center text-[#434343] font-semibold text-[20px] pb-[10px]'>
           <button type='button' className=' animate-pulse border-b-[3px] border-blue-700 '>Sub Category</button>
@@ -2254,9 +2570,9 @@ const Home = () => {
       </div>
 
       {/* Section 11 */}
-      <div className='px-[250px] py-[50px] '>
-        <h1 className='text-[28px] text-[#434343] font-semibold mb-[20px]'>New Bikes by Make</h1>
-        <div className='flex justify-between items-center'>
+      <div className='xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-white sm:bg-black sm:text-white'>
+        <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold mb-[20px]'>New Bikes by Make</h1>
+        <div className='flex xl:justify-between sm:justify-center sm:gap-[20px] items-center flex-wrap'>
 
           {/* 1 */}
           <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
@@ -2307,7 +2623,7 @@ const Home = () => {
           </Link>
         </div>
 
-        <div className='flex justify-between items-center my-[30px]'>
+        <div className='flex xl:justify-between sm:justify-center sm:gap-[20px] items-center flex-wrap my-[30px]'>
 
           {/* 1 */}
           <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
@@ -2358,7 +2674,7 @@ const Home = () => {
           </Link>
         </div>
 
-        <div className='flex justify-between items-center my-[30px]'>
+        <div className='flex xl:justify-between sm:justify-center sm:gap-[20px] items-center flex-wrap my-[30px]'>
 
           {/* 1 */}
           <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
@@ -2409,7 +2725,7 @@ const Home = () => {
           </Link>
         </div>
 
-        <div className='flex justify-between items-center my-[30px]'>
+        <div className='flex xl:justify-between sm:justify-center sm:gap-[20px] items-center flex-wrap my-[30px]'>
 
           {/* 1 */}
           <Link href='' className='flex flex-col items-center gap-[15px] text-blue-900 font-semibold hover:text-blue-700 '>
