@@ -17,7 +17,7 @@ import {
 
 const Home = () => {
   return (
-    <div className='xl:min-w-[1440px]'>
+    <div className='xl:min-w-[1440px] sm:min-w-[375px]'>
       
       {/* Section 1 */}
       <div className='bg-gradient-to-b from-[#041528] to-[#013674] text-white xl:px-[200px] sm:px-[16px] xl:py-[100px] sm:py-[50px] flex flex-col justify-center items-center text-left sm:text-center'>
@@ -64,7 +64,7 @@ const Home = () => {
       </fieldset>
 
       {/* Section 3 */}
-      <div className='xl:px-[200px] sm:px-[16px] py-[50px] xl:bg-[#F2F3F3] sm:bg-black sm:text-white xl:text-[#434343] flex flex-col gap-[20px]'>
+      <div className='xl:px-[200px] xl:w-full sm:w-[375px] sm:px-[16px] py-[50px] xl:bg-[#F2F3F3] sm:bg-black sm:text-white xl:text-[#434343] flex flex-col gap-[20px]'>
         <h2 className='font-semibold xl:text-[32px] sm:text-[24px] '>Browse Used Cars</h2>
         <nav className='flex justify-start xl:gap-[40px] sm:gap-[10px] items-center font-semibold xl:text-[20px] sm:text-[14px] pb-[10px]'>
           <button type='button' className='active:border-[#4c6acd] active:border-b-[3px] animate-pulse border-b-[3px] border-blue-700 '>Category</button>
@@ -74,79 +74,79 @@ const Home = () => {
           <button type='button'>Budget</button>
           <button type='button'>Body Type</button>
         </nav>
-        <Carousel opts={{align: "start",loop: true,}}>
-          <CarouselContent className='h-[280px] xl:w-[343px]'>
+        <Carousel opts={{align: "start",loop: true,}} className='xl:block sm:hidden' >
+          <CarouselContent className='xl:h-[280px] xl:w-full sm:w-[343px]'>
             <CarouselItem>
-              <div className='flex xl:flex-row sm:flex-col justify-center xl:gap-[15px] sm:gap-[5px] items-center flex-wrap'>
+              <div className='flex  justify-center xl:gap-[15px] items-center flex-wrap'>
 
                 {/* 1 */}
-                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Link href='' className='xl:w-[150px] sm:w-[120px]  h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
                   <Image src='/images/automatic-cars.svg' width={100} height={50} alt='Automatic cars' className='mx-auto'/>
                   <h3 className='text-[18px] mt-[5px] mx-auto'>Automatic cars</h3>
                 </Link>
 
                 {/* 2 */}
-                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[15px]'>
+                <Link href='' className='xl:w-[150px] sm:w-[120px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[15px]'>
                   <Image src='/images/family-cars.svg' width={90} height={50} alt='Family cars' />
                   <h3 className='text-[18px] mt-[5px]'>Family Cars</h3>
                 </Link>
 
                 {/* 3 */}
-                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[20px]'>
+                <Link href='' className='xl:w-[150px] sm:w-[120px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[20px]'>
                   <Image src='/images/5-seater.svg' width={90} height={50} alt='5 Seater cars' />
                   <h3 className='text-[18px] mt-[5px]'>5 Seater</h3>
                 </Link>
 
                 {/* 4 */}
-                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[10px]'>
+                <Link href='' className='xl:w-[150px] sm:w-[120px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[10px]'>
                   <Image src='/images/small-cars.svg' width={80} height={50} alt='Small cars' />
                   <h3 className='text-[18px] mt-[5px]'>Small Cars</h3>
                 </Link>
 
                 {/* 5 */}
-                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[17px]'>
+                <Link href='' className='xl:w-[150px] sm:w-[120px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[17px]'>
                   <Image src='/images/big-cars.svg' width={80} height={50} alt='Big cars' />
                   <h3 className='text-[18px] mt-[5px]'>Big Cars</h3>
                 </Link>
 
                 {/* 6 */}
-                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                <Link href='' className='xl:w-[150px] sm:w-[120px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
                   <Image src='/images/imported-cars.svg' width={80} height={50} alt='Imported cars' />
                   <h3 className='text-[18px] mt-[5px]'>Imported Cars</h3>
                 </Link>
 
                 {/* 7 */}
-                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                <Link href='' className='xl:w-[150px] sm:w-[120px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
                   <Image src='/images/old-cars.svg' width={80} height={50} alt='Old cars' />
                   <h3 className='text-[18px] mt-[5px]'>Old Cars</h3>
                 </Link>
 
                 {/* 8 */}
-                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                <Link href='' className='xl:w-[150px] sm:w-[120px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
                   <Image src='/images/5-door.svg' width={80} height={50} alt='5-door cars' />
                   <h3 className='text-[18px] mt-[5px]'>5 Door</h3>
                 </Link>
 
                 {/* 9 */}
-                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                <Link href='' className='xl:w-[150px] sm:w-[120px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
                   <Image src='/images/4-door.svg' width={80} height={50} alt='4-door cars' />
                   <h3 className='text-[18px] mt-[5px]'>4 Door</h3>
                 </Link>
 
                 {/* 10 */}
-                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                <Link href='' className='xl:w-[150px] sm:w-[120px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
                   <Image src='/images/1000-cc.svg' width={80} height={50} alt='1000cc cars' />
                   <h3 className='text-[18px] mt-[5px]'>1000cc cars</h3>
                 </Link>
 
                 {/* 11 */}
-                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                <Link href='' className='xl:w-[150px] sm:w-[120px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
                   <Image src='/images/1300-cc.svg' width={80} height={50} alt='1300cc cars' />
                   <h3 className='text-[18px] mt-[5px]'>1300cc cars</h3>
                 </Link>
 
                 {/* 12 */}
-                <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                <Link href='' className='xl:w-[150px] sm:w-[120px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
                   <Image src='/images/japanese.svg' width={80} height={50} alt='Japanese cars' />
                   <h3 className='text-[18px] mt-[5px]'>Japanese cars</h3>
                 </Link>
@@ -350,13 +350,291 @@ const Home = () => {
           <CarouselNext />
         </Carousel>
 
+        <Carousel opts={{align: "start",loop: true,}} className='w-[245px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
+          <CarouselContent className='h-[300px]'>
+            <CarouselItem className='flex flex-col gap-[20px]'>
+              <div className='flex justify-center items-center flex-wrap gap-[15px]'>
+
+                {/* 1 */}
+                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                  <Image src='/images/automatic-cars.svg' width={50} height={50} alt='Automatic cars' className='mx-auto'/>
+                  <h3 className='text-[12px] mt-[5px] mx-auto'>Automatic cars</h3>
+                </Link>
+
+                {/* 2 */}
+                <Link href='' className='w-[100px] h-[80px]  bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[15px]'>
+                  <Image src='/images/family-cars.svg' width={50} height={50} alt='Family cars' />
+                  <h3 className='text-[12px] mt-[5px]'>Family Cars</h3>
+                </Link>
+
+                {/* 3 */}
+                <Link href='' className='w-[100px] h-[80px]  bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[20px]'>
+                  <Image src='/images/5-seater.svg' width={50} height={50} alt='5 Seater cars' />
+                  <h3 className='text-[12px] mt-[5px]'>5 Seater</h3>
+                </Link>
+
+                {/* 4 */}
+                <Link href='' className='w-[100px] h-[80px]  bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[10px]'>
+                  <Image src='/images/small-cars.svg' width={50} height={50} alt='Small cars' />
+                  <h3 className='text-[12px] mt-[5px]'>Small Cars</h3>
+                </Link>
+
+                {/* 5 */}
+                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[17px]'>
+                  <Image src='/images/big-cars.svg' width={50} height={50} alt='Big cars' />
+                  <h3 className='text-[12px] mt-[5px]'>Big Cars</h3>
+                </Link>
+
+                {/* 6 */}
+                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                  <Image src='/images/imported-cars.svg' width={50} height={50} alt='Imported cars' />
+                  <h3 className='text-[12px] mt-[5px]'>Imported Cars</h3>
+                </Link>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+            <div className='flex justify-center items-center flex-wrap gap-[15px]'>
+
+              {/* 7 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                  <Image src='/images/old-cars.svg' width={50} height={50} alt='Old cars' />
+                  <h3 className='text-[12px] mt-[5px]'>Old Cars</h3>
+                </Link>
+
+                {/* 8 */}
+                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                  <Image src='/images/5-door.svg' width={50} height={50} alt='5-door cars' />
+                  <h3 className='text-[12px] mt-[5px]'>5 Door</h3>
+                </Link>
+
+                {/* 9 */}
+                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                  <Image src='/images/4-door.svg' width={50} height={50} alt='4-door cars' />
+                  <h3 className='text-[12px] mt-[5px]'>4 Door</h3>
+                </Link>
+
+                {/* 10 */}
+                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                  <Image src='/images/1000-cc.svg' width={50} height={50} alt='1000cc cars' />
+                  <h3 className='text-[12px] mt-[5px]'>1000cc cars</h3>
+                </Link>
+
+                {/* 11 */}
+                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                  <Image src='/images/1300-cc.svg' width={50} height={50} alt='1300cc cars' />
+                  <h3 className='text-[12px] mt-[5px]'>1300cc cars</h3>
+                </Link>
+
+                {/* 12 */}
+                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                  <Image src='/images/japanese.svg' width={50} height={50} alt='Japanese cars' />
+                  <h3 className='text-[12px] mt-[5px]'>Japanese cars</h3>
+                </Link>
+            </div>
+            </CarouselItem>
+            <CarouselItem>
+            <div className='flex justify-center items-center flex-wrap gap-[15px]'>
+
+              {/* 1 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                <Image src='/images/660CC.svg' width={50} height={50} alt='660CC cars' className='mx-auto'/>
+                <h3 className='text-[12px] mt-[5px] mx-auto'>660cc cars</h3>
+              </Link>
+
+              {/* 2 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                <Image src='/images/low-priced.svg' width={50} height={50} alt='Low Priced cars' />
+                <h3 className='text-[12px] mt-[5px]'>Low Priced Cars</h3>
+              </Link>
+
+              {/* 3 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[17px]'>
+                <Image src='/images/low-mileage.svg' width={25} height={50} alt='Low Mileage cars' />
+                <h3 className='text-[12px] mt-[5px]'>Low Mileage Cars</h3>
+              </Link>
+
+              {/* 4 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                <Image src='/images/jeep.svg' width={50} height={50} alt='Jeep' />
+                <h3 className='text-[12px] mt-[5px]'>Jeep</h3>
+              </Link>
+
+              {/* 5 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[17px]'>
+                <Image src='/images/hybrid.svg' width={50} height={50} alt='Hybrid cars' />
+                <h3 className='text-[12px] mt-[5px]'>Hybrid Cars</h3>
+              </Link>
+
+              {/* 6 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+                <Image src='/images/cheap.svg' width={50} height={50} alt='Cheap cars' />
+                <h3 className='text-[12px] mt-[5px]'>Cheap Cars</h3>
+              </Link>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+            <div className='flex justify-center items-center flex-wrap gap-[15px]'>
+
+              {/* 7 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/4-seater.svg' width={50} height={50} alt='4 Seater cars' />
+                <h3 className='text-[12px] mt-[5px]'>4 Seater</h3>
+              </Link>
+
+              {/* 8 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/diesel.svg' width={50} height={50} alt='Diesel cars' />
+                <h3 className='text-[12px] mt-[5px]'>Diesel cars</h3>
+              </Link>
+
+              {/* 9 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/4-door.svg' width={50} height={50} alt='4-door cars' />
+                <h3 className='text-[12px] mt-[5px]'>4 Door</h3>
+              </Link>
+
+              {/* 10 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/commercial.svg' width={50} height={50} alt='Commercial cars' />
+                <h3 className='text-[12px] mt-[5px]'>Commercial cars</h3>
+              </Link>
+
+              {/* 11 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/electric.svg' width={50} height={50} alt='Electric cars' />
+                <h3 className='text-[12px] mt-[5px]'>Electric cars</h3>
+              </Link>
+
+              {/* 12 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/8-seater.svg' width={50} height={50} alt='8 Seater cars' />
+                <h3 className='text-[12px] mt-[5px]'>8 Seater cars</h3>
+              </Link>
+            </div>
+            </CarouselItem>
+            <CarouselItem>
+            <div className='flex justify-center items-center flex-wrap gap-[15px]'>
+
+              {/* 1 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/2-seater.svg' width={50} height={50} alt='2 Seater cars' className='mx-auto'/>
+                <h3 className='text-[12px] mt-[5px] mx-auto'>2 Seater</h3>
+              </Link>
+
+              {/* 2 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/2-door.svg' width={50} height={50} alt='2 door cars' />
+                <h3 className='text-[12px] mt-[5px]'>2 Door</h3>
+              </Link>
+
+              {/* 3 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[25px]'>
+                <Image src='/images/sports.svg' width={50} height={50} alt='sports cars' />
+                <h3 className='text-[12px] mt-[5px]'>Sports Cars</h3>
+              </Link>
+
+              {/* 4 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/modified.svg' width={50} height={50} alt='Modified Cars' />
+                <h3 className='text-[12px] mt-[5px]'>Modified Cars</h3>
+              </Link>
+
+              {/* 5 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/3-door.svg' width={50} height={50} alt='3-door cars' />
+                <h3 className='text-[12px] mt-[5px]'>3 Door</h3>
+              </Link>
+
+              {/* 6 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/custom-auction.svg' width={20} height={50} alt='Custom Auction' />
+                <h3 className='text-[12px] mt-[5px]'>Custom Auction</h3>
+              </Link>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+            <div className='flex justify-center items-center flex-wrap gap-[15px]'>
+
+              {/* 7 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/duplicate.svg' width={40} height={50} alt='Duplicate' />
+                <h3 className='text-[12px] mt-[5px]'>Duplicate File</h3>
+              </Link>
+
+              {/* 8 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/urgent.svg' width={50} height={50} alt='Urgent' />
+                <h3 className='text-[12px] mt-[5px]'>Urgent</h3>
+              </Link>
+
+              {/* 9 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[16px]'>
+                <Image src='/images/carry-daba.svg' width={50} height={50} alt='Carry-Daba' />
+                <h3 className='text-[12px] mt-[5px]'>Carry Daba</h3>
+              </Link>
+
+              {/* 10 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/duplicate-book.svg' width={28} height={50} alt='Duplicate-Book' />
+                <h3 className='text-[10px] mt-[5px]'>Duplicate Book Cars</h3>
+              </Link>
+
+              {/* 11 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/army-auction.svg' width={50} height={50} alt='Army-Auction' />
+                <h3 className='text-[10px] mt-[5px]'>Army Auction Jeeps</h3>
+              </Link>
+
+              {/* 12 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/amnesty-scheme.svg' width={40} height={50} alt='Amnesty-Scheme' />
+                <h3 className='text-[12px] mt-[5px]'>Amnesty-Scheme</h3>
+              </Link>
+            </div>
+            </CarouselItem>
+            <CarouselItem>
+            <div className='flex justify-center items-center flex-wrap gap-[15px]'>
+
+              {/* 1 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/duplicate-number.svg' width={50} height={50} alt='Duplicate Number Plate' className='mx-auto'/>
+                <h3 className='text-[10px] text-center mt-[5px] mx-auto'>Duplicate Number Plate</h3>
+              </Link>
+
+              {/* 2 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+                <Image src='/images/police-auction.svg' width={50} height={50} alt='police-auction' />
+                <h3 className='text-[12px] mt-[5px]'>Police Auction</h3>
+              </Link>
+
+              {/* 3 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/superdari.svg' width={50} height={50} alt='Superdari' />
+                <h3 className='text-[12px] mt-[5px]'>Superdari</h3>
+              </Link>
+
+              {/* 4 */}
+              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/bank-auction.svg' width={40} height={50} alt='bank-auction' />
+                <h3 className='text-[12px] mt-[5px]'>Bank Auction</h3>
+              </Link>
+
+              
+            </div>
+            </CarouselItem>
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
+
+
         
         
       </div>
 
       {/* Section 4 */}
-      <div className='px-[250px] py-[50px] flex flex-col gap-[30px]'>
-        <h1 className='text-[28px] text-[#434343] font-semibold'>PakWheels Offerings</h1>
+      <div className='xl:px-[250px] xl:bg-white xl:text-black sm:bg-black sm:text-white sm:px-[16px] py-[50px] flex flex-col gap-[30px]'>
+        <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343]  font-semibold'>PakWheels Offerings</h1>
 
         {/* 1 */}
         <div className='flex justify-between items-center flex-wrap w-full mb-[10px]'>
@@ -448,14 +726,15 @@ const Home = () => {
       </div>
 
       {/* Section 5 */}
-      <div className='px-[250px] py-[50px]  text-[#434343] bg-[#F2F3F3] flex flex-col items-center'>
+      <div className='xl:px-[250px] sm:px-[16px] py-[50px]  xl:bg-[#F2F3F3] sm:bg-black sm:text-white xl:text-[#434343] flex flex-col items-center'>
         <div className='flex justify-between items-center w-full mb-[40px]'>
-          <h1 className='text-[28px] text-[#434343] font-semibold'>Managed by PakWheels</h1>
-          <Link href='' className='text-blue-700 hover:underline'>View all managed by PakWheels cars</Link>
+          <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold'>Managed by PakWheels</h1>
+          <Link href='' className='text-blue-700 hover:underline xl:block sm:hidden'>View all managed by PakWheels cars</Link>
+          <Link href='' className='text-blue-700 hover:underline xl:hidden sm:block'>View All</Link>
         </div>
 
         <div>
-        <Carousel opts={{align: "start",loop: true,}}>
+        <Carousel opts={{align: "start",loop: true,}} className='xl:block sm:hidden'>
           <CarouselContent className='h-[280px] w-[1000px]'>
             <CarouselItem>
               <div className='flex justify-center items-center gap-[15px]'>
@@ -602,6 +881,147 @@ const Home = () => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
+
+        <Carousel opts={{align: "start",loop: true,}} className='w-[245px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
+          <CarouselContent className=' h-[300px]'>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col text-center justify-center items-center bg-[#222222] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-brv-2018.webp' width={200} height={150} alt='Managed 1' />
+                <div className='w-[230px] h-[100px] p-[10px] '>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda BR-V 2018</Link>
+                  <p className='text-green-400'>PKR 3,900,000</p>
+                  <p className='text-gray-400'>Karachi</p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 2 */}
+              <div className='flex flex-col text-center justify-center items-center bg-[#222222] p-[25px] text-white rounded-[10px]'>
+                  <Image src='/images/mercedes-benz-2009.webp' width={200} height={150} alt='Managed 2' />
+                  <div className='w-[230px] h-[100px]  p-[10px] '>
+                    <Link href='' className='text-blue-900 text-[16px] font-semibold'>Mercedes Benz E Class 2009</Link>
+                    <p className='text-green-400'>PKR 7,000,000</p>
+                    <p className='text-gray-400'>Lahore</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 3 */}
+              <div className='flex flex-col text-center justify-center items-center bg-[#222222] p-[25px] text-white rounded-[10px]'>
+                  <Image src='/images/honda-civic-2009.webp' width={230} height={150} alt='Managed 3' />
+                  <div className='w-[230px] h-[100px]  p-[10px] '>
+                    <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda Civic 2009</Link>
+                    <p className='text-green-400'>PKR 2,650,000</p>
+                    <p className='text-gray-400'>Lahore</p>
+                  </div>
+                </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col text-center justify-center items-center bg-[#222222] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-brv-2018.webp' width={200} height={150} alt='Managed 1' />
+                <div className='w-[230px] h-[100px] p-[10px] '>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda BR-V 2018</Link>
+                  <p className='text-green-400'>PKR 3,900,000</p>
+                  <p className='text-gray-400'>Karachi</p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col text-center justify-center items-center bg-[#222222] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-brv-2018.webp' width={200} height={150} alt='Managed 1' />
+                <div className='w-[230px] h-[100px] p-[10px] '>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda BR-V 2018</Link>
+                  <p className='text-green-400'>PKR 3,900,000</p>
+                  <p className='text-gray-400'>Karachi</p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col text-center justify-center items-center bg-[#222222] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-brv-2018.webp' width={200} height={150} alt='Managed 1' />
+                <div className='w-[230px] h-[100px] p-[10px] '>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda BR-V 2018</Link>
+                  <p className='text-green-400'>PKR 3,900,000</p>
+                  <p className='text-gray-400'>Karachi</p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col text-center justify-center items-center bg-[#222222] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-brv-2018.webp' width={200} height={150} alt='Managed 1' />
+                <div className='w-[230px] h-[100px] p-[10px] '>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda BR-V 2018</Link>
+                  <p className='text-green-400'>PKR 3,900,000</p>
+                  <p className='text-gray-400'>Karachi</p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col text-center justify-center items-center bg-[#222222] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-brv-2018.webp' width={200} height={150} alt='Managed 1' />
+                <div className='w-[230px] h-[100px] p-[10px] '>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda BR-V 2018</Link>
+                  <p className='text-green-400'>PKR 3,900,000</p>
+                  <p className='text-gray-400'>Karachi</p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col text-center justify-center items-center bg-[#222222] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-brv-2018.webp' width={200} height={150} alt='Managed 1' />
+                <div className='w-[230px] h-[100px] p-[10px] '>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda BR-V 2018</Link>
+                  <p className='text-green-400'>PKR 3,900,000</p>
+                  <p className='text-gray-400'>Karachi</p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col text-center justify-center items-center bg-[#222222] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-brv-2018.webp' width={200} height={150} alt='Managed 1' />
+                <div className='w-[230px] h-[100px] p-[10px] '>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda BR-V 2018</Link>
+                  <p className='text-green-400'>PKR 3,900,000</p>
+                  <p className='text-gray-400'>Karachi</p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col text-center justify-center items-center bg-[#222222] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-brv-2018.webp' width={200} height={150} alt='Managed 1' />
+                <div className='w-[230px] h-[100px] p-[10px] '>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda BR-V 2018</Link>
+                  <p className='text-green-400'>PKR 3,900,000</p>
+                  <p className='text-gray-400'>Karachi</p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem >
+              {/* 1 */}
+              <div className='flex flex-col text-center justify-center items-center bg-[#222222] p-[25px] text-white rounded-[10px]'>
+                <Image src='/images/honda-brv-2018.webp' width={200} height={150} alt='Managed 1' />
+                <div className='w-[230px] h-[100px] p-[10px] '>
+                  <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda BR-V 2018</Link>
+                  <p className='text-green-400'>PKR 3,900,000</p>
+                  <p className='text-gray-400'>Karachi</p>
+                </div>
+              </div>
+            </CarouselItem>
+            
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
+
 
         </div>
       </div>
