@@ -17,15 +17,15 @@ import {
 
 const Home = () => {
   return (
-    <div className='xl:min-w-[1440px] sm:min-w-[375px]'>
+    <div className='xl:min-w-[1440px] sm:min-w-[320px]'>
       
       {/* Section 1 */}
       <div className='bg-gradient-to-b from-[#041528] to-[#013674] text-white xl:px-[200px] sm:px-[16px] xl:py-[100px] sm:py-[50px] flex flex-col justify-center items-center text-left sm:text-center'>
-        <h1 className='xl:text-[40px] sm:text-[28px]'>Find Used Cars in Pakistan</h1>
+        <h1 className='xl:text-[40px] sm:text-[24px]'>Find Used Cars in Pakistan</h1>
         <h2 className='xl:text-[18px]'>With thousands of cars, we have just the right one for you</h2>
         <div className='flex justify-center items-center my-[20px] '>
           <input type="text" placeholder='Car Make or Model' className='bg-white
-            p-[15px]  xl:w-[350px] sm:min-w-[270px] outline-none border-none text-black rounded-l-[5px]'/>
+            p-[15px]  xl:w-[350px] sm:min-w-[220px] outline-none border-none text-black rounded-l-[5px]'/>
           <Button variant="outline" className='bg-white text-black h-[54px] rounded-none font-[400] xl:block sm:hidden '>All Cities <FontAwesomeIcon icon={faAngleDown} className='size-[12px] ml-[100px]' /></Button>
           <Button variant="outline" className='bg-white text-black h-[54px] rounded-none font-[400] xl:block sm:hidden'>Price Range <FontAwesomeIcon icon={faAngleDown} className='size-[12px] ml-[100px]' /></Button>
           <Button className='bg-[#3EB549] text-white rounded-none py-[27px] px-[25px] rounded-r-[5px]'><FontAwesomeIcon icon={faMagnifyingGlass} className='size-[25px]' /></Button>
@@ -64,9 +64,9 @@ const Home = () => {
       </fieldset>
 
       {/* Section 3 */}
-      <div className='xl:px-[200px] xl:w-full sm:min-w-[375px] sm:px-[16px] py-[50px] xl:bg-[#F2F3F3] sm:bg-black sm:text-white xl:text-[#434343] flex flex-col xl:items-start sm:items-center gap-[20px]'>
+      <div className='xl:px-[200px] xl:w-full sm:min-w-[320px] sm:px-[16px] py-[50px] xl:bg-[#F2F3F3] sm:bg-black sm:text-white xl:text-[#434343] flex flex-col xl:items-start sm:items-center gap-[20px]'>
         <h2 className='font-semibold xl:text-[32px] sm:text-[24px] '>Browse Used Cars</h2>
-        <nav className='flex justify-start xl:gap-[40px] sm:gap-[10px] items-center font-semibold xl:text-[20px] sm:text-[14px] pb-[10px]'>
+        <nav className='flex justify-start xl:gap-[40px] sm:gap-[10px] items-center font-semibold xl:text-[20px] sm:text-[12px] pb-[10px]'>
           <button type='button' className='active:border-[#4c6acd] active:border-b-[3px] animate-pulse border-b-[3px] border-blue-700 '>Category</button>
           <button type='button'>City</button>
           <button type='button'>Make</button>
@@ -161,7 +161,7 @@ const Home = () => {
 
               {/* 1 */}
               <Link href='' className='w-[150px] h-[130px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
-                <Image src='/images/660CC.svg' width={80} height={50} alt='660CC cars' className='mx-auto'/>
+                <Image src='/images/660cc.svg' width={80} height={50} alt='660CC cars' className='mx-auto'/>
                 <h3 className='text-[18px] mt-[5px] mx-auto'>660cc cars</h3>
               </Link>
 
@@ -350,7 +350,7 @@ const Home = () => {
           <CarouselNext />
         </Carousel>
 
-        <Carousel opts={{align: "start",loop: true,}} className='w-[245px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
+        <Carousel opts={{align: "start",loop: true,}} className='w-[220px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
           <CarouselContent className='h-[300px]'>
             <CarouselItem className='flex flex-col gap-[20px]'>
               <div className='flex justify-center items-center flex-wrap gap-[15px]'>
@@ -641,19 +641,19 @@ const Home = () => {
 
           {/* 1.1 */}
           <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-300 hover:shadow-md hover:shadow-gray-400  hover:duration-300  rounded-[3px]'>
-            <Image src='/images/off-1.png' width={150} height={70} alt='Offer 1' />
+            <Image src='/images/off-1.png' width={150} height={70} alt='Offer 1' className='xl:w-[150px] sm:w-[100px]'/>
             <div>
-              <h3 className='xl:text-blue-800 sm:text-blue-600 text-[18px] font-semibold'>PakWheels</h3>
-              <h2 className='text-[20px] font-semibold'>SELL IT FOR ME</h2>
+              <h3 className='xl:text-blue-800 sm:text-blue-600 xl:text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='xl:text-[20px] font-semibold'>SELL IT FOR ME</h2>
             </div>
           </Link>
 
           {/* 1.2 */}
           <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-700 hover:shadow-md hover:shadow-gray-400 hover:duration-700 rounded-[3px]'>
-            <Image src='/images/off-2.png' width={150} height={70} alt='Offer 1' />
+            <Image src='/images/off-2.png' width={150} height={70} alt='Offer 1' className='xl:w-[150px] sm:w-[100px]'/>
             <div>
-              <h3 className='xl:text-blue-800 sm:text-blue-600 text-[18px] font-semibold'>PakWheels</h3>
-              <h2 className='text-[20px] font-semibold'>AUCTION SHEET VERIFICATION</h2>
+              <h3 className='xl:text-blue-800 sm:text-blue-600 xl:text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='xl:text-[20px] font-semibold'>AUCTION SHEET VERIFICATION</h2>
             </div>
           </Link>
         </div>
@@ -663,19 +663,19 @@ const Home = () => {
 
           {/* 2.1 */}
           <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-300 hover:shadow-md hover:shadow-gray-400  hover:duration-300  rounded-[3px]'>
-            <Image src='/images/off-3.png' width={150} height={70} alt='Offer 1' />
+            <Image src='/images/off-3.png' width={150} height={70} alt='Offer 1' className='xl:w-[150px] sm:w-[100px]'/>
             <div>
-              <h3 className='xl:text-blue-800 sm:text-blue-600 text-[18px] font-semibold'>PakWheels</h3>
-              <h2 className='text-[20px] font-semibold'>CAR INSPECTION</h2>
+              <h3 className='xl:text-blue-800 sm:text-blue-600 xl:text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='xl:text-[20px] font-semibold'>CAR INSPECTION</h2>
             </div>
           </Link>
 
           {/* 2.2 */}
           <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-700 hover:shadow-md hover:shadow-gray-400 hover:duration-700 rounded-[3px]'>
-            <Image src='/images/off-4.png' width={150} height={70} alt='Offer 1' />
+            <Image src='/images/off-4.png' width={150} height={70} alt='Offer 1' className='xl:w-[150px] sm:w-[100px]'/>
             <div>
-              <h3 className='xl:text-blue-800 sm:text-blue-600 text-[18px] font-semibold'>PakWheels</h3>
-              <h2 className='text-[20px] font-semibold'>PARTNER WORKSHOP</h2>
+              <h3 className='xl:text-blue-800 sm:text-blue-600 xl:text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='xl:text-[20px] font-semibold'>PARTNER WORKSHOP</h2>
             </div>
           </Link>
         </div>
@@ -685,19 +685,19 @@ const Home = () => {
 
           {/* 3.1 */}
           <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-300 hover:shadow-md hover:shadow-gray-400  hover:duration-300  rounded-[3px]'>
-            <Image src='/images/off-5.png' width={150} height={70} alt='Offer 1' />
+            <Image src='/images/off-5.png' width={150} height={70} alt='Offer 1'className='xl:w-[150px] sm:w-[100px]' />
             <div>
-              <h3 className='xl:text-blue-800 sm:text-blue-600 text-[18px] font-semibold'>PakWheels</h3>
-              <h2 className='text-[20px] font-semibold'>CAR INSURANCE</h2>
+              <h3 className='xl:text-blue-800 sm:text-blue-600 xl:text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='xl:text-[20px] font-semibold'>CAR INSURANCE</h2>
             </div>
           </Link>
 
           {/* 3.2 */}
           <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-700 hover:shadow-md hover:shadow-gray-400 hover:duration-700 rounded-[3px]'>
-            <Image src='/images/off-6.png' width={150} height={70} alt='Offer 1' />
+            <Image src='/images/off-6.png' width={150} height={70} alt='Offer 1' className='xl:w-[150px] sm:w-[100px]'/>
             <div>
-              <h3 className='xl:text-blue-800 sm:text-blue-600 text-[18px] font-semibold'>PakWheels</h3>
-              <h2 className='text-[20px] font-semibold'>CAR FINANCE</h2>
+              <h3 className='xl:text-blue-800 sm:text-blue-600 xl:text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='xl:text-[20px] font-semibold'>CAR FINANCE</h2>
             </div>
           </Link>
         </div>
@@ -707,19 +707,19 @@ const Home = () => {
 
           {/* 4.1 */}
           <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-300 hover:shadow-md hover:shadow-gray-400  hover:duration-300  rounded-[3px]'>
-            <Image src='/images/off-7.png' width={150} height={70} alt='Offer 1' />
+            <Image src='/images/off-7.png' width={150} height={70} alt='Offer 1' className='xl:w-[150px] sm:w-[100px]'/>
             <div>
-              <h3 className='xl:text-blue-800 sm:text-blue-600 text-[18px] font-semibold'>PakWheels</h3>
-              <h2 className='text-[20px] font-semibold'>CAR REGISTRATION</h2>
+              <h3 className='xl:text-blue-800 sm:text-blue-600 xl:text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='xl:text-[20px] font-semibold'>CAR REGISTRATION</h2>
             </div>
           </Link>
 
           {/* 4.2 */}
           <Link href='' className='flex justify-start gap-[15px] items-center border-gray-200 border-[1px] px-[20px] py-[10px] w-[500px] h-[120px] duration-700 hover:shadow-md hover:shadow-gray-400 hover:duration-700 rounded-[3px]'>
-            <Image src='/images/off-8.png' width={150} height={70} alt='Offer 1' />
+            <Image src='/images/off-8.png' width={150} height={70} alt='Offer 1' className='xl:w-[150px] sm:w-[100px]'/>
             <div>
-              <h3 className='xl:text-blue-800 sm:text-blue-600 text-[18px] font-semibold'>PakWheels</h3>
-              <h2 className='text-[20px] font-semibold'>OWNERSHIP TRANSFER</h2>
+              <h3 className='xl:text-blue-800 sm:text-blue-600 xl:text-[18px] font-semibold'>PakWheels</h3>
+              <h2 className='xl:text-[20px] font-semibold'>OWNERSHIP TRANSFER</h2>
             </div>
           </Link>
         </div>
@@ -728,7 +728,7 @@ const Home = () => {
       {/* Section 5 */}
       <div className='xl:px-[250px] sm:px-[16px] py-[50px]  xl:bg-[#F2F3F3] sm:bg-black sm:text-white xl:text-[#434343] flex flex-col items-center'>
         <div className='flex justify-between items-center w-full mb-[40px]'>
-          <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold'>Managed by PakWheels</h1>
+          <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold'>Managed by PakWheels</h1>
           <Link href='' className='text-blue-700 hover:underline xl:block sm:hidden'>View all managed by PakWheels cars</Link>
           <Link href='' className='text-blue-700 hover:underline xl:hidden sm:block'>View All</Link>
         </div>
@@ -882,7 +882,7 @@ const Home = () => {
           <CarouselNext />
         </Carousel>
 
-        <Carousel opts={{align: "start",loop: true,}} className='w-[245px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
+        <Carousel opts={{align: "start",loop: true,}} className='w-[220px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
           <CarouselContent className=' h-[300px]'>
             <CarouselItem >
               {/* 1 */}
@@ -1028,9 +1028,9 @@ const Home = () => {
       </div>
 
       {/* Section 6 */}
-      <div className='xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-white xl:text-[#434343] sm:bg-black sm:text-white flex flex-col items-center'>
+      <div className='xl:px-[250px] sm:px-[10px] py-[50px] xl:bg-white xl:text-[#434343] sm:bg-black sm:text-white flex flex-col items-center'>
         <div className='flex justify-between items-center w-full mb-[40px]'>
-          <h1 className='xl:text-[28px] sm:text-[20px] xl:text-[#434343] font-semibold'>Featured Used Cars for Sale</h1>
+          <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold'>Featured Used Cars for Sale</h1>
           <Link href='' className='text-blue-700 hover:underline flex'>View All <span className='xl:block sm:hidden ml-[5px]'>Featured Used Car</span></Link>
         </div>
 
@@ -1229,7 +1229,7 @@ const Home = () => {
           <CarouselNext />
         </Carousel>
 
-        <Carousel opts={{align: "start",loop: true,}} className='w-[245px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
+        <Carousel opts={{align: "start",loop: true,}} className='w-[220px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
           <CarouselContent className=' h-[300px]'>
             <CarouselItem >
               {/* 1 */}
@@ -1423,10 +1423,10 @@ const Home = () => {
       {/* Section 7 */}
       <div className='xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-[#F2F3F3] xl:text-[#434343] sm:bg-black sm:text-white flex flex-col xl:items-start sm:items-center'>
         <div className='flex justify-between items-center w-full mb-[20px]'>
-          <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold'>Featured New Cars</h1>
+          <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold'>Featured New Cars</h1>
           <Link href='' className='text-blue-700 hover:underline flex'>View All <span className='sm:hidden xl:block ml-[5px]'>New Car</span></Link>
         </div>
-        <nav className='flex justify-start xl:gap-[40px] sm:gap-[20px] items-center xl:text-[#434343] font-semibold xl:text-[20px] pb-[10px]  mb-[40px]'>
+        <nav className='flex justify-start xl:gap-[40px] sm:gap-[15px] items-center xl:text-[#434343] font-semibold xl:text-[20px] sm:text-[14px] pb-[10px]  mb-[40px]'>
           <button type='button' className='active:border-[#4c6acd] active:border-b-[3px] animate-pulse border-b-[3px] border-blue-700 '>Popular</button>
           <button type='button'>Upcoming</button>
           <button type='button'>Newly Launched</button>
@@ -1739,7 +1739,7 @@ const Home = () => {
           <CarouselNext />
         </Carousel>
 
-        <Carousel opts={{align: "start",loop: true,}} className='w-[245px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
+        <Carousel opts={{align: "start",loop: true,}} className='w-[220px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
           <CarouselContent className=' h-[300px]'>
             <CarouselItem >
               {/* 1 */}
@@ -2045,7 +2045,7 @@ const Home = () => {
 
       {/* Section 8 */}
       <div className='xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-[#F2F3F3] sm:bg-black sm:text-white'>
-        <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold mb-[20px]'>New Cars by Make</h1>
+        <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold mb-[20px]'>New Cars by Make</h1>
         <div className='flex xl:justify-between sm:justify-center sm:gap-[20px] items-center flex-wrap'>
 
           {/* 1 */}
@@ -2327,7 +2327,7 @@ const Home = () => {
       <div className='xl:px-[250px] xl:bg-white sm:bg-black sm:text-white sm:px-[16px] py-[50px] flex justify-start flex-col '>
 
         <div className='flex justify-between items-center xl:w-[800px]'>
-          <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold mb-[20px]'>Car Comparisons</h1>
+          <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold mb-[20px]'>Car Comparisons</h1>
           <Link href='' className='text-blue-700 hover:underline flex'>All Cars <span className='sm:hidden xl:block ml-[5px]'>Comparisons</span></Link>
         </div>
 
@@ -2376,7 +2376,7 @@ const Home = () => {
           </div>
         </div>
 
-        <Link href='' className='sm:flex xl:hidden bg-[#222222] text-white justify-between items-center p-[20px] max-w-[400px]'>
+        <Link href='' className='sm:flex xl:hidden bg-[#222222] text-white justify-between items-center p-[15px] max-w-[400px]'>
           <div className='flex flex-col items-center'>
               <Image src='/images/mg-hs.jpg' width={150} height={100} alt='MG HS' />
               <h3>MG HS</h3>
@@ -2395,7 +2395,7 @@ const Home = () => {
 
       {/* Section 10 */}
       <div className='flex flex-col xl:items-start sm:items-center gap-[20px] xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-[#F2F3F3] xl:text-[#434343] sm:bg-black sm:text-white'>
-        <h1 className='xl:text-[28px] sm:text-[21px] xl:text-[#434343] font-semibold mb-[20px]'>Auto Store Car Parts & Accessories</h1>
+        <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold mb-[20px]'>Auto Store Car Parts & Accessories</h1>
         <nav className='flex justify-start xl:gap-[40px] sm:gap-[20px] items-center xl:text-[#434343] font-semibold xl:text-[20px] pb-[10px]'>
           <button type='button' className=' animate-pulse border-b-[3px] border-blue-700 '>Sub Category</button>
           <button type='button'>Make</button>
@@ -2568,7 +2568,7 @@ const Home = () => {
           <CarouselNext />
         </Carousel>
 
-        <Carousel opts={{align: "start",loop: true,}} className='w-[245px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
+        <Carousel opts={{align: "start",loop: true,}} className='w-[220px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
           <CarouselContent className='h-[300px]'>
             <CarouselItem className='flex flex-col gap-[20px]'>
               <div className='flex justify-center items-center flex-wrap gap-[15px]'>
@@ -2737,7 +2737,7 @@ const Home = () => {
 
       {/* Section 11 */}
       <div className='xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-white sm:bg-black sm:text-white'>
-        <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold mb-[20px]'>New Bikes by Make</h1>
+        <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold mb-[20px]'>New Bikes by Make</h1>
         <div className='flex xl:justify-between sm:justify-center sm:gap-[20px] items-center flex-wrap'>
 
           {/* 1 */}
@@ -2951,7 +2951,7 @@ const Home = () => {
       <div className='xl:px-[250px] sm:px-[16px] py-[50px] flex flex-col items-start sm:items-center xl:bg-[#f2f2f2] xl:text-black sm:bg-black sm:text-white'>
 
         <div className='flex justify-between items-center w-full mb-[40px]'>
-          <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold'>Popular New Bikes</h1>
+          <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold'>Popular New Bikes</h1>
           <Link href='' className='text-blue-700 hover:underline flex'>View All <span className='sm:hidden xl:block ml-[5px]'>New Bikes</span></Link>
         </div>
 
@@ -3255,7 +3255,7 @@ const Home = () => {
           <CarouselNext />
         </Carousel>
 
-        <Carousel opts={{align: "start",loop: true,}} className='w-[245px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
+        <Carousel opts={{align: "start",loop: true,}} className='w-[220px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
           <CarouselContent className=' h-[300px]'>
             <CarouselItem >
               {/* 1 */}
@@ -3542,7 +3542,7 @@ const Home = () => {
       {/* Section 13 */}
       <div className='flex flex-col gap-[30px] xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-white sm:bg-black sm:text-white'>
         <div className='flex justify-between items-center w-full'>
-          <h1 className='xl:text-[28px] sm:text-[24px] xl:text-[#434343] font-semibold'>Browse Our Videos</h1>
+          <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold'>Browse Our Videos</h1>
           <Link href='' className='text-blue-700 hover:underline flex'>View All <span className='sm:hidden xl:block ml-[5px]'>Videos</span></Link>
         </div>
 
@@ -3573,20 +3573,20 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='sm:flex xl:hidden flex-col items-center gap-[15px]'>
+        <div className='sm:flex xl:hidden flex-col items-center gap-[30px]'>
 
-          <div className='' >
-            <iframe width="343" height="300" src="https://www.youtube.com/embed/krCzyT_XUbY?si=6TrwNdmDjW__I5KK" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+          <div className='w-[280px] h-[148px] mb-[20px]' >
+            <iframe width="280" height="148" src="https://www.youtube.com/embed/krCzyT_XUbY?si=6TrwNdmDjW__I5KK" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
             <p className='text-blue-800 font-semibold'>Hyundai Elantra Hybrid Review</p>
           </div>  
 
-          <div className=' w-[343px] h-[148px]' >
-            <iframe width="341" height="150" src="https://www.youtube.com/embed/SBPWUDXiWt4?si=vaosWl4xDhcDHOka" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          <div className=' w-[280px] h-[148px] mb-[20px]' >
+            <iframe width="280" height="148" src="https://www.youtube.com/embed/SBPWUDXiWt4?si=vaosWl4xDhcDHOka" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             <p className='text-blue-800 font-semibold'>Looks Better? Toyota Yaris</p>
           </div> 
 
-          <div className='   w-[343px] h-[150px] mt-[20px]' >
-            <iframe width="341" height="148" src="https://www.youtube.com/embed/_D3a5dxyNyA?si=v0PisIzIxlufVGcV" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+          <div className='   w-[280px] h-[150px] mt-[20px]' >
+            <iframe width="280" height="148" src="https://www.youtube.com/embed/_D3a5dxyNyA?si=v0PisIzIxlufVGcV" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
             <p className='text-blue-800 font-semibold'>Which is Better?</p>
           </div>       
         </div>
@@ -3594,12 +3594,12 @@ const Home = () => {
 
       {/* Section 14 */}
       <div className='flex flex-col xl:items-start sm:items-center gap-[20px] xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-[#f2f2f2] xl:text-[#434343] sm:bg-black sm:text-white'>
-        <div className='flex justify-between items-center xl:w-[800px] sm:min-w-[343px]'>
-          <h1 className='xl:text-[28px] sm:text-[20px] xl:text-[#434343] font-semibold'>News, Reviews & Discussions</h1>
+        <div className='flex justify-between items-center xl:w-[800px] sm:min-w-[300px]'>
+          <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold'>News, Reviews & Discussions</h1>
           <Link href='' className='text-blue-700 hover:underline flex'>Read All <span className='sm:hidden xl:block ml-[5px]'>Recent News</span></Link>
         </div>
-        <nav className='flex justify-start xl:gap-[40px] sm:gap-[20px]
-         items-center xl:text-[#434343] font-semibold xl:text-[20px] pb-[10px]'>
+        <nav className='flex justify-start xl:gap-[40px] sm:gap-[10px]
+         items-center xl:text-[#434343] font-semibold xl:text-[20px] sm:text-[14px] pb-[10px]'>
           <button type='button' className=' animate-pulse border-b-[3px] border-blue-700 '>Automotive News</button>
           <button type='button'>Car Reviews</button>
           <button type='button'>Discussions</button>

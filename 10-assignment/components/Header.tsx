@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <div className="w-auto h-auto bg-gradient-to-b from-black to-[#041528] text-white xl:px-[120px] sm:px-[16px] py-[5px] relative">
+    <div className="w-auto h-auto bg-gradient-to-b from-black to-[#041528] text-white xl:px-[120px] sm:px-[10px] py-[5px] relative">
       {/* Top Bar */}
       <div className="flex justify-between items-center border-[#302F2E] border-b-[1px] pb-[5px]">
         <h3 className="xl:text-[16px] sm:text-[12px]">

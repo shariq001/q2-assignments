@@ -77,7 +77,7 @@ body {
   gap: 15px;
 }
 
-@media(min-width: 375px) {
+@media(min-width: 320px) {
   #grid-container {
     display: none;
   }
