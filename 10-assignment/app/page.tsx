@@ -3116,7 +3116,7 @@ const Home = () => {
 
               {/* 1 */}
               <div className='bg-white flex flex-col items-center justify-center p-[15px] w-[250px] h-[250px] duration-300 hover:shadow-md hover:shadow-gray-500 hover:duration-300'>
-                <Image src='/images/honda-cb-125F.jpg' width={180} height={150} alt='Honda CB 125F' />
+                <Image src='/images/honda-cb-125f.jpg' width={180} height={150} alt='Honda CB 125F' />
                 <Link href='' className='text-blue-900 text-[18px] font-semibold'>Honda CB 125F</Link>
                 <p className='text-green-400'>PKR 390,900</p>
                 <div className='flex justify-center gap-[7px] items-center'>
