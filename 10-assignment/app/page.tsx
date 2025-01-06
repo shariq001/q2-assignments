@@ -26,8 +26,8 @@ const Home = () => {
         <div className='flex justify-center items-center my-[20px] '>
           <input type="text" placeholder='Car Make or Model' className='bg-white
             p-[15px]  xl:w-[350px] sm:min-w-[270px] outline-none border-none text-black rounded-l-[5px]'/>
-          <Button variant="outline" className='bg-white text-black py-[26.45px] rounded-none font-[400] xl:block sm:hidden '>All Cities <FontAwesomeIcon icon={faAngleDown} className='size-[12px] ml-[100px]' /></Button>
-          <Button variant="outline" className='bg-white text-black xl:py-[26.45px] rounded-none font-[400] xl:block sm:hidden'>Price Range <FontAwesomeIcon icon={faAngleDown} className='size-[12px] ml-[100px]' /></Button>
+          <Button variant="outline" className='bg-white text-black h-[54px] rounded-none font-[400] xl:block sm:hidden '>All Cities <FontAwesomeIcon icon={faAngleDown} className='size-[12px] ml-[100px]' /></Button>
+          <Button variant="outline" className='bg-white text-black h-[54px] rounded-none font-[400] xl:block sm:hidden'>Price Range <FontAwesomeIcon icon={faAngleDown} className='size-[12px] ml-[100px]' /></Button>
           <Button className='bg-[#3EB549] text-white rounded-none py-[27px] px-[25px] rounded-r-[5px]'><FontAwesomeIcon icon={faMagnifyingGlass} className='size-[25px]' /></Button>
         </div>
         <Link href='' className='border-white border-[1px] rounded-[3px] text-[14px] px-[20px] py-[3px] mt-[15px]'>Advanced Filter <FontAwesomeIcon icon={faAngleRight} className='size-[12px] inline-flex items-center' /></Link>

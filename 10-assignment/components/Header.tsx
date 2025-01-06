@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <div className="w-auto h-auto bg-gradient-to-b from-black to-[#041528] text-white xl:px-[150px] sm:px-[16px] py-[5px] relative">
+    <div className="w-auto h-auto bg-gradient-to-b from-black to-[#041528] text-white xl:px-[120px] sm:px-[16px] py-[5px] relative">
       {/* Top Bar */}
       <div className="flex justify-between items-center border-[#302F2E] border-b-[1px] pb-[5px]">
         <h3 className="xl:text-[16px] sm:text-[12px]">
@@ -36,9 +36,9 @@ const Header = () => {
         <Image src="/images/logo.svg" width={160} height={50} alt="Logo" />
 
         {/* Desktop Navigation */}
-        <nav className="hidden sm:hidden xl:flex">
+        <nav className=" sm:hidden xl:flex">
           <Link href="" className="text-white hover:bg-white hover:text-red-600 px-[25px] py-[16px]">
-            Used Cars <FontAwesomeIcon icon={faAngleDown} />
+            Used Cars <FontAwesomeIcon icon={faAngleDown} className="inline-flex"/>
           </Link>
           <Link href="" className="text-white hover:bg-white hover:text-red-600 px-[25px] py-[16px]">
             New Cars <FontAwesomeIcon icon={faAngleDown} />
