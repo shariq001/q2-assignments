@@ -12,7 +12,7 @@ const Home = () => {
 
         {/* Left */}
         <div className='xl:w-[50%] sm:w-full sm:text-center'>
-          <h1 className='font-[500] xl:text-[60px] sm:text-[47px] dm-sans xl:leading-[58.32px] sm:leading-[90%] tracking-[-3%]'>Hi, I&apos;m <br /> Mehmet Akif.</h1>
+          <h1 className='font-[500] xl:text-[60px] sm:text-[47px] dm-sans xl:leading-[58.32px] sm:leading-[90%] tracking-[-3%]'>Hello, I&apos;m <br /> Mehmet Akif.</h1>
         </div>
 
         {/* Right */}
