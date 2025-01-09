@@ -13,15 +13,15 @@ const Header = () => {
   };
 
   return (
-    <div className='xl:min-w-[1440px] xl:px-[150px] xl:py-[30px] flex justify-between items-center sm:px-[20px] sm:min-w-[375px] sm:py-[16px] relative'>
-      <h1 className='font-semibold xl:text-[50px] sm:text-[24px]'>ma.</h1>
-      <nav className='xl:flex gap-5 text-[21px] dm-sans font-semibold sm:hidden'>
+    <div className='xl:min-w-[1440px] xl:px-[150px] xl:py-[30px] flex justify-between items-center sm:px-[10px] md:px-[30px] lg:px-[50px] sm:min-w-[320px] sm:py-[10px] relative'>
+      <h1 className='font-semibold lg:text-[50px] sm:text-[24px]'>ma.</h1>
+      <nav className='lg:flex gap-5 text-[21px] dm-sans font-semibold sm:hidden'>
         <Link href='/'>Work</Link>
         <Link href='/About'>About</Link>
         <Link href=''>Playground</Link>
         <Link href=''>Contact</Link>
       </nav>
-      <div className='xl:hidden sm:block'>
+      <div className='lg:hidden sm:block'>
         <button type='button' onClick={toggleMenu}>
           <FontAwesomeIcon icon={faBars} className='text-[24px]' />
         </button>
