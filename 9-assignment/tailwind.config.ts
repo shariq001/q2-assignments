@@ -58,7 +58,9 @@ const config: Config = {
   		}
   	},
 	screens: {
-		'sm': '375px',
+		'sm': '320px',
+		'md': '768px',
+		'lg': '1024px',
 		'xl': '1440px',
 		
 	}

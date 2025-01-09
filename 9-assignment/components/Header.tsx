@@ -10,12 +10,12 @@ export const Header = () => {
   };
 
   return (
-    <nav className="bg-cyan-50 flex justify-between items-center xl:px-[100px] border-b-[1px] border-gray-400 py-[20px] xl:min-w-[1440px] relative sm:min-w-[375px] sm:px-[16px]">
+    <nav className="bg-cyan-50 flex justify-between items-center lg:px-[100px] border-b-[1px] border-gray-400 py-[20px] xl:min-w-[1440px] relative sm:min-w-[320px] sm:px-[10px]">
       {/* Logo */}
       <h1 className="text-[30px] font-[700]">Rizfan</h1>
 
       {/* Navigation Links for Larger Screens */}
-      <ul className="hidden xl:flex justify-center gap-[50px] text-[25px] text-gray-500">
+      <ul className="hidden lg:flex justify-center xl:gap-[50px] lg:gap-[30px] text-[25px] text-gray-500">
         <li>Home</li>
         <li>About</li>
         <li>Skill</li>
@@ -27,7 +27,7 @@ export const Header = () => {
       <button
         type="button"
         onClick={toggleMenu}
-        className="xl:hidden text-[30px] text-gray-500"
+        className="lg:hidden xl:text-[30px] lg:text-[24px] text-gray-500"
       >
         ☰
       </button>
