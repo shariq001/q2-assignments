@@ -448,8 +448,8 @@ const Home = () => {
               </Link>
 
               {/* 3 */}
-              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[17px]'>
-                <Image src='/images/low-mileage.svg' width={25} height={50} alt='Low Mileage cars' className='mx-auto sm:w-[50px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+                <Image src='/images/low-mileage.svg' width={25} height={50} alt='Low Mileage cars' className='mx-auto sm:w-[25px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
                 <h3 className='sm:text-[12px] mt-[5px] mx-auto md:text-[14px]'>Low Mileage Cars</h3>
               </Link>
 
@@ -547,7 +547,7 @@ const Home = () => {
 
               {/* 6 */}
               <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
-                <Image src='/images/custom-auction.svg' width={20} height={50} alt='Custom Auction' className='mx-auto sm:w-[50px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
+                <Image src='/images/custom-auction.svg' width={20} height={50} alt='Custom Auction' className='mx-auto sm:w-[20px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
                 <h3 className='sm:text-[12px] mt-[5px] mx-auto md:text-[14px]'>Custom Auction</h3>
               </Link>
               </div>
@@ -557,7 +557,7 @@ const Home = () => {
 
               {/* 7 */}
               <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
-                <Image src='/images/duplicate.svg' width={40} height={50} alt='Duplicate' className='mx-auto sm:w-[50px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
+                <Image src='/images/duplicate.svg' width={40} height={50} alt='Duplicate' className='mx-auto sm:w-[40px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
                 <h3 className='sm:text-[12px] mt-[5px] mx-auto md:text-[14px]'>Duplicate File</h3>
               </Link>
 
@@ -575,7 +575,7 @@ const Home = () => {
 
               {/* 10 */}
               <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
-                <Image src='/images/duplicate-book.svg' width={28} height={50} alt='Duplicate-Book' className='mx-auto sm:w-[50px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
+                <Image src='/images/duplicate-book.svg' width={28} height={50} alt='Duplicate-Book' className='mx-auto sm:w-[28px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
                 <h3 className='sm:text-[10px] md:text-[12px] mt-[5px]'>Duplicate Book Cars</h3>
               </Link>
 
@@ -587,7 +587,7 @@ const Home = () => {
 
               {/* 12 */}
               <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
-                <Image src='/images/amnesty-scheme.svg' width={40} height={50} alt='Amnesty-Scheme' className='mx-auto sm:w-[50px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
+                <Image src='/images/amnesty-scheme.svg' width={40} height={50} alt='Amnesty-Scheme' className='mx-auto sm:w-[40px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
                 <h3 className='sm:text-[12px] mt-[5px] mx-auto md:text-[14px]'>Amnesty-Scheme</h3>
               </Link>
             </div>
@@ -596,7 +596,7 @@ const Home = () => {
             <div className='flex justify-center items-center flex-wrap gap-[15px]'>
 
               {/* 1 */}
-              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
                 <Image src='/images/duplicate-number.svg' width={50} height={50} alt='Duplicate Number Plate' className='mx-auto sm:w-[50px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
                 <h3 className='sm:text-[10px] md:text-[12px] text-center mt-[5px] mx-auto'>Duplicate Number Plate</h3>
               </Link>
@@ -615,7 +615,7 @@ const Home = () => {
 
               {/* 4 */}
               <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
-                <Image src='/images/bank-auction.svg' width={40} height={50} alt='bank-auction' className='mx-auto sm:w-[50px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
+                <Image src='/images/bank-auction.svg' width={40} height={50} alt='bank-auction' className='mx-auto sm:w-[50px] sm:h-[40px] md:w-[80px] md:h-[70px]'/>
                 <h3 className='sm:text-[12px] mt-[5px] mx-auto md:text-[14px]'>Bank Auction</h3>
               </Link>
 
@@ -2568,44 +2568,50 @@ const Home = () => {
           <CarouselNext />
         </Carousel>
 
-        <Carousel opts={{align: "start",loop: true,}} className='w-[220px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
-          <CarouselContent className='h-[300px]'>
+        <Carousel opts={{align: "start",loop: true,}} className='sm:w-[220px] md:w-[400px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
+          <CarouselContent className='sm:h-[300px] md:h-[400px]'>
             <CarouselItem className='flex flex-col gap-[20px]'>
               <div className='flex justify-center items-center flex-wrap gap-[15px]'>
 
                 {/* 1 */}
-                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
-                <Image src='/images/car-washer.png' width={30} height={30} alt='Car Washer' className='mx-auto'/>
+                <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/car-washer.png' width={30} height={30} alt='Car Washer' className='mx-auto sm:w-[30px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+                />
                 <h3 className='xl:text-[18px] mt-[5px] mx-auto'>Car Washer</h3>
                 </Link>
 
                 {/* 2 */}
-                <Link href='' className='w-[100px] h-[80px]  bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[10px]'>
-                <Image src='/images/tyres.png' width={40} height={30} alt='Tyres' />
+                <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px]  bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[15px]'>
+                <Image src='/images/tyres.png' width={40} height={30} alt='Tyres' className='mx-auto sm:w-[40px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+                />
                 <h3 className='xl:text-[18px] mt-[5px]'>Tyres</h3>
                 </Link>
 
                 {/* 3 */}
-                <Link href='' className='w-[100px] h-[80px]  bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[10px]'>
-                <Image src='/images/helmets.png' width={40} height={30} alt='Helmets' />
+                <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px]  bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[10px]'>
+                <Image src='/images/helmets.png' width={40} height={30} alt='Helmets' className='mx-auto sm:w-[40px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+                />
                 <h3 className='xl:text-[18px] mt-[5px]'>Helmets</h3>
                 </Link>
 
                 {/* 4 */}
-                <Link href='' className='w-[100px] h-[80px]  bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[10px]'>
-                <Image src='/images/keychains.png' width={40} height={30} alt='Keychains' />
+                <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px]  bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[10px]'>
+                <Image src='/images/keychains.png' width={40} height={30} alt='Keychains' className='mx-auto sm:w-[40px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+                />
                 <h3 className='xl:text-[18px] '>Keychains</h3>
                 </Link>
 
                 {/* 5 */}
-                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[10px]'>
-                <Image src='/images/car-battery.png' width={40} height={30} alt='Car Battery' />
+                <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center p-[10px]'>
+                <Image src='/images/car-battery.png' width={40} height={30} alt='Car Battery' className='mx-auto sm:w-[40px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+                />
                 <h3 className='xl:text-[18px] mt-[5px]'>Car Battery</h3>
                 </Link>
 
                 {/* 6 */}
-                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
-                <Image src='/images/alloy-rims.png' width={40} height={30} alt='Alloy Rims' />
+                <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+                <Image src='/images/alloy-rims.png' width={40} height={30} alt='Alloy Rims' className='mx-auto sm:w-[40px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+                />
                 <h3 className='xl:text-[18px] mt-[5px]'>Alloy Rims</h3>
                 </Link>
               </div>
@@ -2614,38 +2620,44 @@ const Home = () => {
             <div className='flex justify-center items-center flex-wrap gap-[15px]'>
 
               {/* 7 */}
-              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
-              <Image src='/images/engine-oil.png' width={20} height={30} alt='Enginer Oil' />
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
+              <Image src='/images/engine-oil.png' width={20} height={30} alt='Enginer Oil'className='mx-auto sm:w-[20px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+ />
               <h3 className='xl:text-[18px] '>Enginer Oil</h3>
                 </Link>
 
                 {/* 8 */}
-                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[12px]'>
-                <Image src='/images/car-charger.png' width={45} height={30} alt='Car Charger' />
+                <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[12px]'>
+                <Image src='/images/car-charger.png' width={45} height={30} alt='Car Charger' className='mx-auto sm:w-[45px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+                />
                 <h3 className='xl:text-[18px] '>Car Charger</h3>
                 </Link>
 
                 {/* 9 */}
-                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
-                <Image src='/images/microfiber-cloth.png' width={40} height={30} alt='Microfiber Cloth' />
+                <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+                <Image src='/images/microfiber-cloth.png' width={40} height={30} alt='Microfiber Cloth' className='mx-auto sm:w-[40px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+                />
                 <h3 className='xl:text-[18px] sm:text-[13px] mt-[5px]'>Microfiber Cloth</h3>
                 </Link>
 
                 {/* 10 */}
-                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
-                <Image src='/images/gps-tracker.png' width={40} height={30} alt='GPS Tracker' />
+                <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+                <Image src='/images/gps-tracker.png' width={40} height={30} alt='GPS Tracker' className='mx-auto sm:w-[40px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+                />
                 <h3 className='xl:text-[18px] mt-[5px]'>GPS Tracker</h3>
                 </Link>
 
                 {/* 11 */}
-                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
-                <Image src='/images/engines-forsale.png' width={30} height={30} alt='Engines For Sale' />
+                <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/engines-forsale.png' width={30} height={30} alt='Engines For Sale' className='mx-auto sm:w-[30px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+                />
                 <h3 className='xl:text-[18px] sm:text-[13px] mt-[5px]'>Engines For Sale</h3>
                 </Link>
 
                 {/* 12 */}
-                <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
-                <Image src='/images/fuel-pump.png' width={30} height={30} alt='Fuel Pump' />
+                <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+                <Image src='/images/fuel-pump.png' width={30} height={30} alt='Fuel Pump' className='mx-auto sm:w-[30px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+                />
                 <h3 className='xl:text-[18px] mt-[5px]'>Fuel Pump</h3>
                 </Link>
             </div>
@@ -2654,38 +2666,44 @@ const Home = () => {
             <div className='flex justify-center items-center flex-wrap gap-[15px]'>
 
               {/* 1 */}
-              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
-              <Image src='/images/air-freshner.png' width={35} height={30} alt='Air Freshener' className='mx-auto'/>
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+              <Image src='/images/air-freshner.png' width={35} height={30} alt='Air Freshener' className='mx-auto sm:w-[35px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+              />
               <h3 className='xl:text-[18px] mt-[5px] mx-auto'>Air Freshener</h3>
               </Link>
 
               {/* 2 */}
-              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
-              <Image src='/images/floor-mats.png' width={40} height={30} alt='Floor Mats' />
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+              <Image src='/images/floor-mats.png' width={40} height={30} alt='Floor Mats' className='mx-auto sm:w-[40px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+              />
               <h3 className='xl:text-[18px] mt-[5px]'>Floor Mats</h3>
               </Link>
 
               {/* 3 */}
-              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
-              <Image src='/images/car-shades.png' width={40} height={30} alt='Car Shades' />
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+              <Image src='/images/car-shades.png' width={40} height={30} alt='Car Shades' className='mx-auto sm:w-[40px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+              />
               <h3 className='xl:text-[18px] mt-[5px]'>Car Shades</h3>
               </Link>
 
               {/* 4 */}
-              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
-              <Image src='/images/car-cover.png' width={40} height={30} alt='Car Cover' />
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+              <Image src='/images/car-cover.png' width={40} height={30} alt='Car Cover' className='mx-auto sm:w-[40px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+              />
               <h3 className='xl:text-[18px] mt-[5px]'>Car Cover</h3>
               </Link>
 
               {/* 5 */}
-              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
-              <Image src='/images/headlights.png' width={35} height={30} alt='Headlights' />
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+              <Image src='/images/headlights.png' width={35} height={30} alt='Headlights' className='mx-auto sm:w-[35px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+              />
               <h3 className='xl:text-[18px] mt-[5px]'>Headlights</h3>
               </Link>
 
               {/* 6 */}
-              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
-              <Image src='/images/car-stickers.png' width={35} height={30} alt='Car Stickers' />
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+              <Image src='/images/car-stickers.png' width={35} height={30} alt='Car Stickers' className='mx-auto sm:w-[35px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+              />
               <h3 className='xl:text-[18px] mt-[7px]'>Car Stickers</h3>
               </Link>
               </div>
@@ -2694,32 +2712,37 @@ const Home = () => {
             <div className='flex justify-center items-center flex-wrap gap-[15px]'>
 
               {/* 7 */}
-              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
-              <Image src='/images/car-bumpers.png' width={40} height={30} alt='Car Bumpers' />
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+              <Image src='/images/car-bumpers.png' width={40} height={30} alt='Car Bumpers' className='mx-auto sm:w-[40px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+              />
               <h3 className='xl:text-[18px] mt-[5px]'>Car Bumpers</h3>
               </Link>
 
               {/* 8 */}
-              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
-              <Image src='/images/car-fender.png' width={35} height={30} alt='Car Fender' />
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+              <Image src='/images/car-fender.png' width={35} height={30} alt='Car Fender' className='mx-auto sm:w-[35px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+              />
               <h3 className='xl:text-[18px] mt-[5px]'>Car Fender</h3>
               </Link>
 
               {/* 9 */}
-              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
-              <Image src='/images/air-filters.png' width={25} height={30} alt='Air Filter' />
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[10px]'>
+              <Image src='/images/air-filters.png' width={25} height={30} alt='Air Filter' className='mx-auto sm:w-[25px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+              />
               <h3 className='xl:text-[18px] mt-[5px]'>Air Filter</h3>
               </Link>
 
               {/* 10 */}
-              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
-              <Image src='/images/coolants.png' width={45} height={30} alt='Coolants' />
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+              <Image src='/images/coolants.png' width={45} height={30} alt='Coolants' className='mx-auto sm:w-[45px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+              />
               <h3 className='xl:text-[18px] mt-[5px]'>Coolants</h3>
               </Link>
 
               {/* 11 */}
-              <Link href='' className='w-[100px] h-[80px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
-              <Image src='/images/hose-pipe.png' width={35} height={30} alt='Hose Pipe' />
+              <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
+              <Image src='/images/hose-pipe.png' width={35} height={30} alt='Hose Pipe' className='mx-auto sm:w-[30px] sm:h-[30px] md:w-[80px] md:h-[70px]'
+              />
               <h3 className='xl:text-[18px] mt-[5px]'>Hose Pipe</h3>
               </Link>
 
@@ -2736,8 +2759,8 @@ const Home = () => {
       </div>
 
       {/* Section 11 */}
-      <div className='xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-white sm:bg-black sm:text-white'>
-        <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold mb-[20px]'>New Bikes by Make</h1>
+      <div className='xl:px-[250px] sm:px-[16px] py-[50px] md:bg-white sm:bg-black sm:text-white'>
+        <h1 className='xl:text-[28px] sm:text-[18px] md:text-[24px] md:text-[#434343] font-semibold mb-[20px]'>New Bikes by Make</h1>
         <div className='flex xl:justify-between sm:justify-center sm:gap-[20px] items-center flex-wrap'>
 
           {/* 1 */}
@@ -2948,10 +2971,10 @@ const Home = () => {
       </div>
 
       {/* Section 12 */}
-      <div className='xl:px-[250px] sm:px-[16px] py-[50px] flex flex-col items-start sm:items-center xl:bg-[#f2f2f2] xl:text-black sm:bg-black sm:text-white'>
+      <div className='xl:px-[250px] sm:px-[16px] py-[50px] flex flex-col items-start sm:items-center md:bg-[#f2f2f2] xl:text-black sm:bg-black sm:text-white'>
 
         <div className='flex justify-between items-center w-full mb-[40px]'>
-          <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold'>Popular New Bikes</h1>
+          <h1 className='xl:text-[28px] sm:text-[18px] md:text-[24px] md:text-[#434343] font-semibold'>Popular New Bikes</h1>
           <Link href='' className='text-blue-700 hover:underline flex'>View All <span className='sm:hidden xl:block ml-[5px]'>New Bikes</span></Link>
         </div>
 
@@ -3255,8 +3278,8 @@ const Home = () => {
           <CarouselNext />
         </Carousel>
 
-        <Carousel opts={{align: "start",loop: true,}} className='w-[220px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
-          <CarouselContent className=' h-[300px]'>
+        <Carousel opts={{align: "start",loop: true,}} className='sm:w-[220px] md:w-[400px] ml-[50px] mr-[50px] sm:block xl:hidden text-black'>
+          <CarouselContent className=' sm:h-[300px] md:h-[350px]'>
             <CarouselItem >
               {/* 1 */}
               <div className='flex flex-col gap-[10px] text-center justify-center items-center bg-[#fff] p-[25px] text-white rounded-[10px]'>
@@ -3540,9 +3563,9 @@ const Home = () => {
       </div>
 
       {/* Section 13 */}
-      <div className='flex flex-col gap-[30px] xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-white sm:bg-black sm:text-white'>
+      <div className='flex flex-col gap-[30px] xl:px-[250px] sm:px-[16px] py-[50px] md:bg-white sm:bg-black sm:text-white'>
         <div className='flex justify-between items-center w-full'>
-          <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold'>Browse Our Videos</h1>
+          <h1 className='xl:text-[28px] sm:text-[18px] md:text-[24px] md:text-[#434343] font-semibold'>Browse Our Videos</h1>
           <Link href='' className='text-blue-700 hover:underline flex'>View All <span className='sm:hidden xl:block ml-[5px]'>Videos</span></Link>
         </div>
 
@@ -3593,13 +3616,13 @@ const Home = () => {
       </div>
 
       {/* Section 14 */}
-      <div className='flex flex-col xl:items-start sm:items-center gap-[20px] xl:px-[250px] sm:px-[16px] py-[50px] xl:bg-[#f2f2f2] xl:text-[#434343] sm:bg-black sm:text-white'>
-        <div className='flex justify-between items-center xl:w-[800px] sm:min-w-[300px]'>
-          <h1 className='xl:text-[28px] sm:text-[18px] xl:text-[#434343] font-semibold'>News, Reviews & Discussions</h1>
+      <div className='flex flex-col xl:items-start sm:items-center gap-[20px] xl:px-[250px] sm:px-[16px] py-[50px] md:bg-[#f2f2f2] md:text-[#434343] sm:bg-black sm:text-white'>
+        <div className='flex justify-between items-center xl:w-[800px] sm:min-w-[300px] md:w-[768px] px-[20px]'>
+          <h1 className='xl:text-[28px] sm:text-[18px] md:text-[24px] md:text-[#434343] font-semibold'>News, Reviews & Discussions</h1>
           <Link href='' className='text-blue-700 hover:underline flex'>Read All <span className='sm:hidden xl:block ml-[5px]'>Recent News</span></Link>
         </div>
         <nav className='flex justify-start xl:gap-[40px] sm:gap-[10px]
-         items-center xl:text-[#434343] font-semibold xl:text-[20px] sm:text-[14px] pb-[10px]'>
+         items-center xl:text-[#434343] font-semibold xl:text-[20px] sm:text-[14px] md:text-[16px] pb-[10px]'>
           <button type='button' className=' animate-pulse border-b-[3px] border-blue-700 '>Automotive News</button>
           <button type='button'>Car Reviews</button>
           <button type='button'>Discussions</button>
@@ -3630,7 +3653,7 @@ const Home = () => {
       </div>
 
       {/* Section 15 */}
-      <div className='xl:px-[250px] sm:px-[16px] py-[50px] flex xl:flex-row sm:flex-col xl:justify-between xl:items-center sm:justify-center sm:items-center text-left sm:text-center sm:gap-[30px] xl:bg-white xl:text-[#434343] sm:bg-black sm:text-white'>
+      <div className='xl:px-[250px] sm:px-[16px] py-[50px] flex xl:flex-row sm:flex-col xl:justify-between xl:items-center sm:justify-center sm:items-center text-left sm:text-center sm:gap-[30px] md:bg-white md:text-[#434343] sm:bg-black sm:text-white'>
 
         {/* 1 */}
         <div className='flex flex-col items-start sm:items-center gap-[20px]'>
@@ -3639,7 +3662,7 @@ const Home = () => {
           <div className='flex justify-start items-center flex-wrap mb-[20px] gap-[10px]'>
 
             {/* 1.1 */}
-            <Link href='' className='flex justify-start items-center gap-[5px] xl:bg-black xl:text-white sm:bg-white sm:text-black px-[10px] py-[5px] rounded-[10px]'>
+            <Link href='' className='flex justify-start items-center gap-[5px] md:bg-black md:text-white sm:bg-white sm:text-black px-[10px] py-[5px] rounded-[10px]'>
               <FontAwesomeIcon icon={faGooglePlay} className='size-[30px]'/>
               <div>
                 <p className='text-[10px]'>GET IT ON</p>
@@ -3648,7 +3671,7 @@ const Home = () => {
             </Link>
 
             {/* 1.2 */}
-            <Link href='' className='flex justify-start items-center gap-[5px] xl:bg-black xl:text-white sm:bg-white sm:text-black px-[10px] py-[5px] rounded-[10px]'>
+            <Link href='' className='flex justify-start items-center gap-[5px] md:bg-black md:text-white sm:bg-white sm:text-black px-[10px] py-[5px] rounded-[10px]'>
               <FontAwesomeIcon icon={faApple} className='size-[30px]'/>
               <div>
                 <p className='text-[10px]'>Download on the</p>
@@ -3657,7 +3680,7 @@ const Home = () => {
             </Link>
 
             {/* 1.3 */}
-            <Link href='' className='flex justify-start items-center gap-[5px] xl:bg-black xl:text-white sm:bg-white sm:text-black px-[10px] py-[5px] rounded-[10px]'>
+            <Link href='' className='flex justify-start items-center gap-[5px] md:bg-black md:text-white sm:bg-white sm:text-black px-[10px] py-[5px] rounded-[10px]'>
               <FontAwesomeIcon icon={faIntercom} className='size-[30px] text-red-900 bg-white'/>
               <div>
                 <p className='text-[10px]'>EXPLORE IT ON</p>
