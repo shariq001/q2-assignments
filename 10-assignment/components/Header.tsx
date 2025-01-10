@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <div className="w-auto h-auto bg-gradient-to-b from-black to-[#041528] text-white xl:px-[120px] sm:px-[10px] py-[5px] relative">
+    <div className="w-auto h-auto bg-gradient-to-b from-black to-[#041528] text-white xl:px-[100px] sm:px-[10px] py-[5px] relative">
       {/* Top Bar */}
       <div className="flex justify-between items-center border-[#302F2E] border-b-[1px] pb-[5px]">
         <h3 className="xl:text-[16px] sm:text-[12px]">
@@ -36,32 +36,32 @@ const Header = () => {
         <Image src="/images/logo.svg" width={160} height={50} alt="Logo" />
 
         {/* Desktop Navigation */}
-        <nav className=" sm:hidden xl:flex">
-          <Link href="" className="text-white hover:bg-white hover:text-red-600 px-[25px] py-[16px]">
-            Used Cars <FontAwesomeIcon icon={faAngleDown} className="inline-flex"/>
+        <nav className=" sm:hidden lg:flex ">
+          <Link href="" className="text-white hover:bg-white hover:text-red-600 xl:px-[25px] lg:px-[10px] lg:mx-[3px] xl:mx-0 py-[16px]">
+            Used Cars <FontAwesomeIcon icon={faAngleDown} className="inline-flex items-center"/>
           </Link>
-          <Link href="" className="text-white hover:bg-white hover:text-red-600 px-[25px] py-[16px]">
-            New Cars <FontAwesomeIcon icon={faAngleDown} />
+          <Link href="" className="text-white hover:bg-white hover:text-red-600 xl:px-[25px] lg:px-[10px] lg:mx-[3px] xl:mx-0 py-[16px]">
+            New Cars <FontAwesomeIcon icon={faAngleDown} className="inline-flex items-center"/>
           </Link>
-          <Link href="" className="text-white hover:bg-white hover:text-red-600 px-[25px] py-[16px]">
-            Bikes <FontAwesomeIcon icon={faAngleDown} />
+          <Link href="" className="text-white hover:bg-white hover:text-red-600 xl:px-[25px] lg:px-[10px] lg:mx-[3px] xl:mx-0 py-[16px]">
+            Bikes <FontAwesomeIcon icon={faAngleDown} className="inline-flex items-center"/>
           </Link>
-          <Link href="" className="text-white hover:bg-white hover:text-red-600 px-[25px] py-[16px]">
-            Auto Store <FontAwesomeIcon icon={faAngleDown} />
+          <Link href="" className="text-white hover:bg-white hover:text-red-600 xl:px-[25px] lg:px-[10px] lg:mx-[3px] xl:mx-0 py-[16px]">
+            Auto Store <FontAwesomeIcon icon={faAngleDown} className="inline-flex items-center"/>
           </Link>
-          <Link href="" className="text-white hover:bg-white hover:text-red-600 px-[25px] py-[16px]">
+          <Link href="" className="text-white hover:bg-white hover:text-red-600 xl:px-[25px] lg:px-[10px] lg:mx-[3px] xl:mx-0 py-[16px]">
             Videos
           </Link>
-          <Link href="" className="text-white hover:bg-white hover:text-red-600 px-[25px] py-[16px]">
+          <Link href="" className="text-white hover:bg-white hover:text-red-600 xl:px-[25px] lg:px-[10px] lg:mx-[3px] xl:mx-0 py-[16px]">
             Forums
           </Link>
-          <Link href="" className="text-white hover:bg-white hover:text-red-600 px-[25px] py-[16px]">
+          <Link href="" className="text-white hover:bg-white hover:text-red-600 xl:px-[25px] lg:px-[10px] lg:mx-[3px] xl:mx-0 py-[16px]">
             Blog
           </Link>
-          <Link href="" className="text-white hover:bg-white hover:text-red-600 px-[25px] py-[16px]">
-            More <FontAwesomeIcon icon={faAngleDown} />
+          <Link href="" className="text-white hover:bg-white hover:text-red-600 xl:px-[25px] lg:px-[10px] lg:mx-[3px] xl:mx-0 py-[16px]">
+            More <FontAwesomeIcon icon={faAngleDown} className="inline-flex items-center"/>
           </Link>
-          <button type="button" className="bg-red-700 text-white rounded-[5px] px-[20px] py-[10px] font-bold">
+          <button type="button" className="bg-red-700 text-white rounded-[5px] xl:px-[25px] lg:px-[10px] lg:mx-[3px] xl:mx-0 py-[10px] font-bold">
             Post an Ad
           </button>
         </nav>
@@ -70,7 +70,7 @@ const Header = () => {
         <button
           type="button"
           onClick={toggleMenu}
-          className="sm:block xl:hidden text-[25px] text-white"
+          className="sm:block lg:hidden text-[25px] text-white"
         >
           <FontAwesomeIcon icon={faBars} />
         </button>
