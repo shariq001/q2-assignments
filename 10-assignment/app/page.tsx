@@ -358,7 +358,7 @@ const Home = () => {
                 {/* 1 */}
                 <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[15px]'>
                   <Image src='/images/automatic-cars.svg' width={50} height={50} alt='Automatic cars' className='mx-auto sm:w-[50px] sm:h-[50px] md:w-[100px] md:h-[100px]'/>
-                  <h3 className='sm:text-[12px] mt-[5px] mx-auto md:text-[14px] lg:text-[16px] lg:text-[16px]'>Automatic cars</h3>
+                  <h3 className='sm:text-[12px] mt-[5px] mx-auto md:text-[14px] lg:text-[16px] '>Automatic cars</h3>
                 </Link>
 
                 {/* 2 */}
@@ -437,7 +437,7 @@ const Home = () => {
 
               {/* 1 */}
               <Link href='' className='sm:w-[100px] md:w-[150px] sm:h-[80px] md:h-[120px] bg-white text-gray-500 rounded-[10px]  shadow-md shadow-gray-300 hover:shadow-gray-600 duration-700 hover:duration-700 flex flex-col items-center py-[22px]'>
-                <Image src='/images/660CC.svg' width={50} height={50} alt='660CC cars' className='mx-auto sm:w-[50px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
+                <Image src='/images/660cc.svg' width={50} height={50} alt='660CC cars' className='mx-auto sm:w-[50px] sm:h-[50px] md:w-[80px] md:h-[70px]'/>
                 <h3 className='sm:text-[12px] mt-[5px] md:text-[14px] lg:text-[16px] mx-auto'>660cc cars</h3>
               </Link>
 
